@@ -1,0 +1,110 @@
+
+
+
+
+
+Como se mencionó en el capítulo anterior, cuando se aplica un campo magnético externo o Radiofrecuencia (\Bone) superior al campo magnético principal (\Bzero),  nuestros spins o protones de hidrógeno comienzan a precesar en dirección a este nuevo campo magnético.
+
+¿ Pero que ocurre cuando este campo magnético externo  se “apaga”?
+
+Es lógico pensar que los spins regresarán a B0 (su posición original sobre el eje \textit{z}),  pero es la trayectoria que realizan la que es de interés para la obtención de una Imagen de Resonancia Magnética. A este fenómeno se le conoce como Relajación y es el proceso que llevan a cabo los spins para regresar a su sitio de origen en este caso R0 también conocido como \Mz, mismo que logran liberando energía en su trayectoria. 
+
+La relajación ocurre debido a que los spins desprenden la energía que habían absorbido al entrar en resonancia.
+
+
+En la Relajación de estos spins ocurren dos fenómenos simultáneamente, el primero llamado relajación longitudinal o \Tone y el segundo conocido como relajación transversal o \Ttwo. 
+
+\section{RELAJACIÓN LONGITUDINAL (\Tone)}
+
+Llamada de esta forma por que es el fenómeno que ocurre sobre el eje \textit{z}, es una constante en el tiempo de la trayectoria del spin, para retomar su lugar sobre \Mzero.
+Se define como: ``El tiempo que tarda en recuperarse el 63\% del \Mz original''
+
+
+Tras  el pulso de radiofrecuencia nuestro spin cambió su eje magnético al plano de las \textit{x}. Esta es la razón que provoca  que parezca pequeño sobre el eje \textit{z}.
+
+Una vez que el pulso de radiofrecuencia se elimina, el spin retomará su dirección. Comienza entonces a precesar más lentamente y a regresar a \Mz por lo que este comienza a crecer conforme los segundos transcurren (\Tone). Finalmente el protón de Hidrógeno regresa a su posición original provocado por el campo magnético principal (\Mz).
+
+
+El fenómeno de relajación T1 se define como:
+``El tiempo que tarda el spin en recuperar su campo magnético original (\Mz) en un 63\%''
+
+En la representación gráfica se observa como una exponencial ascendente.
+
+
+
+\section{RELAJACIÓN TRANSVERSAL (\Ttwo)}
+
+Al igual que el concepto antes descrito, el nombre es mera cuestión de lógica, se le denomina Relajación Trasversal por que ocurre sobre el plano \textit{x,y}. Otra forma en la que se conoce al \Ttwo es como Relajación Spin- Spin o \Ttwop ya que el fenómeno se observa en un conjunto de protones de hidrógeno. En el caso de la relajación \Ttwop  la representación gráfica nos habla de una caída en la señal original por lo que se define de la siguiente forma:
+``Tiempo en el cual solamente queda el 37\%de la señal \Mxy original, es decir de la emitida por el pulso de radiofrecuencia''
+
+
+
+Comencemos por entender que el T2 es el resultado de la actividad de varios spins. En un inicio como se ha venido mencionando la Radiofrecuencia (\Mzero) que provocó que nuestros spins cambiaran del eje \textit{z} al plano \textit{x,y}, también provocó que varios spins precesaran al mismo tiempo, es decir todos giraban a la misma frecuencia. 
+
+
+Al suspender \Mzero, cada spin comienza a relajarse a su propio tiempo , y poco a poco cada uno regresa a su \Mzero, esto provoca que se desfasen uno del otro.
+
+
+\subsection{Fenómeno \Ttwostar}
+
+El desfase es provocado por inhomogeneidades en el campo magnético que experimenta nuestros protones de hidrógeno y debido a que ocurren en el fenómeno \Ttwo se les conoce como \Ttwostar, estas inconsistencias pueden ser de dos tipos dependiendo de que las genere:
+
+\begin{description}
+ \item [Intrínsecas]  Suceden por acumulación de metales en el paciente.
+ \item [Extrínsecas]  Se deben a inhomogeneidades en el campo magnético del resonador,  presencia de objetos metálicos, e incluso productos para el cabello.
+\end{description}
+
+
+
+
+\section{Contraste}
+
+
+El contraste se define como: ``la diferencia entre la intensidad de señal entre dos muestras, secundario a las propiedades magnéticas de las mismas''.
+
+Tras el pulso de radiofrecuencia inicial, la energía que se libera de nuestro Spin en los fenómenos de \Tone y \Ttwo (\Ttwop - \Ttwostar),  es captada por una antena que codifica la señal en nuestro aparato de resonancia magnética, y que se puede observar como una ``disminución en la señal'' es decir un decremento de nuestro pulso inicial hasta el regreso a su estado basal, ha esta caída se le conoce como Free Induction Decay (FID).
+
+
+
+La antena que capta la señal de radiofrecuencia, lo hace simultáneamente para todos los spins que se le diga que debe captar señal, por lo que al revisar esta señal ``cruda'' tendremos entremezclado la señal de todos nuestros spins, posteriormente estas señales podrán ser diferenciadas mediante un análisis de Fourier. 
+
+
+
+Algo que debemos tomar en cuenta es que este proceso está sucediendo en los tejidos y que la conformación de estos es muy diferente; ya sea que hablamos de sangre, grasa, hueso etc. Debido a lo diverso de la composición de las estructuras que rodean a nuestro protón, la liberación de esta energía y el retorno a su campo magnético original (\Mz) será distinta para cada protón al igual que la señal que captaremos con nuestra antena.
+
+El análisis de estas señales es lo que nos permitirá diferenciar estructuras dependiendo si al ``leer'' estas señales lo hacemos más influenciados por el fenómeno \Tone o \Ttwo, a esto se le denomina de forma genérica \textit{potenciar} se dice que nuestra imagen esta potenciada a uno de estos fenómenos de resonancia magnética según lo observado en nuestra imagen final , es justo este proceso el que nos permite crear el contraste de las estructuras aprovechando su comportamiento bajo resonancia magnética.
+
+
+\subsection{Imágenes potenciadas a densidad de protones}
+
+Como se ha venido mencionando, la magnetización de nuestros spins está influenciada por la densidad de los mismos en la muestra que se esté estudiando. De ahí que podamos jugar con la manera en la que observamos estas imágenes, y para el caso de las imágenes potenciadas en densidad se sigue la siguiente regla:
+
+``La intensidad de la imagen es directamente proporcional a la densidad de protones de hidrógeno''
+
+¿Qué quiere decir esto? que al hacer la lectura de nuestra imagen el lugar donde se reciba más señal será donde existan más protones de hidrogeno. A priori se sabe que los tejidos tienen distintas densidades, dependiendo si son grasa, hueso, LCR, etc.
+
+
+Estas imágenes se obtienen al enviar un pulso de radiofrecuencia (RF) de 90º  y esperando un tiempo largo (tiempo de repetición o TR) antes de dar nuestro siguiente pulso, para permitir que los tejidos envíen la señal de sus spins.
+
+
+\subsection{Imágenes potenciadas a \Tone}
+
+Cuando hablamos de imágenes potenciadas a \Tone nos referimos a que al momento de codificar nuestra imagen lo hicimos tomando en cuenta las propiedades de la relajación longitudinal (\Tone) de nuestros spins y que se ha trabajado bajo la siguiente premisa:
+
+``Mientras más rápido libere energía nuestro spin, más rápido regresará a \Mz  y mayor será la intensidad de nuestra señal''
+
+Un ejemplo de ello es la grasa la cual  se relaja fácilmente ya que su densidad de hidrógenos no es tan alta por lo que su señal es captada más rápido lo que se traduce en mayor señal o contraste blanco.
+
+
+Para obtener imágenes potenciadas a \Tone se da un solo pulso de radiofrecuencia de 90\degrees y se realiza la lectura una vez que los spins hayan vuelto a su eje magnético principal.
+
+
+\subsection{Imágenes potenciadas a \Ttwo y \Ttwostar}
+
+Para el caso de las imágenes potenciadas a \Ttwo y \Ttwostar la señal la conseguimos cuando nuestros spins se encuentran sobre el plano \textit{x,y}, captando la señal por medio de nuestra antena. 
+
+Para que la señal sea más duradera nosotros damos el primer pulso de radiofrecuencia para llevar a todos nuestros spins a \Mx  y antes de que regresen a su campo magnético original , se les aplica otro pulso de 180\degrees  el cual provoca que nuevamente se encuentren y vuelvan a refasarse.
+
+
+
+

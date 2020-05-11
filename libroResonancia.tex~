@@ -1,0 +1,310 @@
+\documentclass[]{memoir}          % for double sided format
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{nicefrac}
+\usepackage{graphicx}
+\usepackage{epsf}
+\usepackage{rotating}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{verbatim}
+\usepackage{type1cm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{eso-pic}
+%\usepackage{color}
+\usepackage{wallpaper}
+\usepackage{appendix}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[osf]{mathpazo}
+\linespread{1.05}         % Palatino needs more leading (space between lines)
+\usepackage[sort&compress,numbers,super]{natbib}      % Important to have nice sorted references, like [3-5,9]
+\usepackage{breakcites}
+\usepackage{xspace}  %this package interprets the space after the symbols correctly, so there is no space if I put a comma, and there is one if I put another word after the symbol.
+
+
+%%%%%%%%%%% Macros by L Concha
+%\newcommand{name}[num]{definition}
+\newcommand{\Bzero}{$B_0$\xspace}
+\newcommand{\Bone}{$B_1$\xspace}
+\newcommand{\FA}[0]{{\sc fa}\xspace}
+\newcommand{\ADC}[0]{{\sc adc}\xspace}
+\newcommand{\lone}[0]{$\lambda$$_1$\xspace}
+\newcommand{\ltwo}[0]{$\lambda$$_2$\xspace}
+\newcommand{\lthree}[0]{$\lambda$$_3$\xspace}
+\newcommand{\lpar}{$\lambda$$_\parallel$\xspace}
+\newcommand{\lperp}{$\lambda$$_\perp$\xspace}
+\newcommand{\Ttwostar}{T2$^*$}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+%%%%%% Llamar al glosario
+\input{libroresonancia_glosario}
+
+
+%%%%%% Llamar mis estilos
+\input{libroresonancia_estilos}
+
+ 
+% on tan las figuras
+\graphicspath{{/home/lconcha/INB/libroResonancia/figs/}}
+
+
+
+
+\begin{document}
+
+%\maketitle
+\titleTH
+\newpage
+
+\frontmatter
+\tableofcontents
+\listoftables  % if you have any
+\listoffigures % if you have any
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+\pagestyle{companion}
+
+
+\part{Principios básicos\\de resonancia magnética}
+\label{part_principiosBasicos}
+
+
+\chapter{Introducción general a la resonancia magnética}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_introGeneral}
+\input{cap_intro}
+
+
+\chapter{Aspectos históricos de la resonancia magnética}
+\chapterprecis{\noindent Clemens Bauer\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_historia}
+
+
+\chapter{Fenómeno de resonancia magnética}
+\chapterprecis{\noindent UAM-Iztapalapa}
+\label{chapter_fenomeno}
+Este es un texto de ejemplo con una referencia aquí \cite{Glover2001} y otras por acá \cite{Glover2001,Beaulieu2002}.
+
+
+\chapter{Relajación y Contraste}
+\chapterprecis{\noindent UAM-Iztapalapa}
+\label{chapter_relajacion}
+\input{lorem}
+\input{lorem}
+\input{lorem}
+
+
+
+\chapter{Codificación espacial}
+\chapterprecis{\noindent \noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_espacial}
+%\input{lorem}
+Aquí definimos el \index{espacio k|textbf} espacio k, y debe aparecer en el índice.
+
+
+\chapter{Hardware: Campo magnético principal, gradientes y antenas}
+\chapterprecis{\noindent UAM-Iztapalapa}
+\label{chapter_hardware}
+%\input{lorem}
+
+
+\chapter{Aspectos de seguridad}
+\chapterprecis{\noindent Erik Pasaye\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_seguridad}
+%\input{lorem}
+
+\chapter{Espectroscopía}
+\chapterprecis{\noindent Juan José Ortiz, Sarael Alcauter\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_espectro}
+%\input{lorem}
+
+\chapter{Artefactos de imagen}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_artefactos}
+
+
+
+
+
+\part{Protocolos de Imagen, aplicaciones y diseño experimental}
+\label{part_protocolos}
+
+
+\chapter{Resonancia magnética funcional: Origen de la señal BOLD}
+\label{chapter_bold}
+\chapterprecis{\noindent Juan Carlos Méndez, Ramón Bartolo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\input{cap_origenBOLD}
+
+
+\chapter{Imágenes sensibles a difusión}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_difusion}
+\section{Protocolos}
+\section{Diseños experimentales}
+%\input{lorem}
+
+
+\chapter{Angio-resonancia}
+\chapterprecis{\noindent Héctor Barragán\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_angio}
+%\input{lorem}
+
+
+
+\chapter{Imágenes sensibles a perfusión sanguínea}
+\chapterprecis{\noindent Fernando A. Barrios\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_perfusion}
+\subsection{Protocolos}
+\section{Diseños experimentales}
+%\input{lorem}
+
+
+\chapter{T2 cuantitativo}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_T2}
+%\input{lorem}
+
+
+
+\chapter{Transferencia de magnetizaci[on}
+\chapterprecis{\noindent Rafael Favila\\General Electric}
+\label{chapter_mt}
+%\input{lorem}
+
+
+
+
+
+
+
+\part{Metodos de análisis de imágenes}
+\label{part_metodos}
+
+
+\chapter{Regiones de interés}
+\chapterprecis{\noindent Beatriz Moreno\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_roi}
+%\input{lorem}
+
+
+\chapter{Morfometría por voxel}
+\chapterprecis{\noindent Leopoldo González Santos\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_vbm}
+%\input{lorem}
+
+
+\chapter{Modelo lineal general}
+\chapterprecis{\noindent Fernando A. Barrios, Roberto Mercadillo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_mlg}
+%\input{lorem}
+
+\chapter{Conectividad cerebral}
+\chapterprecis{\noindent Clemens Bauer\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_conectividad}
+%\input{lorem}
+
+
+\chapter{Estadísticas espaciales basadas en tractos}
+\chapterprecis{\noindent Sarael Alcauter\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_tbss}
+%\input{lorem}
+
+
+\chapter{Análisis del grosor cortical}
+\chapterprecis{\noindent Arafat Angulo Perkins\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_surf}
+%\input{lorem}
+
+ 
+Esto es tan solo una prueba. .
+
+Cuando prendemos el \gls{gradiente}, algo sucede en el \gls{espacio k}. Las secuencias de \gls{DTI} también explotan el \gls{espacio k}.
+
+
+Y acá volvemos a usar el \index{espacio k} espacio k, y debe aparecer en el índice, pero como cosa secundaria.
+
+De hecho, podemos usar plurales y las cosas salen bien en el glosario, como es el caso de \glspl{gradiente}.
+
+
+Ahora, con gran fanfarria, pompa y circunstancia, colocaremos una hermosa figura, a la cual llamaremos Figura \ref{logoUNAM}.
+
+\begin{figure}
+\centering
+\includegraphics[width=4cm]{UNAM}
+\caption{El escudo de la UNAM}
+\label{logoUNAM}
+\end{figure}
+
+
+\section{Lorem ipsum}
+\input{lorem}
+\input{lorem}
+\input{lorem}
+\input{lorem}
+
+
+\part{Aplicaciones de la imagenología por resonancia magnética en las neurociencias}
+\label{part_aplicaciones}
+\chapterprecis{\noindent Los capítulos que conformarán esta parte constituyen aplicaciones básicas, clínicas e interdisciplinarias. 
+Por favor envíen sus propuestas de acuerdo a los temas que ustedes aborden y consideren sean de interés para la obra.}
+    
+
+
+
+
+%\backmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Bibliography
+\newpage
+% \begin{multicols}{2}
+\small    % Uncomment to make the font of the references a bit smaller, waste less paper
+\bibliographystyle{concha2}
+\bibliography{libroResonancia}
+\normalsize
+% \end{multicols}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% end of bibliography
+
+
+
+\part{Apéndices}
+
+\chapter*{Ejemplo de adquisición de imágenes}
+\addcontentsline{toc}{chapter}{Ejemplo de adquisición de imágenes}
+\chapterprecis{\noindent Erik Pasaye\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{appendix_ejemplo}
+\input{lorem}
+
+\chapter*{Lecturas sugeridas}
+\addcontentsline{toc}{appendix}{Lecturas sugeridas}
+\label{appendix_lecturasSugeridas}
+
+
+
+\addcontentsline{toc}{chapter}{Glosario}
+\printglossary[type=main,title={Glosario},toctitle={Glosario}]
+\printglossary[type=\acronymtype,title={Abreviaturas y acrónimos},toctitle={Abreviaturas y acrónimos}]
+\printindex
+
+
+
+
+
+
+\end{document}

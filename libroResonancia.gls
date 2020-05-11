@@ -1,0 +1,15 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{constanteGiromagnetica}{\glsnamefont{constante giromagnética}}{Propiedad de una especie at\IeC {\'o}mica de precesar a cierta frecuencia en cierto campo magn\IeC {\'e}tico}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{4}}}\glsgroupskip
+\glsgroupheading{E}\relax \glsresetentrylist %
+\glossaryentryfield{espacio k}{\glsnamefont{espacio k}}{Mafufo espacio donde existen n\IeC {\'u}meros imaginarios}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{63}}}\glsgroupskip
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossaryentryfield{gradiente}{\glsnamefont{gradiente}}{Modificaci\IeC {\'o}n lineal del campo magn\IeC {\'e}tico mediante electroimanes secundarios que aumentan o disminuyen el campo magn\IeC {\'e}tico principal de manera predecible. Usualmente en el orden de 20-60 mT/m}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{63}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{precesion}{\glsnamefont{precesión}}{Cambio de la orientaci\IeC {\'o}n del eje de un cuerpo que se encuentra en rotaci\IeC {\'o}n}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{4}}}%
+\end{theglossary}\glossarypostamble

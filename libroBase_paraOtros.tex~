@@ -1,0 +1,30 @@
+\documentclass[]{article}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsf}
+\usepackage{verbatim}
+\usepackage{type1cm}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{eso-pic}
+\usepackage[T1]{fontenc}
+\usepackage[osf]{mathpazo}
+
+\linespread{1.05}         				% Palatino needs more leading (space between lines)
+
+
+\usepackage[sort&compress,numbers,super]{natbib}      	% Important to have nice sorted references, like [3-5,9]
+\usepackage{breakcites}
+
+
+
+
+\begin{document}
+
+ \input{CAPITULO}
+
+\bibliographystyle{unsrt}
+\bibliography{CAPITULO}
+
+
+\end{document}

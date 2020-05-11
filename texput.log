@@ -1,0 +1,17 @@
+This is TeX, Version 3.14159265 (TeX Live 2017/Debian) (preloaded format=tex 2018.10.13)  8 MAR 2019 17:40
+**\def\Link#1.a.b.c.{\expandafter\def\csname tex4ht\endcsname{\expandafter\def\
+csname tex4ht\endcsname{#1,html}\input tex4ht.sty }}\def\HCode{\futurelet\HCode
+\HChar}\def\HChar{\ifx"\HCode\def\HCode"##1"{\Link##1}\expandafter\HCode\else\e
+xpandafter\Link\fi}\HCode .a.b.c.\input
+
+*
+! Interruption.
+<*> 
+    
+? exit
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+H for help, X to quit.
+? X
+No pages of output.

@@ -1,0 +1,6 @@
+%%% GLOSARIO
+
+\newglossaryentry{espacio k} {name={espacio k}, description={Mafufo espacio donde existen números imaginarios}}
+\newglossaryentry{gradiente} {name={gradiente},
+                              plural={gradientes},
+                              description={Modificación lineal del campo magnético mediante electroimanes secundarios que aumentan o disminuyen el campo magnético principal de manera predecible. Usualmente en el orden de 20-60 mT/m}}

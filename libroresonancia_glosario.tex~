@@ -1,0 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glosario
+\usepackage[toc,style=long3col,footnote,acronym]{glossaries} 
+\usepackage{index}
+\makeindex  
+\makeglossaries
+
+\input{glosario}
+\input{abrevs}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

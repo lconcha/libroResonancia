@@ -1,0 +1,61 @@
+\documentclass[final,10pt]{letter}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{type1cm}
+\usepackage{eso-pic}
+\usepackage{color}
+\usepackage{wallpaper}
+\usepackage[total={6in,7.5in},top=2.25in, left=1.5in, includefoot]{geometry}
+\usepackage{soul}
+
+
+\date{}  % optional
+\signature{%\vskip -1cm 
+           %\includegraphics[width=3.5cm]{firma.eps} \\
+           Dr. Luis Concha Loyola \\
+           Investigador Titular ``A'' \\
+           \texttt{lconcha@unam.mx}}
+
+\begin{document}
+  \setlength{\wpYoffset}{-10pt}
+  \CenterWallPaper{0.9}{hojaC}
+\pagestyle{empty}
+
+\begin{letter}{%
+Dr. Alfredo Gobera Farro \\
+Secretario de Salud \\
+Querétaro, Querétaro \\
+Presente.
+}
+
+
+
+\opening{Estimado Dr. Alfredo Gobera:}
+
+
+Por este medio hago de su conocimiento que actualmente dirijo un proyecto de investigación en salud que se realiza en colaboración con la Neuropsicóloga Leticia Velázquez Pérez, quien labora en el Centro de Salud Mental (CESAM) en esta Ciudad. El proyecto se titula ``Impacto cognitivo de la epilepsia del lóbulo temporal y su relación con las anormalidades de la conectividad y función del lóbulo temporal'', es financiado por el Consejo Nacional de Ciencia y Tecnología (Conacyt), con número de proyecto 181508, e inició el mes de diciembre de 2012.
+
+\bigskip
+
+\begin{flushright}
+  \closing{\textsc{Atentamente},\\
+  Campus UNAM Juriquilla, QRO. \\
+  \today,\\
+  \textsc{``por mi raza hablará el espíritu''}  
+}
+\end{flushright}
+
+
+% \vfill{}
+% \footnotesize
+% \textit{c.c.p.} \\
+% Lic. Georgina Hernández Ramírez - Subdirectora de evaluación y seguimiento científico en el Conacyt \\
+% Dr. Raúl Gerardo Paredes Guerrero - Director del Instituto de Neurobiología, UNAM \\
+% Lic. Felipe Pedroza Montes de Oca - Secretario Administrativo del Instituto de Neurobiología, UNAM. \\
+% Dr. Fernando Alejandro Barrios Alvarez - Investigador anfitrión
+
+
+\end{letter}
+
+\end{document}

@@ -1,0 +1,77 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'gradientes2.eps' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{339.43032256bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.63246802)%
+    \put(0,0){\includegraphics[width=\unitlength]{gradientes2.eps}}%
+    \put(0.20069405,0.53404291){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.32806785,0.54237578){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.23283511,0.39714584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.31497334,0.43285812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.168553,0.44595262){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.25426247,0.48761695){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.61089467,0.54237576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.51566193,0.39714584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.45137983,0.44595279){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.7663477,0.53404298){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.89372149,0.54237576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.79848876,0.39714584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.88062699,0.43285815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.73420665,0.44595279){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{H}}}%
+    \put(0.10059364,0.26789577){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Campo\\ magnético}}}%
+    \put(0.1001218,0.01897169){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Frecuencia}}}%
+    \put(0.0980437,0.13771384){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Amplitud}}}}%
+    \put(0.1586509,0.24924895){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2.990 - 2.999 T}}}%
+    \put(0.27194721,0.03269528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{[127.075 - 127.4575]\\ MHz}}}%
+    \put(0.44098054,0.24924895){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3.000 - 3.009 T}}}%
+    \put(0.72430452,0.24924895){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3.010 - 3.019 T}}}%
+    \put(0.54534658,0.03269528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{[127.5 - 127.8825]\\ MHz}}}%
+    \put(0.8281734,0.03269528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{[127.925 - 128.3075]\\ MHz}}}%
+  \end{picture}%
+\endgroup%

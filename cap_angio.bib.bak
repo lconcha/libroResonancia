@@ -1,0 +1,26 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: UTF-8
+
+
+@Article{Hartung2011,
+  Title                    = {Magnetic resonance angiography: current status and future directions.},
+  Author                   = {Hartung, Michael P. and Grist, Thomas M. and Fran{\c{c}}ois, Christopher J.},
+  Journal                  = {J Cardiovasc Magn Reson},
+  Year                     = {2011},
+  Pages                    = {19},
+  Volume                   = {13},
+
+  __markedentry            = {[lconcha:6]},
+  Abstract                 = {With recent improvement in hardware and software techniques, magnetic resonance angiography (MRA) has undergone significant changes in technique and approach. The advent of 3.0 T magnets has allowed reduction in exogenous contrast dose without compromising overall image quality. The use of novel intravascular contrast agents substantially increases the image windows and decreases contrast dose. Additionally, the lower risk and cost in non-contrast enhanced (NCE) MRA has sparked renewed interest in these methods. This article discusses the current state of both contrast-enhanced (CE) and NCE-MRA. New CE-MRA methods take advantage of dose reduction at 3.0 T, novel contrast agents, and parallel imaging methods. The risks of gadolinium-based contrast media, and the NCE-MRA methods of time-of-flight, steady-state free precession, and phase contrast are discussed.},
+  Doi                      = {10.1186/1532-429X-13-19},
+  Institution              = {Department of Radiology, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, WI, USA.},
+  Keywords                 = {Adult; Cardiovascular Diseases, diagnosis; Contrast Media, adverse effects; Female; Forecasting; Humans; Image Interpretation, Computer-Assisted; Magnetic Resonance Angiography, trends; Male; Middle Aged; Predictive Value of Tests; Prognosis; Risk Assessment; Risk Factors},
+  Language                 = {eng},
+  Medline-pst              = {epublish},
+  Owner                    = {lconcha},
+  Pii                      = {1532-429X-13-19},
+  Pmid                     = {21388544},
+  Timestamp                = {2016.01.28},
+  Url                      = {http://dx.doi.org/10.1186/1532-429X-13-19}
+}
+

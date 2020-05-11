@@ -1,0 +1,86 @@
+@book{chung2013statistical,
+  title={Statistical and computational methods in brain image analysis},
+  author={Chung, Moo K},
+  year={2013},
+  publisher={CRC Press}
+}
+
+@book{lazar2008statistical,
+  title={The statistical analysis of functional MRI data},
+  author={Lazar, Nicole},
+  year={2008},
+  publisher={Springer Science \& Business Media}
+}
+
+@article{ogawa1990brain,
+  title={Brain magnetic resonance imaging with contrast dependent on blood oxygenation},
+  author={Ogawa, Seiji and Lee, Tso-Ming and Kay, Alan R and Tank, David W},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={87},
+  number={24},
+  pages={9868--9872},
+  year={1990},
+  publisher={National Acad Sciences}
+}
+
+@article{cohen1997parametric,
+  title={Parametric analysis of fMRI data using linear systems methods},
+  author={Cohen, Mark S},
+  journal={Neuroimage},
+  volume={6},
+  number={2},
+  pages={93--103},
+  year={1997},
+  publisher={Elsevier}
+}
+
+@article{vazquez1998nonlinear,
+  title={Nonlinear aspects of the BOLD response in functional MRI},
+  author={Vazquez, Alberto L and Noll, Douglas C},
+  journal={Neuroimage},
+  volume={7},
+  number={2},
+  pages={108--118},
+  year={1998},
+  publisher={Elsevier}
+}
+
+@article{friston1998event,
+  title={Event-related fMRI: characterizing differential responses},
+  author={Friston, Karl J and Fletcher, P and Josephs, Oliver and Holmes, ANDREW and Rugg, MD and Turner, Robert},
+  journal={Neuroimage},
+  volume={7},
+  number={1},
+  pages={30--40},
+  year={1998},
+  publisher={Elsevier}
+}
+
+@article{nichols2003controlling,
+  title={Controlling the familywise error rate in functional neuroimaging: a comparative review},
+  author={Nichols, Thomas and Hayasaka, Satoru},
+  journal={Statistical methods in medical research},
+  volume={12},
+  number={5},
+  pages={419--446},
+  year={2003},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{lindquist2008statistical,
+  title={The statistical analysis of fMRI data},
+  author={Lindquist, Martin A},
+  journal={Statistical Science},
+  pages={439--464},
+  year={2008},
+  publisher={JSTOR}
+}
+
+@article{monti2011statistical,
+  title={Statistical analysis of fMRI time-series: a critical review of the GLM approach},
+  author={Monti, Martin M},
+  journal={Frontiers in human neuroscience},
+  volume={5},
+  year={2011},
+  publisher={Frontiers Media SA}
+}

@@ -1,0 +1,514 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: UTF-8
+
+
+@InBook{Maestu_2008,
+  Title                    = {Neuroimagen, técnicas y procesos cognitivos},
+  Author                   = {Álvarez, J and Rios, M and Hernández, J and Bargalló, N and Calvo, B},
+  Chapter                  = {Resonancia magnética funcional},
+  Editor                   = {Maestú, F and Ríos, M and Cabestreo, R},
+  Pages                    = {27-64},
+  Year                     = {2008},
+
+  Owner                    = {lconcha},
+  Timestamp                = {2015.12.07}
+}
+
+@Article{Andrew2007,
+  Title                    = {Magnetic Resonance Imaging: A Historical Overview},
+  Author                   = {Andrew, E.},
+  Journal                  = {Encyclopedia of Magnetic Resonance},
+  Year                     = {2007},
+
+  Month                    = {Mar},
+
+  Doi                      = {10.1002/9780470034590.emrstm0291},
+  ISBN                     = {http://id.crossref.org/isbn/9780470034590},
+  Owner                    = {lconcha},
+  Publisher                = {Wiley-Blackwell},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1002/9780470034590.emrstm0291}
+}
+
+@Article{Beaulieu2002,
+  Title                    = {The basis of anisotropic water diffusion in the nervous system - a technical review.},
+  Author                   = {Beaulieu, C},
+  Journal                  = {NMR Biomed},
+  Year                     = {2002},
+  Number                   = {7-8},
+  Pages                    = {435--455},
+  Volume                   = {15},
+
+  Abstract                 = {Anisotropic water diffusion in neural fibres such as nerve, white matter in spinal cord, or white matter in brain forms the basis for the utilization of diffusion tensor imaging (DTI) to track fibre pathways. The fact that water diffusion is sensitive to the underlying tissue microstructure provides a unique method of assessing the orientation and integrity of these neural fibres, which may be useful in assessing a number of neurological disorders. The purpose of this review is to characterize the relationship of nuclear magnetic resonance measurements of water diffusion and its anisotropy (i.e. directional dependence) with the underlying microstructure of neural fibres. The emphasis of the review will be on model neurological systems both in vitro and in vivo. A systematic discussion of the possible sources of anisotropy and their evaluation will be presented followed by an overview of various studies of restricted diffusion and compartmentation as they relate to anisotropy. Pertinent pathological models, developmental studies and theoretical analyses provide further insight into the basis of anisotropic diffusion and its potential utility in the nervous system.},
+  Doi                      = {10.1002/nbm.782},
+  Institution              = {Department of Biomedical Engineering, Faculty of Medicine, University of Alberta, Edmonton, Canada. christian.beaulieu@ualberta.ca},
+  Keywords                 = {Anisotropy; Brain Chemistry; Brain, metabolism/pathology; Diffusion; Diffusion Magnetic Resonance Imaging, methods; Models, Biological; Nerve Fibers, chemistry/metabolism/pathology; Nervous System Diseases, metabolism/pathology; Nervous System, chemistry/metabolism/pathology; Spinal Cord, chemistry/cytology/metabolism; Water, chemistry},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {lconcha},
+  Pmid                     = {12489094},
+  Timestamp                = {2010.12.15},
+  Url                      = {http://dx.doi.org/10.1002/nbm.782}
+}
+
+@Article{Berry_Geim_1997,
+  Title                    = {Of flying frogs and levitrons},
+  Author                   = {Berry, M. V. and Geim, A. K.},
+  Journal                  = {European Journal of Physics},
+  Year                     = {1997},
+
+  Month                    = {Jul},
+  Number                   = {4},
+  Pages                    = {307},
+  Volume                   = {18},
+
+  Abstractnote             = {Diamagnetic objects are repelled by magnetic fields. If the fields are strong enough, this repulsion can balance gravity, and objects levitated in this way can be held in stable equilibrium, apparently violating Earnshaw’s theorem. In fact Earnshaw’s theorem does not apply to induced magnetism, and it is possible for the total energy (gravitational + magnetic) to possess a minimum. General stability conditions are derived, and it is shown that stable zones always exist on the axis of a field with rotational symmetry, and include the inflection point of the magnitude of the field. For the field inside a solenoid, the zone is calculated in detail; if the solenoid is long, the zone is centred on the top end, and its vertical extent is about half the radius of the solenoid. The theory explains recent experiments by Geim et al, in which a variety of objects (one of which was a living frog) was levitated in a field of about 16 T. Similar ideas explain the stability of a spinning magnet above a magnetized base plate. Stable levitation of paramagnets is impossible. Samenvatting. Magnetische velden stoten diamagnetische voorwerpen af. Zulke velden kunnen zo sterk zijn dat zij de zwaartekracht opheffen. Het is op deze wijze mogelijk zulke voorwerpen te laten zweven. Dit vormt een stabiel evenwicht, wat in tegenspraak schijnt te zijn met Earnshaw’s Theorema. Echter Earnshaw’s Theorema is niet langer geldig als het magnetisme veld geinduceerd is. De totale energie (bevattende bijdragen van het magnetisme en de zwaartekracht) kan toch een lokaal minimum vertonen. Algemene criteria voor zo’n minimum zullen worden opgesteld. Verder zal worden aangetoond dat voor een cilindrisch symmetrisch veld, langs zijn symmetrie as altijd een zone gevonden kan worden waarin een stabiel evenwicht bestaat. Voor het veld binnen een solenoïde zal deze zone in detail bepaald worden. Als deze spoel voldoende land is bevindt deze zone zich aan het uiteinde van de spoel. De lengte van deze zone langs de symmetrie as van het veld is ongeveer de helft van de straal van de spoel. Deze theorie geeft een goede verklaring voor de experimenten van Geim et al. In deze experimenten werden een grote verscheidenheid aan verschillende voorwerpen (waaronder een levende kikker) tot zweven gebracht in velden van ongeveer 16 T. Analoge theoriën verklaren de stabiliteit van een roterend permanent magneetje boven een magneetische grondplaat. Het is onmogelijk om paramagnetische voorwerpen stabiel te doen zweven.},
+  Doi                      = {10.1088/0143-0807/18/4/012},
+  ISSN                     = {0143-0807}
+}
+
+@Article{Bloch1946,
+  Title                    = {The Nuclear Induction Experiment},
+  Author                   = {Bloch, F. and Hansen, W. W. and Packard, M.},
+  Journal                  = {Physical Review},
+  Year                     = {1946},
+
+  Month                    = {Oct},
+  Number                   = {7-8},
+  Pages                    = {474–485},
+  Volume                   = {70},
+
+  Doi                      = {10.1103/physrev.70.474},
+  ISSN                     = {0031-899X},
+  Owner                    = {lconcha},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1103/PhysRev.70.474}
+}
+
+@Article{BonventoG2000,
+  Title                    = {Sustained attenuation of the cerebrovascular response to a 10 min whisker stimulation following neuronal nitric oxide synthase inhibition},
+  Author                   = {Bonvento, G and Cholet, N and Seilaz, J},
+  Journal                  = {Neurosci. Res},
+  Year                     = {2000},
+  Pages                    = {163-166},
+  Volume                   = {37},
+
+  Owner                    = {JC},
+  Timestamp                = {2011.12.23}
+}
+
+@Article{Canals_2008,
+  Title                    = {Historia de la resonancia magnética de Fourier a Lauterbur y Masnfield: En ciencias, nadie sabe para quien trabaja},
+  Author                   = {Canals, M},
+  Journal                  = {Revista Chilena de Radiología},
+  Year                     = {2008},
+
+  Owner                    = {lconcha},
+  Timestamp                = {2015.12.07}
+}
+
+@Article{Detre2007,
+  Title                    = {Magnetic resonance imaging},
+  Author                   = {Detre, John},
+  Journal                  = {Neurobiology of Disease},
+  Year                     = {2007},
+  Pages                    = {793–800},
+
+  Doi                      = {10.1016/b978-012088592-3/50075-x},
+  ISBN                     = {http://id.crossref.org/isbn/9780120885923},
+  Owner                    = {lconcha},
+  Publisher                = {Elsevier BV},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1016/B978-012088592-3/50075-X}
+}
+
+@Article{FilosaJA2004,
+  Title                    = {Calcium dynamics in cortical astrocytes and arterioles during neurovascular coupling},
+  Author                   = {Filosa, JA and Boney, AD and Nelson, MT},
+  Journal                  = {Circ. Res.},
+  Year                     = {2004},
+  Pages                    = {73-81},
+  Volume                   = {95},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@Article{FilosaJA2006,
+  Title                    = {Local potassium signaling couples neuronal activity to vasodilation in the brain},
+  Author                   = {Filosa, JA and Boney, AD and Straub, SV and Meredith, AL and Wilkerson, MK and Aldrich, RW and Nelson, MT},
+  Journal                  = {Nat. Neurosci.},
+  Year                     = {2006},
+  Pages                    = {1397–1403},
+  Volume                   = {9},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@Article{GerritsRJ2002,
+  Title                    = {Ca2+-activated potassium (KCa) channel inhibition decreases neuronal activity-blood flow coupling},
+  Author                   = {Gerrits, RJ and Stein, EA and Greene, AS},
+  Journal                  = {Brain Res.},
+  Year                     = {2002},
+  Pages                    = {108-116},
+  Volume                   = {948},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@InBook{A2001,
+  Title                    = {Functional MRI: An introduction to Methods},
+  Author                   = {Gjedde, A},
+  Chapter                  = {Brain energy metabolism and the physiological basis of the haemodynamic response},
+  Editor                   = {Jezzard, P and Matthews, PM and Smith, SM},
+  Pages                    = {37-65},
+  Publisher                = {Oxford University Press},
+  Year                     = {2001},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@Article{Glover2001,
+  Title                    = {Spiral-in/out BOLD fMRI for increased SNR and reduced susceptibility artifacts.},
+  Author                   = {G. H. Glover and C. S. Law},
+  Journal                  = {Magn Reson Med},
+  Year                     = {2001},
+
+  Month                    = {Sep},
+  Number                   = {3},
+  Pages                    = {515--522},
+  Volume                   = {46},
+
+  __markedentry            = {[lconcha]},
+  Abstract                 = {BOLD fMRI is hampered by dropout of signal in the orbitofrontal and parietal brain regions due to magnetic field gradients near air-tissue interfaces. This work reports the use of spiral-in trajectories that begin at the edge of k-space and end at the origin, and spiral in/out trajectories in which a spiral-in readout is followed by a conventional spiral-out trajectory. The spiral-in trajectory reduces the dropout and increases the BOLD contrast. The spiral-in and spiral-out images can be combined in several ways to simultaneously achieve increased signal-to-noise ratio (SNR) and reduced dropout artifacts. Activation experiments employing an olfaction task demonstrate significantly increased activation volumes due to reduced dropout, and overall increased SNR in all regions.},
+  Institution              = {Department of Radiology, Center for Advanced MR Technology, Stanford University School of Medicine, Stanford, California 94305-5488, USA. gary@s-world.stanford.edu},
+  Keywords                 = {Amygdala, anatomy /&/ histology/physiology; Artifacts; Brain Mapping; Humans; Image Enhancement; Image Processing, Computer-Assisted; Magnetic Resonance Imaging; Olfactory Pathways, anatomy /&/ histology/physiology; Reference Values; Smell, physiology; Synaptic Transmission, physiology},
+  Language                 = {eng},
+  Medline-pst              = {ppublish},
+  Owner                    = {lconcha},
+  Pii                      = {10.1002/mrm.1222},
+  Pmid                     = {11550244},
+  Timestamp                = {2010.12.15}
+}
+
+@InCollection{Jara2013,
+  Title                    = {Introduction},
+  Author                   = {Jara, H},
+  Booktitle                = {Theory of Quantitative Magnetic Resonance Imaging},
+  Publisher                = {World Scientific Pub Co Pte Lt},
+  Year                     = {2013},
+  Chapter                  = {1},
+  Month                    = {Apr},
+  Pages                    = {1–6},
+
+  __markedentry            = {[lconcha:]},
+  Doi                      = {10.1142/9789814295246_0001},
+  ISBN                     = {http://id.crossref.org/isbn/978-981-4295-24-6},
+  Journal                  = {Theory of Quantitative Magnetic Resonance Imaging},
+  Owner                    = {lconcha},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1142/9789814295246_0001}
+}
+
+@Article{KoehlerRC2009,
+  Title                    = {Astrocites and the regulation of cerebral blood flow},
+  Author                   = {Koehler, RC and Roman, RJ and Harder, DR},
+  Journal                  = {Trends Neurosci.},
+  Year                     = {2009},
+  Pages                    = {160-169},
+  Volume                   = {32},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@Article{LeeJH2010,
+  Title                    = {Global and local fMRI signals driven by neurons defined optogenetically by type and wiring},
+  Author                   = {Lee, JH and Durand, R and Gradinaru, V and Zhang, F and Goshen, I and Kim, DS and Fenno, LE and Ramakrishnan, C and Deisseroth, K},
+  Journal                  = {Nature},
+  Year                     = {2010},
+  Pages                    = {788-792},
+  Volume                   = {465},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@Article{NK2008,
+  Title                    = {What we can do and what we cannot do with fMRI},
+  Author                   = {Logothetis, NK},
+  Journal                  = {Nature},
+  Year                     = {2008},
+  Pages                    = {869-878},
+  Volume                   = {453},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{NK2003,
+  Title                    = {The Underpinnings of the BOLD Functional Magnetic Resonance Imaging Signal},
+  Author                   = {Logothetis, NK},
+  Journal                  = {J. Neurosci.},
+  Year                     = {2003},
+  Pages                    = {3963–3971},
+  Volume                   = {23},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{LogothetisNK2004,
+  Title                    = {Interpreting the BOLD signal},
+  Author                   = {Logothetis, NK and Wandell, BA},
+  Journal                  = {Annu. Rev. Physiol.},
+  Year                     = {2004},
+  Pages                    = {735–769},
+  Volume                   = {66},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@InBook{Luiten2003,
+  Title                    = {Magnetic Resonance Imaging: A Historical Introduction},
+  Author                   = {Luiten, A. L.},
+  Pages                    = {1–7},
+  Publisher                = {Springer Science + Business Media},
+  Year                     = {2003},
+
+  __markedentry            = {[lconcha:6]},
+  Doi                      = {10.1007/978-3-662-05252-5_1},
+  ISBN                     = {http://id.crossref.org/isbn/978-3-662-05252-5},
+  Journal                  = {Magnetic Resonance Imaging},
+  Owner                    = {lconcha},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1007/978-3-662-05252-5_1}
+}
+
+@Article{MagistrettiPJ1998,
+  Title                    = {VIP and PACAP in the CNS: regulators of glial energy metabolism and modulators of glutamatergic signaling},
+  Author                   = {Magistretti, PJ and Cardinaux, JR and Martin, JL},
+  Journal                  = {Eur. J Neurosci.},
+  Year                     = {1998},
+  Pages                    = {272-280},
+  Volume                   = {10},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@InBook{PM2001,
+  Title                    = {Functional MRI: An Introduction to Methods},
+  Author                   = {Matthews, PM},
+  Chapter                  = {An introduction to functional magnetic resonance imaging of the brain},
+  Editor                   = {Jezzard, P and Matthews, PM andSmith, SM},
+  Pages                    = {3-34},
+  Publisher                = {Oxford University Press},
+  Year                     = {2001},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.19}
+}
+
+@Book{mcrobbie2007mri,
+  Title                    = {MRI from Picture to Proton},
+  Author                   = {McRobbie, D.W. and Moore, E.A. and Graves, M.J. and Prince, M.R.},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2007},
+
+  ISBN                     = {9780521683845},
+  Lccn                     = {2007277277},
+  Url                      = {https://books.google.com.mx/books?id=jxOLMQEACAAJ}
+}
+
+@Article{MeteaMR2007,
+  Title                    = {Neurovascular coupling is not mediated by potassium siphoning from glial cells},
+  Author                   = {Metea, MR and Kofuji, P and Newman, EA},
+  Journal                  = {J. Neurosci.},
+  Year                     = {2007},
+  Pages                    = {2468–2471},
+  Volume                   = {27},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{OberheimNA2006,
+  Title                    = {Astrocytic complexity distinguishes the human brain},
+  Author                   = {Oberheim, NA and Wang, X and Goldman, S and Nedergaard, M},
+  Journal                  = {Trends Neurosci.},
+  Year                     = {2006},
+  Pages                    = {547-553},
+  Volume                   = {29},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{OgawaS1990,
+  Title                    = {Brain magnetic resonance imaging with contrast dependent on blood oxygenation},
+  Author                   = {Ogawa, S and Lee, TM and Kay, AR and Tank, DW},
+  Journal                  = {Proc. Natl. Acad. Sci.},
+  Year                     = {1990},
+  Pages                    = {9868–9872},
+  Volume                   = {87},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{OlsenML2008,
+  Title                    = {Functional implications for Kir4.1 channels in glial biology: from K+ buffering to cell differentiation},
+  Author                   = {Olsen, ML and Sontheimer, H},
+  Journal                  = {J. Neurochem.},
+  Year                     = {2008},
+  Pages                    = {589-601},
+  Volume                   = {107},
+
+  Owner                    = {JC},
+  Timestamp                = {2011.12.23}
+}
+
+@Article{PaulsonOB1987,
+  Title                    = {Does the release of potassium from astrocyte endfeet regulate cerebral blood flow?},
+  Author                   = {Paulson, OB and Newman, EA},
+  Journal                  = {Science},
+  Year                     = {1987},
+  Pages                    = {896–897},
+  Volume                   = {237},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{PellerinL1994,
+  Title                    = {Glutamate uptake into astrocytes stimulates aerobic glycolysis: a mechanism coupling neuronal activity to glucose utilization},
+  Author                   = {Pellerin, L and Magistretti, PJ},
+  Journal                  = {Proc. Natl. Acad. Sci.},
+  Year                     = {1994},
+  Pages                    = {10625–10629},
+  Volume                   = {91},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{Purcell1946,
+  Title                    = {Resonance Absorption by Nuclear Magnetic Moments in a Solid},
+  Author                   = {Purcell, E. M. and Torrey, H. C. and Pound, R. V.},
+  Journal                  = {Physical Review},
+  Year                     = {1946},
+
+  Month                    = {Jan},
+  Number                   = {1-2},
+  Pages                    = {37–38},
+  Volume                   = {69},
+
+  Doi                      = {10.1103/physrev.69.37},
+  ISSN                     = {0031-899X},
+  Owner                    = {lconcha},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1103/PhysRev.69.37}
+}
+
+@Book{Runge2009,
+  Title                    = {The Physics of Clinical MR Taught Through Images},
+  Author                   = {Runge, VM and Nitz, WR and Schmeets, SH},
+  Editor                   = {Runge, VM and Nitz, WR and Schmeets, SH},
+  Publisher                = {Thieme},
+  Year                     = {2009},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Book{Sanchez_resumen,
+  Title                    = {Breve resumen histórico de la Resonancia Magnética Nuclear},
+  Author                   = {Sánchez, F},
+  Publisher                = {Universitat Autónoma de Barcelona},
+
+  Owner                    = {lconcha},
+  Timestamp                = {2015.12.07}
+}
+
+@Article{Shampo2012,
+  Title                    = {Isidor Rabi—1944~{N}obel Laureate in Physics},
+  Author                   = {Shampo, Marc A. and Kyle, Robert A. and Steensma, David P.},
+  Journal                  = {Mayo Clinic Proceedings},
+  Year                     = {2012},
+
+  Month                    = {Feb},
+  Number                   = {2},
+  Pages                    = {e11},
+  Volume                   = {87},
+
+  Doi                      = {10.1016/j.mayocp.2011.11.012},
+  ISSN                     = {0025-6196},
+  Owner                    = {lconcha},
+  Publisher                = {Elsevier BV},
+  Timestamp                = {2015.12.07},
+  Url                      = {http://dx.doi.org/10.1016/j.mayocp.2011.11.012}
+}
+
+@Article{SimardM2003,
+  Title                    = {Signaling at the gliovascular interface},
+  Author                   = {Simard, M and Arcuino, G and Takano, T and Lui, QS and Nedegaard, M},
+  Journal                  = {J. Neurosci.},
+  Year                     = {2003},
+  Pages                    = {9254–9262},
+  Volume                   = {23},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{SmithAJ2002,
+  Title                    = {Cerebral energetics and spiking frequency: The neurophysiological basis of fMRI.},
+  Author                   = {Smith, AJ and Blumenfeld, H and Behar, KL and Rothman, DL and Shulman, RG and Hyder, F},
+  Journal                  = {Proc. Natl. Acad. Sci.},
+  Year                     = {2002},
+  Pages                    = {10765–10770},
+  Volume                   = {99},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{TodaN2009,
+  Title                    = {Cerebral blood flow regulation by nitric oxide: recent advances},
+  Author                   = {Toda, N and Ayajik,i K and Okamura, T},
+  Journal                  = {Pharmacol. Rev.},
+  Year                     = {2009},
+  Pages                    = {62-97},
+  Volume                   = {61},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@Article{ZontaM2003,
+  Title                    = {Neuron-to-astrocyte signaling is central to the dynamic control of brain microcirculation},
+  Author                   = {Zonta, M and Angulo, MC and Gobbo, S and Rosengarten, B and Hossmann, KA and Pozzan, T and Carmignoto, G},
+  Journal                  = {Nat. Neurosci.},
+  Year                     = {2003},
+  Pages                    = {43-50},
+  Volume                   = {6},
+
+  Owner                    = {Juan Carlos},
+  Timestamp                = {2011.12.20}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

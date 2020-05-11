@@ -1,0 +1,155 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\'{I}ndice general}{\es@scroman {i}}{section*.1}
+\contentsline {part}{\partnumberline {I}Principios b\IeC {\'a}sicos\\de resonancia magn\IeC {\'e}tica}{1}{part.1}
+\contentsline {chapter}{\chapternumberline {1}Introducci\IeC {\'o}n general a la resonancia magn\IeC {\'e}tica}{3}{chapter.1}
+\precistoctext {\noindent Luis Concha\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {1.1}Fen\IeC {\'o}meno de resonancia magn\IeC {\'e}tica nuclear}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Codificaci\IeC {\'o}n espacial}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Secuencias de pulsos}{6}{section.1.3}
+\contentsline {chapter}{\chapternumberline {2}Aspectos hist\IeC {\'o}ricos de la resonancia magn\IeC {\'e}tica}{9}{chapter.2}
+\precistoctext {\noindent Giovanna Lilian Licea Haquet\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {chapter}{\chapternumberline {3}Fen\IeC {\'o}meno de resonancia magn\IeC {\'e}tica}{15}{chapter.3}
+\precistoctext {\noindent Luis Concha\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {3.1}El spin nuclear}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Equilibrio del sistema de spins en presencia de un campo magn\IeC {\'e}tico}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}Perturbaci\IeC {\'o}n del sistema de spins}{18}{section.3.3}
+\contentsline {section}{\numberline {3.4}Obtenci\IeC {\'o}n de la se\IeC {\~n}al de resonancia}{19}{section.3.4}
+\contentsline {chapter}{\chapternumberline {4}Relajaci\IeC {\'o}n y Contraste}{21}{chapter.4}
+\precistoctext {\noindent G. Alethia Brunner M.\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {4.1}RELAJACI\IeC {\'O}N LONGITUDINAL ($T_1$\xspace )}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}RELAJACI\IeC {\'O}N TRANSVERSAL ($T_2$\xspace )}{22}{section.4.2}
+\contentsline {subsection}{Fen\IeC {\'o}meno $T_2\text {*}$\xspace }{22}{section*.6}
+\contentsline {section}{\numberline {4.3}Contraste}{23}{section.4.3}
+\contentsline {subsection}{Im\IeC {\'a}genes potenciadas a densidad de protones}{23}{section*.7}
+\contentsline {subsection}{Im\IeC {\'a}genes potenciadas a $T_1$\xspace }{24}{section*.8}
+\contentsline {subsection}{Im\IeC {\'a}genes potenciadas a $T_2$\xspace y $T_2\text {*}$\xspace }{24}{section*.9}
+\contentsline {chapter}{\chapternumberline {5}Codificaci\IeC {\'o}n espacial}{25}{chapter.5}
+\precistoctext {\noindent \noindent Luis Concha\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {5.1}Selecci\IeC {\'o}n de rebanada (excitaci\IeC {\'o}n selectiva)}{26}{section.5.1}
+\contentsline {section}{\numberline {5.2}Codificaci\IeC {\'o}n mediante frecuencia}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Codificaci\IeC {\'o}n mediante fase}{31}{section.5.3}
+\contentsline {section}{\numberline {5.4}El espacio $k$\xspace }{35}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Secuencias de pulsos b\IeC {\'a}sicas}{39}{chapter.6}
+\precistoctext {\noindent \noindent Gilberto Rojas Vite\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {6.1}Introducci\IeC {\'o}n}{39}{section.6.1}
+\contentsline {section}{\numberline {6.2}La secuencia de pulsos m\IeC {\'a}s b\IeC {\'a}sica: FID.}{40}{section.6.2}
+\contentsline {section}{\numberline {6.3}Secuencias de pulsos generadoras de contraste}{42}{section.6.3}
+\contentsline {subsection}{Eco de spin}{42}{section*.27}
+\contentsline {subsection}{Eco de gradiente }{42}{section*.30}
+\contentsline {subsection}{Inversi\IeC {\'o}n-recuperaci\IeC {\'o}n}{44}{section*.32}
+\contentsline {section}{\numberline {6.4}6.3. Secuencias de pulsos para codificaci\IeC {\'o}n espacial}{45}{section.6.4}
+\contentsline {subsection}{Llenado serial del espacio $k$\xspace }{45}{section*.38}
+\contentsline {subsection}{Secuencias optimizadas para el llenado del espacio $k$\xspace }{46}{section*.40}
+\contentsline {subsubsection}{Turbo-spin eco}{46}{section*.41}
+\contentsline {subsubsection}{Multi-spin eco}{47}{section*.43}
+\contentsline {subsubsection}{Im\IeC {\'a}genes ecoplanares: EPI y multi-shot EPI}{48}{section*.45}
+\contentsline {chapter}{\chapternumberline {7}Hardware: Campo magn\IeC {\'e}tico principal, gradientes y antenas}{49}{chapter.7}
+\precistoctext {\noindent SIN AUTOR}
+\contentsline {chapter}{\chapternumberline {8}Aspectos de seguridad}{51}{chapter.8}
+\precistoctext {\noindent Erick Pasaye, Javier S\IeC {\'a}nchez L\IeC {\'o}pez \\ Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {8.1}Efectos Biol\IeC {\'o}gicos del Campo Magn\IeC {\'e}tico}{51}{section.8.1}
+\contentsline {subsection}{Campo magn\IeC {\'e}tico est\IeC {\'a}tico ($B_0$\xspace )}{51}{section*.47}
+\contentsline {subsection}{Efectos biol\IeC {\'o}gicos}{53}{section*.49}
+\contentsline {subsubsection}{Efectos sobre la velocidad de conducci\IeC {\'o}n nerviosa}{53}{section*.50}
+\contentsline {subsubsection}{Efectos sobre el Electroencefalograma}{54}{section*.51}
+\contentsline {subsubsection}{Efecto de Frenado en el Flujo de Conductores}{54}{section*.52}
+\contentsline {subsubsection}{Objetos ferromagn\IeC {\'e}ticos}{55}{section*.53}
+\contentsline {subsection}{Campo magn\IeC {\'e}tico del gradiente}{57}{section*.54}
+\contentsline {subsubsection}{Estimulaci\IeC {\'o}n nerviosa perif\IeC {\'e}rica}{58}{section*.55}
+\contentsline {subsection}{Ruido ac\IeC {\'u}stico}{59}{section*.57}
+\contentsline {section}{\numberline {8.2}Medidas de prevenci\IeC {\'o}n de accidentes}{60}{section.8.2}
+\contentsline {subsection}{Evaluaci\IeC {\'o}n Cl\IeC {\'\i }nica}{60}{section*.58}
+\contentsline {subsubsection}{Formulario de evaluaci\IeC {\'o}n preliminar}{61}{section*.59}
+\contentsline {subsubsection}{Compatibilidad con RM}{62}{section*.62}
+\contentsline {section}{\numberline {8.3}Emergencias}{64}{section.8.3}
+\contentsline {chapter}{\chapternumberline {9}Espectroscop\IeC {\'\i }a}{67}{chapter.9}
+\precistoctext {\noindent Pau Marco Manclus\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {9.1}Espectroscop\IeC {\'\i }a por RMN in vivo}{72}{section.9.1}
+\contentsline {subsection}{PRESS}{74}{section*.72}
+\contentsline {subsection}{STEAM}{75}{section*.74}
+\contentsline {subsection}{TE para MRS}{76}{section*.76}
+\contentsline {section}{\numberline {9.2}Artefactos en espectroscop\IeC {\'\i }a por RMN}{77}{section.9.2}
+\contentsline {section}{\numberline {9.3}Metabolitos en el cerebro}{78}{section.9.3}
+\contentsline {subsection}{N-acetilaspartato (NAA)}{78}{section*.80}
+\contentsline {subsection}{Creatina (Cr)}{79}{section*.81}
+\contentsline {subsection}{Colina (Cho)}{79}{section*.82}
+\contentsline {subsection}{Lipidos (Lip)}{79}{section*.83}
+\contentsline {subsection}{Mioinositol (Myo)}{79}{section*.84}
+\contentsline {subsection}{Alanina (Ala)}{80}{section*.85}
+\contentsline {chapter}{\chapternumberline {10}Artefactos de imagen}{81}{chapter.10}
+\precistoctext {\noindent Luis Concha\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {part}{\partnumberline {II}Protocolos de Imagen, aplicaciones y dise\IeC {\~n}o experimental}{83}{part.2}
+\contentsline {chapter}{\chapternumberline {11}Resonancia magn\IeC {\'e}tica funcional: Origen de la se\IeC {\~n}al BOLD}{85}{chapter.11}
+\precistoctext {\noindent Juan Carlos M\IeC {\'e}ndez, Ram\IeC {\'o}n Bartolo\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {11.1}La se\IeC {\~n}al BOLD}{86}{section.11.1}
+\contentsline {section}{\numberline {11.2}La respuesta hemodin\IeC {\'a}mica y su acople con la actividad metab\IeC {\'o}lica cerebral}{87}{section.11.2}
+\contentsline {subsection}{Se\IeC {\~n}alizaci\IeC {\'o}n por \IeC {\'o}xido n\IeC {\'\i }trico (NO)}{88}{section*.88}
+\contentsline {subsection}{Se\IeC {\~n}alizaci\IeC {\'o}n por potasio}{88}{section*.89}
+\contentsline {subsection}{Incremento de la actividad astroc\IeC {\'\i }tica por la captura de glutamato}{89}{section*.90}
+\contentsline {subsection}{Se\IeC {\~n}alizaci\IeC {\'o}n por glutamato}{89}{section*.91}
+\contentsline {section}{\numberline {11.3}Procesos neuronales y la se\IeC {\~n}al BOLD}{90}{section.11.3}
+\contentsline {section}{\numberline {11.4}Conclusiones}{92}{section.11.4}
+\contentsline {chapter}{\chapternumberline {12}Resonancia magn\IeC {\'e}tica funcional: Modelo lineal general}{93}{chapter.12}
+\precistoctext {\noindent Zeus Gracia Tabuenca\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {12.1}Introducci\IeC {\'o}n}{93}{section.12.1}
+\contentsline {section}{\numberline {12.2}Modelaje de la se\IeC {\~n}al de Resonancia Magn\IeC {\'e}tica funcional}{95}{section.12.2}
+\contentsline {section}{\numberline {12.3}Aplicaci\IeC {\'o}n del Modelo Lineal General en un estudio de fMRI}{97}{section.12.3}
+\contentsline {section}{\numberline {12.4}Conclusi\IeC {\'o}n}{99}{section.12.4}
+\contentsline {chapter}{\chapternumberline {13}Im\IeC {\'a}genes sensibles a difusi\IeC {\'o}n}{101}{chapter.13}
+\precistoctext {\noindent Luis Concha, Pen\IeC {\'e}lope Mart\IeC {\'\i }nez Campo\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {13.1}Difusi\IeC {\'o}n de mol\IeC {\'e}culas de agua}{101}{section.13.1}
+\contentsline {subsection}{Medici\IeC {\'o}n de la difusi\IeC {\'o}n con resonancia\\ magn\IeC {\'e}tica nuclear}{102}{section*.99}
+\contentsline {subsection}{Difusi\IeC {\'o}n de agua en el cerebro}{107}{section*.102}
+\contentsline {section}{\numberline {13.2}El tensor de difusi\IeC {\'o}n}{108}{section.13.2}
+\contentsline {section}{\numberline {13.3}Tractograf\IeC {\'\i }a}{116}{section.13.3}
+\contentsline {section}{\numberline {13.4}M\IeC {\'e}todos para el an\IeC {\'a}lisis cuantitativo del\\ tensor de difusi\IeC {\'o}n}{121}{section.13.4}
+\contentsline {section}{\numberline {13.5}Deficiencias de DTI}{123}{section.13.5}
+\contentsline {subsection}{El modelo}{123}{section*.114}
+\contentsline {subsection}{Artefactos de imagen}{125}{section*.116}
+\contentsline {section}{\numberline {13.6}Cuando el modelo del tensor no es suficiente}{130}{section.13.6}
+\contentsline {chapter}{\chapternumberline {14}Angio-resonancia}{133}{chapter.14}
+\precistoctext {\noindent Gabriel Ram\IeC {\'\i }rez Garc\IeC {\'\i }a \\UNAM}
+\contentsline {section}{\numberline {14.1}ARM con t\IeC {\'e}cnicas de contraste en sangre negra}{134}{section.14.1}
+\contentsline {section}{\numberline {14.2}ARM con T\IeC {\'e}cnicas de sangre blanca}{137}{section.14.2}
+\contentsline {subsection}{T\IeC {\'e}cnica de ARM ``Time-Of-Flight'' (TOF) }{138}{section*.122}
+\contentsline {subsection}{ARM con t\IeC {\'e}cnicas TOF-2D}{140}{section*.126}
+\contentsline {subsection}{ARM con efecto TOF-3D}{143}{section*.129}
+\contentsline {section}{\numberline {14.3}ARM con t\IeC {\'e}cnicas de Contraste de Fase (PC)}{147}{section.14.3}
+\contentsline {subsection}{ARM con CF 2D}{151}{section*.137}
+\contentsline {subsection}{ARM con CF 3D }{152}{section*.139}
+\contentsline {section}{\numberline {14.4}Angiograf\IeC {\'\i }a con incremento de contraste por agentes ex\IeC {\'o}genos}{152}{section.14.4}
+\contentsline {section}{\numberline {14.5}Conclusi\IeC {\'o}n }{155}{section.14.5}
+\contentsline {chapter}{\chapternumberline {15}Im\IeC {\'a}genes sensibles a perfusi\IeC {\'o}n sangu\IeC {\'\i }nea}{157}{chapter.15}
+\precistoctext {\noindent SIN AUTOR}
+\contentsline {subsection}{Protocolos}{157}{section*.144}
+\contentsline {section}{\numberline {15.1}Dise\IeC {\~n}os experimentales}{157}{section.15.1}
+\contentsline {chapter}{\chapternumberline {16}T2 cuantitativo}{159}{chapter.16}
+\precistoctext {\noindent SIN AUTOR}
+\contentsline {chapter}{\chapternumberline {17}Transferencia de magnetizaci[on}{161}{chapter.17}
+\precistoctext {\noindent SIN AUTOR}
+\contentsline {part}{\partnumberline {III}M\IeC {\'e}todos de an\IeC {\'a}lisis de im\IeC {\'a}genes}{163}{part.3}
+\contentsline {chapter}{\chapternumberline {18}Regiones de inter\IeC {\'e}s}{165}{chapter.18}
+\precistoctext {\noindent Beatriz Moreno\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {chapter}{\chapternumberline {19}Morfometr\IeC {\'\i }a por voxel}{167}{chapter.19}
+\precistoctext {\noindent SIN AUTOR}
+\contentsline {chapter}{\chapternumberline {20}Modelo lineal general}{169}{chapter.20}
+\precistoctext {\noindent SIN AUTOR}
+\contentsline {chapter}{\chapternumberline {21}Conectividad cerebral}{171}{chapter.21}
+\precistoctext {\noindent Clemens Bauer\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {chapter}{\chapternumberline {22}Estad\IeC {\'\i }sticas espaciales basadas en tractos}{173}{chapter.22}
+\precistoctext {\noindent Sarael Alcauter\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {chapter}{\chapternumberline {23}An\IeC {\'a}lisis del grosor cortical}{175}{chapter.23}
+\precistoctext {\noindent Arafat Angulo Perkins, Erik L\IeC {\'o}pez Carrera\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {section}{\numberline {23.1}La corteza cerebral}{175}{section.23.1}
+\contentsline {section}{\numberline {23.2}Grosor cortical}{178}{section.23.2}
+\contentsline {section}{\numberline {23.3}Consideraciones en la estimaci\IeC {\'o}n del grosor cortical}{180}{section.23.3}
+\contentsline {section}{\numberline {23.4}An\IeC {\'a}lisis del grosor cortical}{181}{section.23.4}
+\contentsline {part}{\partnumberline {IV}Aplicaciones de la imagenolog\IeC {\'\i }a por resonancia magn\IeC {\'e}tica en las neurociencias}{187}{part.4}
+\precistoctext {\noindent Los cap\IeC {\'\i }tulos que conformar\IeC {\'a}n esta parte constituyen aplicaciones b\IeC {\'a}sicas, cl\IeC {\'\i }nicas e interdisciplinarias. Por favor env\IeC {\'\i }en sus propuestas de acuerdo a los temas que ustedes aborden y consideren sean de inter\IeC {\'e}s para la obra.}
+\contentsline {chapter}{Bibliograf\'{\i }a}{191}{section*.158}
+\contentsline {part}{\partnumberline {V}Ap\IeC {\'e}ndices}{197}{part.5}
+\contentsline {chapter}{Ejemplo de adquisici\IeC {\'o}n de im\IeC {\'a}genes}{199}{chapter*.160}
+\precistoctext {\noindent Erik Pasaye\\Instituto de Neurobiolog\IeC {\'\i }a\\UNAM, Campus Juriquilla}
+\contentsline {appendix}{Lecturas sugeridas}{201}{chapter*.161}
+\contentsline {chapter}{Glosario}{203}{section*.162}
+\contentsline {chapter}{Abreviaturas y acr\IeC {\'o}nimos}{205}{section*.164}

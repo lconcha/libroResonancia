@@ -1,0 +1,64 @@
+\usepackage[svgnames]{xcolor}
+\definecolor{azulUNAM}{cmyk}{100, 59, 0, 69}
+\definecolor{oroUNAM}{cmyk}{0, 14, 48, 44}
+\definecolor{migris}{rgb}{0.5, 0.5, 0.5}
+\definecolor{minegro}{rgb}{0,0,0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% MACRO FOR CHAPTER STYLE, FROM THE MEMOIR CLASS
+% SEE http://www.tex.ac.uk/tex-archive/info/MemoirChapStyles/MemoirChapStyles.pdf
+\chapterstyle{veelo}
+
+\renewcommand*\prechapterprecis{\begin{flushright}}
+\renewcommand*\postchapterprecis{\end{flushright}\vskip 2cm}
+%\renewcommand{\precisfont}{\scshape}
+%\renewcommand{\precistocfont}{\noindent} 
+%\renewcommand*\precisfont{\scshape}
+%\renewcommand*\precistocfont{\scshape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Change the title appearance
+%\title{Imagenología por Resonancia Magnética}
+%\author{Luis Concha, Fernando Barrios, Roberto Mercadillo (Editores)}
+\newcommand*{\titleTH}{\pagestyle{empty}\begingroup% T&H Typography
+\raggedleft
+\vspace*{\baselineskip}
+{\Large Luis Concha\\ Fernando Barrios\\ Roberto Mercadillo\\ (Editores)}\\[0.167\textheight]
+{\bfseries Imagenología por}\\[\baselineskip]
+{\textcolor{minegro}{\Huge RESONANCIA MAGNÉTICA}}\\[\baselineskip]
+%{\textcolor{minegro}{\small Con 123 Figuras}}\par
+\vfill
+%\includegraphics[width=2cm]{logoUNAM}
+%\medskip
+{\Large Editorial UNAM}\par
+\vspace*{3\baselineskip}
+\endgroup}
+%%% end title style
+
+
+
+%%%% part style
+\renewcommand{\partnamefont}{\scshape\huge\raggedleft\thispagestyle{empty}}
+\renewcommand{\partnumfont}{\scshape\huge}
+
+
+
+% Referencias
+% \usepackage[usenames]{color}
+% \usepackage[hypertex,dvipdfm,pagebackref=true]{hyperref}
+\usepackage[hypertex,pagebackref=true]{hyperref}
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+      \ifcase #1 %
+         {\scriptsize (no citado)}%
+      \or
+         {\scriptsize (Citado en p.~#2.)}%
+      \else
+         {\scriptsize (Citado en pp.~#2.)}
+      \fi}
+
+
+%%%% Captions
+\captiontitlefont{\itshape}
+\captionnamefont{\scshape}
