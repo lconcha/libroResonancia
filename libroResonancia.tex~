@@ -13,7 +13,7 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{eso-pic}
-%\usepackage{color}
+\usepackage{color}
 \usepackage{wallpaper}
 \usepackage{appendix}
 \usepackage{enumitem}
@@ -21,14 +21,66 @@
 \usepackage[osf]{mathpazo}
 \linespread{1.05}         % Palatino needs more leading (space between lines)
 \usepackage[sort&compress,numbers,super]{natbib}      % Important to have nice sorted references, like [3-5,9]
-\usepackage{breakcites}
+% \usepackage{breakcites}
 \usepackage{xspace}  %this package interprets the space after the symbols correctly, so there is no space if I put a comma, and there is one if I put another word after the symbol.
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,decoration}
+\usepackage{booktabs}
+\usepackage{textcomp}
+% \usepackage{natbib}
+\usepackage{chapterbib}
+\usepackage{soul}
+% \usepackage{siunitx}
+
+
+% set up a figure environment
+\newenvironment{figg}
+  { \begin{minipage}{.95\textwidth}
+    \begin{centering}
+  } 
+  { %\noindent\makebox[\linewidth]{\rule{0.75\textwidth}{0.4pt}}
+    \end{centering}
+    \end{minipage}
+  }
+
+
+
+%%% To create boxes
+ \usepackage{newfloat}
+% \usepackage{caption}
+\usepackage[font=footnotesize,labelfont=sc,margin={10pt,10pt},width=.75\textwidth] {caption}
+% \usepackage[justification=raggedleft]{floatrow}
+\DeclareFloatingEnvironment[fileext=frm,placement={!ht},name=Frame]{myfloat}
+ \usepackage[framemethod=TikZ]{mdframed}
+ \usepackage{multicol}
+%  \usepackage[colorlinks=true]{hyperref}
+ 
+ \newenvironment{frameenv}[1]
+     {\begin{myfloat}[tb]
+     \begin{mdframed}[roundcorner=10pt,backgroundcolor=blue!10]
+     \caption{#1}
+     \begin{multicols*}{2}
+     }
+     {\end{multicols*}\end{mdframed}\end{myfloat}
+     }
+%%% end boxes
+
 
 
 %%%%%%%%%%% Macros by L Concha
 %\newcommand{name}[num]{definition}
 \newcommand{\Bzero}{$B_0$\xspace}
 \newcommand{\Bone}{$B_1$\xspace}
+\newcommand{\M}{$\boldsymbol{M}$\xspace}
+\newcommand{\Mzero}{$\boldsymbol{M_0}$\xspace}
+\newcommand{\Mx}{$\boldsymbol{M_x}$\xspace}
+\newcommand{\My}{$\boldsymbol{M_y}$\xspace}
+\newcommand{\Mz}{$\boldsymbol{M_z}$\xspace}
+\newcommand{\Mxy}{$\boldsymbol{M_{xy}}$\xspace}
+\newcommand{\Tone}{$T_1$\xspace}
+\newcommand{\Ttwo}{$T_2$\xspace}
+\newcommand{\Ttwostar}{$T_2\text{*}$\xspace}
+\newcommand{\Ttwop}{$T_2'$\xspace}
 \newcommand{\FA}[0]{{\sc fa}\xspace}
 \newcommand{\ADC}[0]{{\sc adc}\xspace}
 \newcommand{\lone}[0]{$\lambda$$_1$\xspace}
@@ -36,9 +88,30 @@
 \newcommand{\lthree}[0]{$\lambda$$_3$\xspace}
 \newcommand{\lpar}{$\lambda$$_\parallel$\xspace}
 \newcommand{\lperp}{$\lambda$$_\perp$\xspace}
-\newcommand{\Ttwostar}{T2$^*$}
+\newcommand{\degrees}{\ensuremath{^\circ}}
+\newcommand{\espaciok}{espacio $k$\xspace}
+\newcommand{\kx}{$k_{x}$}
+\newcommand{\ky}{$k_{y}$}
+\newcomand{\figurapendiente}{\textit{Figura pendiente}}
+
 \setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{3}
+
+
+% %%%% Boxes
+\tikzstyle{nicebox}=[draw=gray!100, fill=blue!10, very thick,rounded corners, rectangle, inner sep=4pt, inner ysep=16pt]
+\tikzstyle{niceboxtitle}=[draw=gray!100, fill=white, text=black, rounded corners, very thick, rectangle]
+\newcommand\nicebox[2]{
+  {\centering
+  \begin{tikzpicture}
+	\node [nicebox](box){
+	  \begin{minipage}{0.95\textwidth}
+	  \begin{minipage}{0.95\textwidth}#2
+	  \end{minipage}\end{minipage}};
+	\node[niceboxtitle, right=10pt] at (box.north west){\small\textbf{#1}};
+\end{tikzpicture}\par}
+}
+
+
 
 %%%%%% Llamar al glosario
 \input{libroresonancia_glosario}
@@ -49,7 +122,7 @@
 
  
 % on tan las figuras
-\graphicspath{{/home/lconcha/INB/libroResonancia/figs/}}
+\graphicspath{{/home/lconcha/Documents/libroResonancia/figs/}}
 
 
 
@@ -62,8 +135,8 @@
 
 \frontmatter
 \tableofcontents
-\listoftables  % if you have any
-\listoffigures % if you have any
+%\listoftables  % if you have any
+% \listoffigures % if you have any
 
 
 
@@ -93,47 +166,52 @@
 
 
 \chapter{Aspectos históricos de la resonancia magnética}
-\chapterprecis{\noindent Clemens Bauer\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent Giovanna Lilian Licea Haquet\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_historia}
+\input{cap_historia}
 
 
 \chapter{Fenómeno de resonancia magnética}
-\chapterprecis{\noindent UAM-Iztapalapa}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_fenomeno}
-Este es un texto de ejemplo con una referencia aquí \cite{Glover2001} y otras por acá \cite{Glover2001,Beaulieu2002}.
+\input{cap_fenomeno}
 
 
 \chapter{Relajación y Contraste}
-\chapterprecis{\noindent UAM-Iztapalapa}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus 
+Juriquilla}
 \label{chapter_relajacion}
-\input{lorem}
-\input{lorem}
-\input{lorem}
+\input{cap_relajacionContraste}
 
 
 
 \chapter{Codificación espacial}
 \chapterprecis{\noindent \noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_espacial}
-%\input{lorem}
-Aquí definimos el \index{espacio k|textbf} espacio k, y debe aparecer en el índice.
+\input{cap_codificacionEspacial}
+
+
+\chapter{Secuencias de pulsos básicas}
+\chapterprecis{\noindent \noindent Gilberto Rojas Vite\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_secuencias}
+\input{cap_secuencias}
 
 
 \chapter{Hardware: Campo magnético principal, gradientes y antenas}
-\chapterprecis{\noindent UAM-Iztapalapa}
+\chapterprecis{\noindent SIN AUTOR}
 \label{chapter_hardware}
-%\input{lorem}
 
 
 \chapter{Aspectos de seguridad}
-\chapterprecis{\noindent Erik Pasaye\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent Erick Pasaye, Javier Sánchez López \\
+                         Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_seguridad}
-%\input{lorem}
+\input{cap_seguridad}
 
 \chapter{Espectroscopía}
-\chapterprecis{\noindent Juan José Ortiz, Sarael Alcauter\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent Pau Marco Manclus\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_espectro}
-%\input{lorem}
+\input{cap_espectro}
 
 \chapter{Artefactos de imagen}
 \chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
@@ -151,42 +229,42 @@ Aquí definimos el \index{espacio k|textbf} espacio k, y debe aparecer en el ín
 \label{chapter_bold}
 \chapterprecis{\noindent Juan Carlos Méndez, Ramón Bartolo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \input{cap_origenBOLD}
+\label{cap:origenBold}
+
+
+\chapter{Resonancia magnética funcional: Modelo lineal general}
+\chapterprecis{\noindent Zeus Gracia Tabuenca\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\input{cap_glm}
 
 
 \chapter{Imágenes sensibles a difusión}
-\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent Luis Concha, Penélope Martínez Campo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_difusion}
-\section{Protocolos}
-\section{Diseños experimentales}
-%\input{lorem}
-
+\input{cap_difusion}
 
 \chapter{Angio-resonancia}
-\chapterprecis{\noindent Héctor Barragán\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent Gabriel Ramírez García \\UNAM}
 \label{chapter_angio}
-%\input{lorem}
+\input{cap_angio}
 
 
 
 \chapter{Imágenes sensibles a perfusión sanguínea}
-\chapterprecis{\noindent Fernando A. Barrios\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent SIN AUTOR}
 \label{chapter_perfusion}
 \subsection{Protocolos}
 \section{Diseños experimentales}
-%\input{lorem}
 
 
 \chapter{T2 cuantitativo}
-\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent SIN AUTOR}
 \label{chapter_T2}
-%\input{lorem}
 
 
 
 \chapter{Transferencia de magnetizaci[on}
-\chapterprecis{\noindent Rafael Favila\\General Electric}
+\chapterprecis{\noindent SIN AUTOR}
 \label{chapter_mt}
-%\input{lorem}
 
 
 
@@ -194,70 +272,53 @@ Aquí definimos el \index{espacio k|textbf} espacio k, y debe aparecer en el ín
 
 
 
-\part{Metodos de análisis de imágenes}
+\part{Métodos de análisis de imágenes}
 \label{part_metodos}
 
 
 \chapter{Regiones de interés}
 \chapterprecis{\noindent Beatriz Moreno\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_roi}
-%\input{lorem}
 
 
 \chapter{Morfometría por voxel}
-\chapterprecis{\noindent Leopoldo González Santos\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent SIN AUTOR}
 \label{chapter_vbm}
-%\input{lorem}
 
 
 \chapter{Modelo lineal general}
-\chapterprecis{\noindent Fernando A. Barrios, Roberto Mercadillo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent SIN AUTOR}
 \label{chapter_mlg}
-%\input{lorem}
 
 \chapter{Conectividad cerebral}
 \chapterprecis{\noindent Clemens Bauer\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_conectividad}
-%\input{lorem}
 
 
 \chapter{Estadísticas espaciales basadas en tractos}
 \chapterprecis{\noindent Sarael Alcauter\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_tbss}
-%\input{lorem}
 
 
 \chapter{Análisis del grosor cortical}
-\chapterprecis{\noindent Arafat Angulo Perkins\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\label{chapter_surf}
-%\input{lorem}
+\chapterprecis{\noindent Arafat Angulo Perkins, Erik López Carrera\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\label{chapter_grosorCortical}
+\input{cap_grosorCortical}
 
- 
-Esto es tan solo una prueba. .
-
-Cuando prendemos el \gls{gradiente}, algo sucede en el \gls{espacio k}. Las secuencias de \gls{DTI} también explotan el \gls{espacio k}.
-
-
-Y acá volvemos a usar el \index{espacio k} espacio k, y debe aparecer en el índice, pero como cosa secundaria.
-
-De hecho, podemos usar plurales y las cosas salen bien en el glosario, como es el caso de \glspl{gradiente}.
-
-
-Ahora, con gran fanfarria, pompa y circunstancia, colocaremos una hermosa figura, a la cual llamaremos Figura \ref{logoUNAM}.
-
-\begin{figure}
-\centering
-\includegraphics[width=4cm]{UNAM}
-\caption{El escudo de la UNAM}
-\label{logoUNAM}
-\end{figure}
+% \textbf{Esto es tan solo una prueba}\\
+% Cuando prendemos el \gls{gradiente}, algo sucede en el \gls{espacio k}. Las secuencias de \gls{DTI} también explotan el \gls{espacio k}.
+% Y acá volvemos a usar el \index{espacio k} espacio k, y debe aparecer en el índice, pero como cosa secundaria.
+% De hecho, podemos usar plurales y las cosas salen bien en el glosario, como es el caso de \glspl{gradiente}.
+% Ahora colocaremos una figura, a la cual llamaremos Figura \ref{logoUNAM}.
+% 
+% \begin{figure}
+% \centering
+% \includegraphics[width=4cm]{UNAM}
+% %\caption{El escudo de la UNAM}
+% \label{logoUNAM}
+% \end{figure}
 
 
-\section{Lorem ipsum}
-\input{lorem}
-\input{lorem}
-\input{lorem}
-\input{lorem}
 
 
 \part{Aplicaciones de la imagenología por resonancia magnética en las neurociencias}
@@ -289,7 +350,6 @@ Por favor envíen sus propuestas de acuerdo a los temas que ustedes aborden y co
 \addcontentsline{toc}{chapter}{Ejemplo de adquisición de imágenes}
 \chapterprecis{\noindent Erik Pasaye\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{appendix_ejemplo}
-\input{lorem}
 
 \chapter*{Lecturas sugeridas}
 \addcontentsline{toc}{appendix}{Lecturas sugeridas}
@@ -297,7 +357,7 @@ Por favor envíen sus propuestas de acuerdo a los temas que ustedes aborden y co
 
 
 
-\addcontentsline{toc}{chapter}{Glosario}
+%\addcontentsline{toc}{chapter}{Glosario}
 \printglossary[type=main,title={Glosario},toctitle={Glosario}]
 \printglossary[type=\acronymtype,title={Abreviaturas y acrónimos},toctitle={Abreviaturas y acrónimos}]
 \printindex

@@ -29,6 +29,8 @@
 \usepackage{textcomp}
 % \usepackage{natbib}
 \usepackage{chapterbib}
+\usepackage{color,soul}
+\usepackage{xcolor}
 % \usepackage{siunitx}
 
 
@@ -70,11 +72,13 @@
 %\newcommand{name}[num]{definition}
 \newcommand{\Bzero}{$B_0$\xspace}
 \newcommand{\Bone}{$B_1$\xspace}
+\newcommand{\M}{$\boldsymbol{M}$\xspace}
 \newcommand{\Mzero}{$\boldsymbol{M_0}$\xspace}
 \newcommand{\Mx}{$\boldsymbol{M_x}$\xspace}
 \newcommand{\My}{$\boldsymbol{M_y}$\xspace}
 \newcommand{\Mz}{$\boldsymbol{M_z}$\xspace}
 \newcommand{\Mxy}{$\boldsymbol{M_{xy}}$\xspace}
+\newcommand{\omegazero}{$\omega_0$\xspace}
 \newcommand{\Tone}{$T_1$\xspace}
 \newcommand{\Ttwo}{$T_2$\xspace}
 \newcommand{\Ttwostar}{$T_2\text{*}$\xspace}
@@ -90,6 +94,9 @@
 \newcommand{\espaciok}{espacio $k$\xspace}
 \newcommand{\kx}{$k_{x}$}
 \newcommand{\ky}{$k_{y}$}
+\newcommand{\figurapendiente}{\textbf{\textcolor{red}{Figura pendiente}}}
+%\newcommand{\figurapendiente}{\hl{Figura pendiente}}
+
 
 \setcounter{secnumdepth}{4}
 
@@ -119,7 +126,7 @@
 
  
 % on tan las figuras
-\graphicspath{{/datos/mansfield/lconcha/INB/libroResonancia/figs/}}
+\graphicspath{{/home/lconcha/Documents/libroResonancia/figs/}}
 
 
 
@@ -175,7 +182,8 @@
 
 
 \chapter{Relajación y Contraste}
-\chapterprecis{\noindent G. Alethia Brunner M.\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
+\chapterprecis{\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus 
+Juriquilla}
 \label{chapter_relajacion}
 \input{cap_relajacionContraste}
 
@@ -257,10 +265,9 @@
 \label{chapter_T2}
 
 
-
-\chapter{Transferencia de magnetizaci[on}
-\chapterprecis{\noindent SIN AUTOR}
-\label{chapter_mt}
+%\chapter{Transferencia de magnetizaci[on}
+%\chapterprecis{\noindent SIN AUTOR}
+%\label{chapter_mt}
 
 
 
@@ -276,15 +283,9 @@
 \chapterprecis{\noindent Beatriz Moreno\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \label{chapter_roi}
 
-
 \chapter{Morfometría por voxel}
 \chapterprecis{\noindent SIN AUTOR}
 \label{chapter_vbm}
-
-
-\chapter{Modelo lineal general}
-\chapterprecis{\noindent SIN AUTOR}
-\label{chapter_mlg}
 
 \chapter{Conectividad cerebral}
 \chapterprecis{\noindent Clemens Bauer\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
@@ -317,10 +318,10 @@
 
 
 
-\part{Aplicaciones de la imagenología por resonancia magnética en las neurociencias}
-\label{part_aplicaciones}
-\chapterprecis{\noindent Los capítulos que conformarán esta parte constituyen aplicaciones básicas, clínicas e interdisciplinarias. 
-Por favor envíen sus propuestas de acuerdo a los temas que ustedes aborden y consideren sean de interés para la obra.}
+%\part{Aplicaciones de la imagenología por resonancia magnética en las neurociencias}
+%\label{part_aplicaciones}
+%\chapterprecis{\noindent Los capítulos que conformarán esta parte constituyen aplicaciones básicas, clínicas e interdisciplinarias. 
+%Por favor envíen sus propuestas de acuerdo a los temas que ustedes aborden y consideren sean de interés para la obra.}
     
 
 
@@ -354,8 +355,8 @@ Por favor envíen sus propuestas de acuerdo a los temas que ustedes aborden y co
 
 
 %\addcontentsline{toc}{chapter}{Glosario}
-\printglossary[type=main,title={Glosario},toctitle={Glosario}]
-\printglossary[type=\acronymtype,title={Abreviaturas y acrónimos},toctitle={Abreviaturas y acrónimos}]
+%\printglossary[type=main,title={Glosario},toctitle={Glosario}]
+%\printglossary[type=\acronymtype,title={Abreviaturas y acrónimos},toctitle={Abreviaturas y acrónimos}]
 \printindex
 
 

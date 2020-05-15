@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: libroResonancia.aux
 The style file: concha2.bst
 Database file #1: libroResonancia.bib
@@ -101,50 +101,53 @@ Warning--I didn't find a database entry for "130"
 Warning--I didn't find a database entry for "Fischl1999_cortical"
 Warning--can't use both author and editor fields in Maestu_2008
 Warning--missing publisher in Maestu_2008
+`journal' is a missing field, not a string, for entry tadanki2018
+while executing---line 2461 of file concha2.bst
+Warning--empty journal in tadanki2018
 Warning--empty chapter and pages in Budinger_1983
 Warning--missing publisher in Budinger_1983
 Warning--can't use both author and editor fields in Runge2009
 Warning--can't use both author and editor fields in PM2001
 Warning--can't use both author and editor fields in A2001
-You've used 78 entries,
+You've used 80 entries,
             2268 wiz_defined-function locations,
-            1226 strings with 21421 characters,
-and the built_in function-call counts, 64006 in all, are:
-= -- 5541
-> -- 867
+            1235 strings with 21715 characters,
+and the built_in function-call counts, 64603 in all, are:
+= -- 5584
+> -- 875
 < -- 4
-+ -- 341
-- -- 263
-* -- 5770
-:= -- 7407
-add.period$ -- 310
-call.type$ -- 78
++ -- 345
+- -- 265
+* -- 5804
+:= -- 7481
+add.period$ -- 316
+call.type$ -- 80
 change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 6652
-empty$ -- 6998
-format.name$ -- 316
-if$ -- 13933
+cite$ -- 88
+duplicate$ -- 6719
+empty$ -- 7071
+format.name$ -- 318
+if$ -- 14065
 int.to.chr$ -- 0
-int.to.str$ -- 78
-missing$ -- 796
-newline$ -- 468
-num.names$ -- 78
-pop$ -- 981
+int.to.str$ -- 80
+missing$ -- 808
+newline$ -- 478
+num.names$ -- 80
+pop$ -- 1004
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 424
+skip$ -- 433
 stack$ -- 0
-substring$ -- 8917
-swap$ -- 2165
+substring$ -- 8957
+swap$ -- 2187
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 488
-width$ -- 80
-write$ -- 937
-(There were 103 warnings)
+warning$ -- 8
+while$ -- 493
+width$ -- 82
+write$ -- 956
+(There was 1 error message)

@@ -1,8 +1,34 @@
-\indexentry{precesi\IeC {\'o}n|hyperpage}{4}
-\indexentry{constante giromagn\IeC {\'e}tica|hyperpage}{4}
-\indexentry{pixel|hyperpage}{26}
-\indexentry{voxel|hyperpage}{26}
-\indexentry{gradientes|textbf}{26}
-\indexentry{secuencia de pulsos|hyperpage}{34}
-\indexentry{FOV|hyperpage}{34}
-\indexentry{\espaciok|textbf}{35}
+\indexentry{precesión|hyperpage}{4}
+\indexentry{constante giromagnética|hyperpage}{4}
+\indexentry{spin|hyperpage}{15}
+\indexentry{B0|hyperpage}{16}
+\indexentry{RF, radiofrecuencia|textbf}{18}
+\indexentry{FID|hyperpage}{20}
+\indexentry{FID|hyperpage}{21}
+\indexentry{T1|textbf}{22}
+\indexentry{T2|textbf}{23}
+\indexentry{T2*|textbf}{25}
+\indexentry{eco|textbf}{26}
+\indexentry{eco de gradiente|textbf}{26}
+\indexentry{eco de spin|textbf}{27}
+\indexentry{TE (Tiempo de eco)|hyperpage}{28}
+\indexentry{TR (Tiempo de repetición)|textbf}{28}
+\indexentry{pixel|hyperpage}{34}
+\indexentry{voxel|hyperpage}{34}
+\indexentry{gradientes|textbf}{34}
+\indexentry{Ancho de banda|textbf}{38}
+\indexentry{Bandwidth|textbf}{38}
+\indexentry{secuencia de pulsos|hyperpage}{42}
+\indexentry{FOV|hyperpage}{42}
+\indexentry{Espacio k|textbf}{43}
+\indexentry{protocolo|hyperpage}{47}
+\indexentry{FID (\textit{free-induction decay})|textbf}{48}
+\indexentry{Eco de spin|textbf}{50}
+\indexentry{TE (Tiempo de eco)|textbf}{50}
+\indexentry{Eco de gradiente|textbf}{50}
+\indexentry{IR (inversión-recuperación)|textbf}{52}
+\indexentry{FLAIR|textbf}{52}
+\indexentry{STIR|textbf}{52}
+\indexentry{Turbo-spin echo|textbf}{54}
+\indexentry{Multi-spin echo|textbf}{55}
+\indexentry{EPI|textbf}{56}

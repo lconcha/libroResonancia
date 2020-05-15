@@ -3,12 +3,12 @@
 
 
 \section{Introducción}
-Una secuencia de pulsos se refiere al orden cronológico y las características de cada uno de las manipulaciones que se hacen a un sistema de spins con el fin de producir una señal interpretable. En el caso de la realización de una imagen, se refiere a la temporalidad, orden, y parámetros de la manipulación de los gradientes del campo magnético, así como la presencia de radio-frecuencias específicas con fines de generación de contraste y codificación espacial. Habitualmente se denomina \textit{protocolo} a una serie de adquisiciones de imagen mediante distintas secuencias de pulso a lo largo de una sesión de imagen.
+Una secuencia de pulsos se refiere al orden cronológico y las características de cada uno de las manipulaciones que se hacen a un sistema de spins con el fin de producir una señal interpretable. En el caso de la realización de una imagen, se refiere a la temporalidad, orden, y parámetros de la manipulación de los gradientes del campo magnético, así como la presencia de radio-frecuencias específicas con fines de generación de contraste y codificación espacial. Habitualmente se denomina \textit{protocolo} \index{protocolo} a una serie de adquisiciones de imagen mediante distintas secuencias de pulso a lo largo de una sesión de imagen.
 
 Si bien la mayoría de los parámetros de las diferentes manipulaciones tienen interacciones entre sí, pueden considerarse manipulaciones específicas para generación de contraste, y otras para codificación espacial; existen un gran número de combinaciones especiales de parámetros para cada uno de esos fines, y en muchas ocasiones es posible hacer combinaciones de tipos de contraste específicos con métodos particulares de codificación especial. En otras palabras, a veces es útil dividir las secuencias de pulsos en segmentos con fines específicos, y estos segmentos pueden utilizarse como \textit{plugins}. Por ejemplo, uno puede realizar una imagen con contraste T2 mediante codificación espacial ecoplanar o turbo-spin eco (TSE), o hacer una imagen TSE con contraste T1.
 
 \section{La secuencia de pulsos más básica: FID.}
-
+\index{FID (\textit{free-induction decay})|textbf}
 El decaimiento por inducción libre, conocido como FID (\textit{Free Induction Decay}) es la secuencia de pulsos más simple. La FID refiere a la señal que se recibe después de realizar un pulso de radiofrecuencia (RF). Detallamos: El vector resultante de los spins de la muestra que se encuentra en el resonador se alinea respecto de \Bzero (fig. \ref{fig:seq_vectorResultante}), o el eje $z$, por lo que lo denominamos \Mz. En este momento nosotros no tenemos señal alguna de nuestra muestra, pues sólo podemos obtener señal de los vectores que se encuentren sobre el eje $x$. Esto se debe a que nuestra antena (fig. \ref{fig:seq_antena}) sólo va a recibir la señal ubicada en dicho eje. 
 
 
@@ -68,6 +68,8 @@ En el proceso que va desde la perturbación de $M$ hasta su regreso al estado de
 \section{Secuencias de pulsos generadoras de contraste}
 
 \subsection{Eco de spin}
+\index{Eco de spin|textbf}
+\index{TE (Tiempo de eco)|textbf}
 El eco de spin (SE), como la FID, comienza con un pulso de  RF de 90\degrees. Sin embargo, la diferencia estriba en que agregamos otro pulso de 180\degrees. Lo que lograremos con esto es recuperar la señal que se iba perdiendo con la FID, gracias a un refasamiento de los spins. 
 
 Una vez que hemos realizado un pulso de RF de 90\degrees (fig. \ref{fig:seq_spinecho}-b), el componente transversal de nuestro vector resultante se va reduciendo, debido al desfase de los spins (fig. \ref{fig:seq_spinecho}-c), y por tanto obtenemos menos señal. Una forma de recuperar esta señal es a través de la inducción de un pulso de 180\degrees (fig. \ref{fig:seq_spinecho}-d). 
@@ -93,6 +95,7 @@ Cuando realizamos el segundo pulso invertimos el escenario. Los spins se encuent
 \end{figure}
 
 \subsection{Eco de gradiente }
+\index{Eco de gradiente|textbf}
 Al igual que el eco de spin, el eco de gradiente (GRE) comienza con un pulso excitador con un ángulo $\alpha$. El ángulo del pulso puede ser de 90\degrees, pero esto dependerá de la información que queramos obtener. Un ángulo de 90\degrees nos permitiría obtener una imagen potenciada a T1, mientras que un ángulo de 10\degrees, podría generar una imagen con información sobre la densidad de protones. 
 
 Después del pulso de RF, se activan dos dos gradientes que nos permitirán generar el eco y la recuperación de la señal correspondiente. El primer gradiente acelera el desfasamientos de los spins. El segundo gradiente tiene la misma amplitud que el primero, pero con signo opuesto. La actividad de este gradiente permite el refase de los spins desfasados inicialmente y la obtención del eco (fig. \ref{fig:seq_GRE}).
@@ -110,6 +113,7 @@ Las secuencias con GRE son más rápidas que las generadas por un SE convenciona
 
 
 \subsection{Inversión-recuperación}
+\index{IR (inversión-recuperación)|textbf}
 El pulso de inversión-recuperación (IR) puede ser considerado un SE convencional, al que se le ha agregado antes un pulso de RF de 180\degrees (fig. \ref{fig:seq_IR}). El tiempo entre el pulso de 180\degrees y el de 90\degrees es conocido como tiempo de inversión (TI), el único cambio que agregaríamos a los parámetros de tiempo presentes en el SE (TE y TR). 
 
 
@@ -145,7 +149,7 @@ La utilidad del pulso IR se ve reflejada en la posibilidad de generar un mayor c
 
 
 
-Esta característica del pulso de inversión-recuperación ha ayudado al desarrollo de otras técnicas como FLAIR (\textit{Fluid Attenuated Inversión Recovery}), que permite la supresión de fluidos (fig. \ref{fig:seq_FLAIR}); y STIR (\textit{Short time inversión Recovery}), la cual permite la atenuación de la grasa (fig. \ref{fig:seq_STIR}). En las siguientes figuras podemos encontrar ejemplos de estas herramientas:
+Esta característica del pulso de inversión-recuperación ha ayudado al desarrollo de otras técnicas como FLAIR (\textit{Fluid Attenuated Inversión Recovery})\index{FLAIR|textbf}, que permite la supresión de fluidos (fig. \ref{fig:seq_FLAIR}); y STIR (\textit{Short time inversión Recovery}), la cual permite la atenuación de la grasa (fig. \ref{fig:seq_STIR})\index{STIR|textbf}. En las siguientes figuras podemos encontrar ejemplos de estas herramientas:
 
 
 
@@ -190,6 +194,7 @@ Esta ha sido la forma clásica de llenar el \espaciok. Sin embargo, esto demora 
 En la actualidad existen técnicas que nos permiten llenar el \espaciok con gran rapidez. Si bien existen una gran variedad de ellas, en esta sección nos enfocaremos a la descripción del turbo-spin eco, el multi-eco y las imágenes ecoplanares. 
 
 \subsubsection{Turbo-spin eco}
+\index{Turbo-spin echo|textbf}
 El turbo-spin eco (TSE), a diferencia del eco de spin, aprovecha el ``tiempo muerto'', después de la adquisición del eco, para llenar más líneas del \espaciok en menos tiempo, lo cual representa una clara ventaja en comparación con el llenado serial que podemos obtener con una secuencia convencional.
 La forma en que se puede lograr esto es a través de un tren de ecos. Después de la secuencia 90-180-eco, es posible el refasamiento de la señal con la introducción de otro pulso de 180\degrees, y así sucesivamente siempre que tengamos señal que recuperar. Para que esto tenga la utilidad deseada resulta necesario hacer un cambio en los gradientes codificadores de fase para que sea posible llenar una línea de \espaciok diferente (fig. \ref{fig:seq_TSE}).
 
@@ -206,6 +211,7 @@ La forma en que se puede lograr esto es a través de un tren de ecos. Después d
 
 
 \subsubsection{Multi-spin eco}
+\index{Multi-spin echo|textbf}
 En el multi-spin eco (MSE) llenamos la misma línea de \espaciok, pero para diferentes imágenes, a diferencia del TSE que llenábamos varias líneas de \espaciok, pero para una misma rebanada.  La ventaja del uso de la secuencia MSE es que podemos ir llenando el \espaciok de imágenes con un distinto contraste, dictado para la diferencia entre los tiempos de eco (fig. \ref{fig:seq_MSE}).
 
 
@@ -221,6 +227,7 @@ En el multi-spin eco (MSE) llenamos la misma línea de \espaciok, pero para dife
 
 
 \subsubsection{Imágenes ecoplanares: EPI y multi-shot EPI}
+\index{EPI|textbf}
 La técnica de imágenes ecoplanares (EPI) es muy poderosa, pues nos permite llenar el espacio-K en un solo TR. Por tanto, podemos tener la información necesaria de nuestra rebanada en un tiempo de adquisición que ronda en los 40 ms.  En la secuencia clásica se parte de un pulso excitador, generalmente de 90. Posteriormente, se generan los ecos necesarios para llenar el \espaciok (fig. \ref{fig:seq_EPI}). El llenado del \espaciok, por otra parte, se ve optimizado al hacerse en zig-zag (16b), debido a que se acorta el tiempo de reposicionamiento de nuestros gradientes. 
 
 Las imágenes obtenidas por EPI nos permiten una adquisición muy veloz. Sin embargo, este factor esta limitado por la atenuación de la señal, con la consiguiente perdida de calidad en nuestras imágenes. Una solución a esto, puede ser llenar el espacio en más de un TR, lo que se conoce como Multi-shot EPI. 
