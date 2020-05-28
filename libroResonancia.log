@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  14 MAY 2020 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  28 MAY 2020 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,7 +1649,11 @@ LaTeX Info: Redefining \% on input line 48.
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
  [20]
-(./cap_relajacionContraste.tex [21
+(./cap_relajacionContraste.tex
+LaTeX Info: Redefining \bond on input line 13.
+LaTeX Info: Redefining \dbond on input line 13.
+LaTeX Info: Redefining \tbond on input line 13.
+ [21
 
 ]
 File: /home/lconcha/Documents/libroResonancia/figs/contraste_T1.eps Graphic fil
@@ -1704,20 +1708,22 @@ LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 
 [30]
-File: diferentes_contrastes.eps Graphic file (type eps)
- <diferentes_contrastes.eps>)
+File: /home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps Gr
+aphic file (type eps)
+ </home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps>)
 LaTeX Info: Redefining \. on input line 192.
 LaTeX Info: Redefining \% on input line 192.
- [31]
+
+[31]
 LaTeX Info: Redefining \. on input line 192.
 LaTeX Info: Redefining \% on input line 192.
- [32] (./cap_codificacionEspacial.tex
-[33
+ [32] (./cap_codificacionEspacial.tex [33
 
 ]
 File: /home/lconcha/Documents/libroResonancia/figs/gradientes.eps Graphic file 
 (type eps)
- </home/lconcha/Documents/libroResonancia/figs/gradientes.eps>
+
+</home/lconcha/Documents/libroResonancia/figs/gradientes.eps>
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 9.
 
@@ -2334,239 +2340,103 @@ Overfull \hbox (21.56468pt too wide) in paragraph at lines 2--3
 -so-nal.inb.unam.mx/lconcha 
  []
 
-
-Package natbib Warning: Citation `Brown_1828' on page 109 undefined on input li
-ne 6.
-
 [109]
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+Package natbib Warning: Citation `Einstein1905' on page 110 undefined on input 
+line 8.
+
+
+Package natbib Warning: Citation `Einstein1905' on page 110 undefined on input 
+line 9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 File: /home/lconcha/Documents/libroResonancia/figs/gaussianDiffusion.eps Graphi
 c file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/gaussianDiffusion.eps>
-
-Package natbib Warning: Citation `Mills?1973' on page 110 undefined on input li
-ne 29.
-
 File: /home/lconcha/Documents/libroResonancia/figs/isotropicExamples.eps Graphi
 c file (type eps)
+
 </home/lconcha/Documents/libroResonancia/figs/isotropicExamples.eps>
+Underfull \vbox (badness 1418) has occurred while \output is active []
 
-Package natbib Warning: Citation `Hahn_1950' on page 110 undefined on input lin
-e 42.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [110]
+Underfull \vbox (badness 1902) has occurred while \output is active []
 
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+ [111]
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
 
-Package natbib Warning: Citation `Carr_1954' on page 110 undefined on input lin
-e 42.
-
-
-Package natbib Warning: Citation `Torrey_1956' on page 110 undefined on input l
-ine 42.
-
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-[110]
-
-Package natbib Warning: Citation `Stejskal_1965' on page 111 undefined on input
- line 44.
-
-
-Package natbib Warning: Citation `Tanner_1970' on page 111 undefined on input l
-ine 44.
-
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
-[111]
-
-Package natbib Warning: Citation `Stejskal_1965' on page 112 undefined on input
- line 46.
+[112]
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 51--53
+\T1/pplj/m/n/10 donde $\OML/zplm/m/it/10 ^^M$ \T1/pplj/m/n/10 es la re-la-ción 
+gi-ro-mag-né-ti-ca de pro-to-nes de hi-dró-geno (42,58 MHz/T).
+ []
 
 File: /home/lconcha/Documents/libroResonancia/figs/stejskal_sequence.eps Graphi
 c file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/stejskal_sequence.eps>
-
-Package natbib Warning: Citation `Price_1991' on page 112 undefined on input li
-ne 60.
-
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
-[112]
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
- [113]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 File: /home/lconcha/Documents/libroResonancia/figs/expDecay_signal_b_2panels.ep
 s Graphic file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/expDecay_signal_b_2panels.eps>
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
 
-Package natbib Warning: Citation `Wesbey_1984' on page 114 undefined on input l
-ine 82.
-
-
-Package natbib Warning: Citation `Sotak_2002' on page 114 undefined on input li
-ne 82.
-
-
-Package natbib Warning: Citation `Tanner_1968' on page 114 undefined on input l
-ine 82.
-
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
-[114]
-
-Package natbib Warning: Citation `Pakkenberg_1997' on page 115 undefined on inp
-ut line 89.
-
-
-Package natbib Warning: Citation `Rengachary_2004' on page 115 undefined on inp
-ut line 89.
-
-
-Package natbib Warning: Citation `Tang_1997' on page 115 undefined on input lin
-e 90.
-
-
-Package natbib Warning: Citation `Kandel_2000' on page 115 undefined on input l
-ine 91.
-
+[113]
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
+ [114]
 
 Package natbib Warning: Citation `Rengachary_2004' on page 115 undefined on inp
 ut line 91.
 
-
-Package natbib Warning: Citation `Kandel_2000' on page 115 undefined on input l
-ine 92.
-
-
-Package natbib Warning: Citation `Rengachary_2004' on page 115 undefined on inp
-ut line 92.
-
-
-Package natbib Warning: Citation `Le_Bihan_2002' on page 115 undefined on input
- line 97.
-
-
-Package natbib Warning: Citation `Beaulieu_1994' on page 115 undefined on input
- line 97.
-
-
-Package natbib Warning: Citation `Gulani_2001' on page 115 undefined on input l
-ine 97.
-
-
-Package natbib Warning: Citation `Gulani_2001' on page 115 undefined on input l
-ine 97.
-
-
-Package natbib Warning: Citation `Tyszka_2006' on page 115 undefined on input l
-ine 97.
-
-
-Package natbib Warning: Citation `Beaulieu_1994' on page 115 undefined on input
- line 97.
-
-
-Package natbib Warning: Citation `Gulani_2001' on page 115 undefined on input l
-ine 97.
-
-
-Package natbib Warning: Citation `Beaulieu_1994' on page 115 undefined on input
- line 97.
-
-
-Package natbib Warning: Citation `Pierpaoli_1996' on page 115 undefined on inpu
-t line 97.
-
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 [115]
+
+Package natbib Warning: Citation `Rengachary_2004' on page 116 undefined on inp
+ut line 93.
+
+
+Package natbib Warning: Citation `Rengachary_2004' on page 116 undefined on inp
+ut line 94.
+
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+[116]
 File: /home/lconcha/Documents/libroResonancia/figs/axons2.eps Graphic file (typ
 e eps)
  </home/lconcha/Documents/libroResonancia/figs/axons2.eps>
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+ [117]
 
-Package natbib Warning: Citation `Basser_1994_2' on page 116 undefined on input
- line 111.
+Package natbib Warning: Citation `Pierpaoli_1996' on page 118 undefined on inpu
+t line 143.
 
-
-Package natbib Warning: Citation `Basser_1994' on page 116 undefined on input l
-ine 111.
-
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
-[116]
-
-Package natbib Warning: Citation `Pierpaoli_1996' on page 117 undefined on inpu
-t line 141.
-
-
-Package natbib Warning: Citation `Jones_2004' on page 117 undefined on input li
-ne 141.
-
-
-Package natbib Warning: Citation `Jones_2004' on page 117 undefined on input li
-ne 141.
-
-
-Package natbib Warning: Citation `Hasan_2001' on page 117 undefined on input li
-ne 141.
-
-LaTeX Info: Redefining \. on input line 142.
-LaTeX Info: Redefining \% on input line 142.
-[117]
-
-Package natbib Warning: Citation `Song_2003' on page 118 undefined on input lin
-e 168.
-
-
-Package natbib Warning: Citation `Concha_2006' on page 118 undefined on input l
-ine 168.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
- [118]
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
+[118]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps Graphic fi
 le (type eps)
-
-</home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps>
-
-Package natbib Warning: Citation `Mansfield_1977' on page 119 undefined on inpu
-t line 186.
-
-
-Package natbib Warning: Citation `Ordidge_1988' on page 119 undefined on input 
-line 186.
-
-
-Package natbib Warning: Citation `Avram_1988' on page 119 undefined on input li
-ne 186.
-
-
-Package natbib Warning: Citation `Sotak_2002' on page 119 undefined on input li
-ne 186.
-
-
-Package natbib Warning: Citation `Moseley_1990' on page 119 undefined on input 
-line 186.
-
-
-Package natbib Warning: Citation `Warach_1995' on page 119 undefined on input l
-ine 186.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+ </home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
 [119]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps Graphic file
  (type eps)
@@ -2575,34 +2445,28 @@ File: /home/lconcha/Documents/libroResonancia/figs/DTI_DWItoTensor.eps Graphic
 file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/DTI_DWItoTensor.eps>
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [120]
 
-Package natbib Warning: Citation `Pierpaoli_1996' on page 120 undefined on inpu
-t line 208.
-
-
-Package natbib Warning: Citation `Pierpaoli_1996' on page 120 undefined on inpu
-t line 209.
-
-LaTeX Info: Redefining \. on input line 210.
-LaTeX Info: Redefining \% on input line 210.
-[120]
-LaTeX Info: Redefining \. on input line 210.
-LaTeX Info: Redefining \% on input line 210.
- [121]
-
-Package natbib Warning: Citation `Pierpaoli_1996' on page 122 undefined on inpu
-t line 215.
+Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
+t line 210.
 
 
-Package natbib Warning: Citation `Sands_1995' on page 122 undefined on input li
-ne 216.
+Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
+t line 211.
 
 
-Package natbib Warning: Citation `Basser_1996' on page 122 undefined on input l
-ine 222.
+Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
+t line 217.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+[121]
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+ [122]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
@@ -2610,474 +2474,177 @@ File: /home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoids_FA.eps Graphi
 c file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoids_FA.eps>
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
-
-Missing character: There is no Ö in font pplr7t!
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
 Missing character: There is no Ö in font pplr7t!
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
-
-Missing character: There is no Ö in font pplr7t!
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 233.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
 Missing character: There is no Ö in font pplr7t!
 
-Package natbib Warning: Citation `Conturo_1996' on page 122 undefined on input 
-line 240.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
 
-Package natbib Warning: Citation `Ulug_1994' on page 122 undefined on input lin
-e 240.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
+
+Missing character: There is no Ö in font pplr7t!
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
 
-Package natbib Warning: Citation `Douek_1991' on page 122 undefined on input li
-ne 240.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
 
-
-Package natbib Warning: Citation `Jones_1997' on page 122 undefined on input li
-ne 240.
-
-
-Package natbib Warning: Citation `Coremans_1994' on page 122 undefined on input
- line 240.
-
-
-Package natbib Warning: Citation `Nakada_1995' on page 122 undefined on input l
-ine 240.
-
-
-Package natbib Warning: Citation `Pierpaoli_1997' on page 122 undefined on inpu
-t line 240.
-
-
-Package natbib Warning: Citation `Jones_1997' on page 122 undefined on input li
-ne 240.
-
-
-Package natbib Warning: Citation `Pajevic_2000' on page 122 undefined on input 
-line 240.
-
-
-Package natbib Warning: Citation `Bastin_1998' on page 122 undefined on input l
-ine 240.
-
-LaTeX Info: Redefining \. on input line 241.
-LaTeX Info: Redefining \% on input line 241.
-[122]
-
-Package natbib Warning: Citation `Westin_1997' on page 123 undefined on input l
-ine 242.
-
+Missing character: There is no Ö in font pplr7t!
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+[123]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_anisotropy.eps
  Graphic file (type eps)
+
 </home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_anisotropy.eps>
-Underfull \vbox (badness 2351) has occurred while \output is active []
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
 
-LaTeX Info: Redefining \. on input line 250.
-LaTeX Info: Redefining \% on input line 250.
- [123]
-
-Package natbib Warning: Citation `Alexander_2000' on page 124 undefined on inpu
-t line 264.
-
+[124]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps Graphic fi
 le (type eps)
-</home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps>
+ </home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps>
 
-Package natbib Warning: Citation `Makris_1997' on page 124 undefined on input l
-ine 283.
+Package natbib Warning: Citation `Basser_1998' on page 125 undefined on input l
+ine 285.
 
-
-Package natbib Warning: Citation `Mori_1999' on page 124 undefined on input lin
-e 283.
-
-
-Package natbib Warning: Citation `Lazar_2003' on page 124 undefined on input li
-ne 283.
-
-
-Package natbib Warning: Citation `Basser_1998' on page 124 undefined on input l
-ine 283.
-
-
-Package natbib Warning: Citation `Jones_1998' on page 124 undefined on input li
-ne 283.
-
-LaTeX Info: Redefining \. on input line 284.
-LaTeX Info: Redefining \% on input line 284.
-[124]
+LaTeX Info: Redefining \. on input line 286.
+LaTeX Info: Redefining \% on input line 286.
+[125]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_spher.eps Grap
 hic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_spher.eps>
-
-Package natbib Warning: Citation `Mori_1999' on page 125 undefined on input lin
-e 293.
-
-
-Package natbib Warning: Citation `Mori_2002' on page 125 undefined on input lin
-e 293.
-
-
-Package natbib Warning: Citation `Dauguet_2007' on page 125 undefined on input 
-line 293.
-
-
-Overfull \hbox (7.34583pt too wide) in paragraph at lines 293--294
+Overfull \hbox (13.15985pt too wide) in paragraph at lines 295--296
 []\T1/pplj/m/n/10 En el al-go-rit-mo de asig-na-ción de fi-bra por se-gui-mien-
 to con-ti-nuo (``FACT'')$[]$
  []
 
-
-Underfull \vbox (badness 2229) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 294.
-LaTeX Info: Redefining \% on input line 294.
- [125]
-
-Package natbib Warning: Citation `Lazar_2003' on page 126 undefined on input li
-ne 295.
-
-
-Package natbib Warning: Citation `Jiang_2006' on page 126 undefined on input li
-ne 295.
-
+LaTeX Info: Redefining \. on input line 296.
+LaTeX Info: Redefining \% on input line 296.
+[126]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps Graphic file (t
 ype eps)
-</home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps>
-
-Package natbib Warning: Citation `Conturo_1999' on page 126 undefined on input 
-line 305.
-
-
-Package natbib Warning: Citation `Catani_2002' on page 126 undefined on input l
-ine 305.
-
-
-Package natbib Warning: Citation `Wakana_2007' on page 126 undefined on input l
-ine 305.
-
-LaTeX Info: Redefining \. on input line 306.
-LaTeX Info: Redefining \% on input line 306.
-[126]
+ </home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps>
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_dissection.eps Graphic f
 ile (type eps)
- </home/lconcha/Documents/libroResonancia/figs/DTI_dissection.eps>
 
-Package natbib Warning: Citation `Jones_2003' on page 127 undefined on input li
-ne 315.
+</home/lconcha/Documents/libroResonancia/figs/DTI_dissection.eps>
+Underfull \vbox (badness 4660) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 316.
-LaTeX Info: Redefining \% on input line 316.
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
  [127]
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
+
+[128]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_CSTdissection.eps Graphi
 c file (type eps)
+ </home/lconcha/Documents/libroResonancia/figs/DTI_CSTdissection.eps>
+LaTeX Info: Redefining \. on input line 328.
+LaTeX Info: Redefining \% on input line 328.
 
-</home/lconcha/Documents/libroResonancia/figs/DTI_CSTdissection.eps>
+[129]
+LaTeX Info: Redefining \. on input line 338.
+LaTeX Info: Redefining \% on input line 338.
+ [130]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `Behrens_2003' on page 128 undefined on input 
-line 325.
-
-
-Package natbib Warning: Citation `Behrens_2003' on page 128 undefined on input 
-line 325.
-
-
-Underfull \vbox (badness 5548) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 326.
-LaTeX Info: Redefining \% on input line 326.
- [128]
-LaTeX Info: Redefining \. on input line 332.
-LaTeX Info: Redefining \% on input line 332.
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
 
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 332.
+(in both cases you will find help in the memoir manual). on input line 341.
 
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [129]
-
-Package natbib Warning: Citation `Wright_1995' on page 130 undefined on input l
-ine 335.
-
-
-Package natbib Warning: Citation `Ashburner_2001' on page 130 undefined on inpu
-t line 335.
-
-
-Package natbib Warning: Citation `Ashburner_2001' on page 130 undefined on inpu
-t line 335.
-
-
-Package natbib Warning: Citation `Jones_2005' on page 130 undefined on input li
-ne 335.
-
-
-Package natbib Warning: Citation `Jones_2007' on page 130 undefined on input li
-ne 335.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 337.
-LaTeX Info: Redefining \% on input line 337.
- [130]
-
-Package natbib Warning: Citation `Smith_2006' on page 131 undefined on input li
-ne 337.
-
-
-Package natbib Warning: Citation `Behrens_2003' on page 131 undefined on input 
-line 344.
-
-LaTeX Info: Redefining \. on input line 345.
-LaTeX Info: Redefining \% on input line 345.
-[131]
+ [131]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps Graph
 ic file (type eps)
- </home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps>
 
-Package natbib Warning: Citation `Alexander_2002' on page 132 undefined on inpu
-t line 354.
-
-
-Package natbib Warning: Citation `Tuch_2004' on page 132 undefined on input lin
-e 354.
-
-
-Package natbib Warning: Citation `Stejskal_1965' on page 132 undefined on input
- line 354.
-
-
-Package natbib Warning: Citation `Tuch_2004' on page 132 undefined on input lin
-e 354.
-
-
-Package natbib Warning: Citation `Tuch_2003' on page 132 undefined on input lin
-e 354.
-
-
-Package natbib Warning: Citation `Tuch_2004' on page 132 undefined on input lin
-e 354.
-
-
-Underfull \vbox (badness 4556) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 355.
-LaTeX Info: Redefining \% on input line 355.
+</home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps>
+LaTeX Info: Redefining \. on input line 357.
+LaTeX Info: Redefining \% on input line 357.
  [132]
-
-Package natbib Warning: Citation `Concha_2005' on page 133 undefined on input l
-ine 363.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 365.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 365.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 365.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 365.
-
-Missing character: There is no Ö in font pplr7t!
-Missing character: There is no Ö in font pplr7t!
 LaTeX Info: Redefining \. on input line 366.
 LaTeX Info: Redefining \% on input line 366.
+
 [133]
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
+
+Missing character: There is no Ö in font pplr7t!
+Missing character: There is no Ö in font pplr7t!
 File: /home/lconcha/Documents/libroResonancia/figs/kspace.eps Graphic file (typ
 e eps)
- </home/lconcha/Documents/libroResonancia/figs/kspace.eps>
-
-Package natbib Warning: Citation `Hu_1996' on page 134 undefined on input line 
-375.
-
-
-Package natbib Warning: Citation `kuei_2004' on page 134 undefined on input lin
-e 375.
-
-
-Package natbib Warning: Citation `kuei_2004' on page 134 undefined on input lin
-e 375.
-
-
-Package natbib Warning: Citation `Zhang_2004' on page 134 undefined on input li
-ne 375.
-
-
-Package natbib Warning: Citation `Weiskopf_2005' on page 134 undefined on input
- line 375.
-
-
-Package natbib Warning: Citation `Jezzard_1995' on page 134 undefined on input 
-line 375.
-
+</home/lconcha/Documents/libroResonancia/figs/kspace.eps>
 
 Package natbib Warning: Citation `Reber_1998' on page 134 undefined on input li
-ne 375.
-
-
-Package natbib Warning: Citation `99' on page 134 undefined on input line 375.
-
-
-Package natbib Warning: Citation `100' on page 134 undefined on input line 375.
-
-
-
-Package natbib Warning: Citation `Pruessmann_1999' on page 134 undefined on inp
-ut line 375.
-
-LaTeX Info: Redefining \. on input line 376.
-LaTeX Info: Redefining \% on input line 376.
-[134]
-
-Package natbib Warning: Citation `107' on page 135 undefined on input line 377.
-
-
-
-Package natbib Warning: Citation `108' on page 135 undefined on input line 377.
-
-
-
-Package natbib Warning: Citation `109' on page 135 undefined on input line 377.
-
-
-
-Package natbib Warning: Citation `108' on page 135 undefined on input line 377.
-
-
-
-Package natbib Warning: Citation `Concha_2005' on page 135 undefined on input l
-ine 377.
-
-
-Package natbib Warning: Citation `110' on page 135 undefined on input line 379.
-
+ne 377.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \. on input line 378.
+LaTeX Info: Redefining \% on input line 378.
+ [134]
+Underfull \vbox (badness 2573) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 378.
+LaTeX Info: Redefining \% on input line 378.
  [135]
+Underfull \vbox (badness 4660) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 384.
+LaTeX Info: Redefining \% on input line 384.
+ [136]
 File: /home/lconcha/Documents/libroResonancia/figs/ReeseDTI.eps Graphic file (t
 ype eps)
 
 </home/lconcha/Documents/libroResonancia/figs/ReeseDTI.eps>
 
-Package natbib Warning: Citation `111-116' on page 136 undefined on input line 
-393.
+Package natbib Warning: Citation `Gudbjartsson_1996' on page 137 undefined on i
+nput line 395.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
- [136]
-
-Package natbib Warning: Citation `117' on page 137 undefined on input line 395.
-
-
-
-Package natbib Warning: Citation `118' on page 137 undefined on input line 395.
-
-
-
-Underfull \vbox (badness 3557) has occurred while \output is active []
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 396.
 LaTeX Info: Redefining \% on input line 396.
  [137]
+LaTeX Info: Redefining \. on input line 402.
+LaTeX Info: Redefining \% on input line 402.
 
-Package natbib Warning: Citation `119' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `120' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `Tuch_2002' on page 138 undefined on input lin
-e 399.
-
-
-Package natbib Warning: Citation `121' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `122' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `123' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `124' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `125' on page 138 undefined on input line 399.
-
-
-
-Package natbib Warning: Citation `Tuch_2004' on page 138 undefined on input lin
-e 399.
-
-
-Package natbib Warning: Citation `127' on page 138 undefined on input line 399.
-
-
-LaTeX Info: Redefining \. on input line 400.
-LaTeX Info: Redefining \% on input line 400.
 [138]
-
-Package natbib Warning: Citation `128' on page 139 undefined on input line 401.
-
-
-
-Package natbib Warning: Citation `129' on page 139 undefined on input line 401.
-
-
-
-Package natbib Warning: Citation `130' on page 139 undefined on input line 401.
-
-
-
-Package natbib Warning: Citation `129' on page 139 undefined on input line 401.
-
-
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
- [139]
+LaTeX Info: Redefining \. on input line 404.
+LaTeX Info: Redefining \% on input line 404.
+ [139])
 LaTeX Info: Redefining \. on input line 249.
 LaTeX Info: Redefining \% on input line 249.
 
@@ -3375,35 +2942,67 @@ LaTeX Info: Redefining \% on input line 1.
  [190] [191
 
 ]
-Underfull \hbox (badness 1127) in paragraph at lines 182--182
-\T1/pplj/m/n/9 term follow-up.  \T1/pplj/m/it/9 The An-nals of Oto-logy, Rhi-no
--logy, and Laryn-go-logy\T1/pplj/m/n/9 , 1992.
- []
-
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
-[192]
-LaTeX Info: Redefining \. on input line 288.
-LaTeX Info: Redefining \% on input line 288.
+ [192]
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
  [193]
-LaTeX Info: Redefining \. on input line 385.
-LaTeX Info: Redefining \% on input line 385.
+LaTeX Info: Redefining \. on input line 379.
+LaTeX Info: Redefining \% on input line 379.
  [194]
-LaTeX Info: Redefining \. on input line 482.
-LaTeX Info: Redefining \% on input line 482.
- [195])
+Underfull \hbox (badness 1248) in paragraph at lines 453--453
+[]\T1/pplj/m/sc/9 Torrey HC\T1/pplj/m/n/9 .  Bloch Equa-tions with Dif-fu-sion 
+Terms.  \T1/pplj/m/it/9 Phys Rev\T1/pplj/m/n/9 , 1956.
+ []
+
+LaTeX Info: Redefining \. on input line 487.
+LaTeX Info: Redefining \% on input line 487.
+[195]
+LaTeX Info: Redefining \. on input line 583.
+LaTeX Info: Redefining \% on input line 583.
+ [196]
+LaTeX Info: Redefining \. on input line 667.
+LaTeX Info: Redefining \% on input line 667.
+ [197]
+LaTeX Info: Redefining \. on input line 755.
+LaTeX Info: Redefining \% on input line 755.
+ [198]
+Underfull \hbox (badness 1348) in paragraph at lines 831--831
+[]\T1/pplj/m/sc/9 Behrens TE\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Johansen-Berg H\T1
+/pplj/m/n/9 , \T1/pplj/m/sc/9 Wool-rich MW\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Smit
+h SM\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Wheeler-
+ []
+
+LaTeX Info: Redefining \. on input line 853.
+LaTeX Info: Redefining \% on input line 853.
+[199]
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
+ [200]
+LaTeX Info: Redefining \. on input line 1039.
+LaTeX Info: Redefining \% on input line 1039.
+ [201]
+
+LaTeX Font Warning: Font shape `TS1/pplj/m/sc' undefined
+(Font)              using `TS1/pplj/m/n' instead
+(Font)              for symbol `textquotesingle' on input line 1073.
+
+LaTeX Info: Redefining \. on input line 1132.
+LaTeX Info: Redefining \% on input line 1132.
+[202])
 LaTeX Info: Redefining \. on input line 339.
 LaTeX Info: Redefining \% on input line 339.
- [196] [197
+ [203] [204
 
-] [198] [199
+] [205] [206] [207
 
-] [200
+] [208
 
-] (./libroResonancia.ind
-[201] [202
+] (./libroResonancia.ind [209]
+[210
 
-] [203
+] [211
 
 ])
 
@@ -3432,7 +3031,7 @@ LaTeX Info: Redefining \% on input line 31.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 367.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `libroResonancia.brf' has not changed.
-(rerunfilecheck)             Checksum: A9D59E244963270AED28E10CCD3D71F7;6774.
+(rerunfilecheck)             Checksum: 87272863997093E675FAA7FDF1DAF07C;12261.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3440,17 +3039,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 32501 strings out of 483008
- 603399 string characters out of 5961783
- 1005564 words of memory out of 5000000
- 46877 multiletter control sequences out of 15000+600000
- 607506 words of font info for 120 fonts, out of 8000000 for 9000
+ 33272 strings out of 483008
+ 617503 string characters out of 5961783
+ 1009533 words of memory out of 5000000
+ 47648 multiletter control sequences out of 15000+600000
+ 607819 words of font info for 121 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 73i,16n,84p,4273b,881s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,84p,4357b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on libroResonancia.dvi (211 pages, 638408 bytes).
+Output written on libroResonancia.dvi (219 pages, 685520 bytes).

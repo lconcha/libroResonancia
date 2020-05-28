@@ -120,6 +120,12 @@ encoding=UTF-8
 highlight=LaTeX
 mode=LaTeX
 
+[item:libroResonancia.bib]
+archive=true
+encoding=UTF-8
+highlight=BibTeX
+mode=BibTeX
+
 [item:libroResonancia.tex]
 archive=true
 encoding=UTF-8

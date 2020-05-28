@@ -103,13 +103,13 @@
 \contentsline {chapter}{\chapternumberline {13}Imágenes sensibles a difusión}{109}{chapter.13}%
 \precistoctext {\noindent Luis Concha, Penélope Martínez Campo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
 \contentsline {section}{\numberline {13.1}Difusión de moléculas de agua}{109}{section.13.1}%
-\contentsline {subsection}{Medición de la difusión con resonancia\\ magnética nuclear}{110}{section*.108}%
+\contentsline {subsection}{Medición de la difusión con resonancia}{111}{section*.108}%
 \contentsline {subsection}{Difusión de agua en el cerebro}{115}{section*.111}%
-\contentsline {section}{\numberline {13.2}El tensor de difusión}{116}{section.13.2}%
-\contentsline {section}{\numberline {13.3}Tractografía}{124}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Métodos para el análisis cuantitativo del\\ tensor de difusión}{129}{section.13.4}%
-\contentsline {section}{\numberline {13.5}Deficiencias de DTI}{131}{section.13.5}%
-\contentsline {subsection}{El modelo}{131}{section*.123}%
+\contentsline {section}{\numberline {13.2}El tensor de difusión}{117}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Tractografía}{125}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Métodos para el análisis cuantitativo del\\ tensor de difusión}{130}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Deficiencias de DTI}{132}{section.13.5}%
+\contentsline {subsection}{El modelo}{132}{section*.123}%
 \contentsline {subsection}{Artefactos de imagen}{133}{section*.125}%
 \contentsline {section}{\numberline {13.6}Cuando el modelo del tensor no es suficiente}{138}{section.13.6}%
 \contentsline {chapter}{\chapternumberline {14}Angio-resonancia}{141}{chapter.14}%
@@ -146,8 +146,8 @@
 \contentsline {section}{\numberline {21.3}Consideraciones en la estimación del grosor cortical}{184}{section.21.3}%
 \contentsline {section}{\numberline {21.4}Análisis del grosor cortical}{185}{section.21.4}%
 \contentsline {chapter}{Bibliograf\'{\i }a}{191}{chapter*.165}%
-\contentsline {part}{\partnumberline {IV}Apéndices}{197}{part.4}%
-\contentsline {chapter}{Ejemplo de adquisición de imágenes}{199}{chapter*.167}%
+\contentsline {part}{\partnumberline {IV}Apéndices}{205}{part.4}%
+\contentsline {chapter}{Ejemplo de adquisición de imágenes}{207}{chapter*.167}%
 \precistoctext {\noindent Erik Pasaye\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {appendix}{Lecturas sugeridas}{201}{chapter*.168}%
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{203}{section*.169}%
+\contentsline {appendix}{Lecturas sugeridas}{209}{chapter*.168}%
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{211}{section*.169}%

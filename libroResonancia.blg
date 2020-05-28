@@ -4,100 +4,12 @@ The top-level auxiliary file: libroResonancia.aux
 The style file: concha2.bst
 Database file #1: libroResonancia.bib
 Warning--I didn't find a database entry for "Quirk_Letendre_Ciottone_Lingley"
-Warning--I didn't find a database entry for "Brown_1828"
-Warning--I didn't find a database entry for "Mills?1973"
-Warning--I didn't find a database entry for "Hahn_1950"
-Warning--I didn't find a database entry for "Carr_1954"
-Warning--I didn't find a database entry for "Torrey_1956"
-Warning--I didn't find a database entry for "Stejskal_1965"
-Warning--I didn't find a database entry for "Tanner_1970"
-Warning--I didn't find a database entry for "Price_1991"
-Warning--I didn't find a database entry for "Wesbey_1984"
-Warning--I didn't find a database entry for "Sotak_2002"
-Warning--I didn't find a database entry for "Tanner_1968"
-Warning--I didn't find a database entry for "Pakkenberg_1997"
+Warning--I didn't find a database entry for "Einstein1905"
 Warning--I didn't find a database entry for "Rengachary_2004"
-Warning--I didn't find a database entry for "Tang_1997"
-Warning--I didn't find a database entry for "Kandel_2000"
-Warning--I didn't find a database entry for "Le_Bihan_2002"
-Warning--I didn't find a database entry for "Beaulieu_1994"
-Warning--I didn't find a database entry for "Gulani_2001"
-Warning--I didn't find a database entry for "Tyszka_2006"
 Warning--I didn't find a database entry for "Pierpaoli_1996"
-Warning--I didn't find a database entry for "Basser_1994_2"
-Warning--I didn't find a database entry for "Basser_1994"
-Warning--I didn't find a database entry for "Jones_2004"
-Warning--I didn't find a database entry for "Hasan_2001"
-Warning--I didn't find a database entry for "Song_2003"
-Warning--I didn't find a database entry for "Concha_2006"
-Warning--I didn't find a database entry for "Mansfield_1977"
-Warning--I didn't find a database entry for "Ordidge_1988"
-Warning--I didn't find a database entry for "Avram_1988"
-Warning--I didn't find a database entry for "Moseley_1990"
-Warning--I didn't find a database entry for "Warach_1995"
-Warning--I didn't find a database entry for "Sands_1995"
-Warning--I didn't find a database entry for "Basser_1996"
-Warning--I didn't find a database entry for "Conturo_1996"
-Warning--I didn't find a database entry for "Ulug_1994"
-Warning--I didn't find a database entry for "Douek_1991"
-Warning--I didn't find a database entry for "Jones_1997"
-Warning--I didn't find a database entry for "Coremans_1994"
-Warning--I didn't find a database entry for "Nakada_1995"
-Warning--I didn't find a database entry for "Pierpaoli_1997"
-Warning--I didn't find a database entry for "Pajevic_2000"
-Warning--I didn't find a database entry for "Bastin_1998"
-Warning--I didn't find a database entry for "Westin_1997"
-Warning--I didn't find a database entry for "Alexander_2000"
-Warning--I didn't find a database entry for "Makris_1997"
-Warning--I didn't find a database entry for "Mori_1999"
-Warning--I didn't find a database entry for "Lazar_2003"
 Warning--I didn't find a database entry for "Basser_1998"
-Warning--I didn't find a database entry for "Jones_1998"
-Warning--I didn't find a database entry for "Mori_2002"
-Warning--I didn't find a database entry for "Dauguet_2007"
-Warning--I didn't find a database entry for "Jiang_2006"
-Warning--I didn't find a database entry for "Conturo_1999"
-Warning--I didn't find a database entry for "Catani_2002"
-Warning--I didn't find a database entry for "Wakana_2007"
-Warning--I didn't find a database entry for "Jones_2003"
-Warning--I didn't find a database entry for "Behrens_2003"
-Warning--I didn't find a database entry for "Wright_1995"
-Warning--I didn't find a database entry for "Ashburner_2001"
-Warning--I didn't find a database entry for "Jones_2005"
-Warning--I didn't find a database entry for "Jones_2007"
-Warning--I didn't find a database entry for "Smith_2006"
-Warning--I didn't find a database entry for "Alexander_2002"
-Warning--I didn't find a database entry for "Tuch_2004"
-Warning--I didn't find a database entry for "Tuch_2003"
-Warning--I didn't find a database entry for "Concha_2005"
-Warning--I didn't find a database entry for "Hu_1996"
-Warning--I didn't find a database entry for "kuei_2004"
-Warning--I didn't find a database entry for "Zhang_2004"
-Warning--I didn't find a database entry for "Weiskopf_2005"
-Warning--I didn't find a database entry for "Jezzard_1995"
 Warning--I didn't find a database entry for "Reber_1998"
-Warning--I didn't find a database entry for "99"
-Warning--I didn't find a database entry for "100"
-Warning--I didn't find a database entry for "Pruessmann_1999"
-Warning--I didn't find a database entry for "107"
-Warning--I didn't find a database entry for "108"
-Warning--I didn't find a database entry for "109"
-Warning--I didn't find a database entry for "110"
-Warning--I didn't find a database entry for "111-116"
-Warning--I didn't find a database entry for "117"
-Warning--I didn't find a database entry for "118"
-Warning--I didn't find a database entry for "119"
-Warning--I didn't find a database entry for "120"
-Warning--I didn't find a database entry for "Tuch_2002"
-Warning--I didn't find a database entry for "121"
-Warning--I didn't find a database entry for "122"
-Warning--I didn't find a database entry for "123"
-Warning--I didn't find a database entry for "124"
-Warning--I didn't find a database entry for "125"
-Warning--I didn't find a database entry for "127"
-Warning--I didn't find a database entry for "128"
-Warning--I didn't find a database entry for "129"
-Warning--I didn't find a database entry for "130"
+Warning--I didn't find a database entry for "Gudbjartsson_1996"
 Warning--I didn't find a database entry for "Fischl1999_cortical"
 Warning--can't use both author and editor fields in Maestu_2008
 Warning--missing publisher in Maestu_2008
@@ -109,45 +21,45 @@ Warning--missing publisher in Budinger_1983
 Warning--can't use both author and editor fields in Runge2009
 Warning--can't use both author and editor fields in PM2001
 Warning--can't use both author and editor fields in A2001
-You've used 80 entries,
+You've used 166 entries,
             2268 wiz_defined-function locations,
-            1235 strings with 21715 characters,
-and the built_in function-call counts, 64603 in all, are:
-= -- 5584
-> -- 875
+            1585 strings with 37551 characters,
+and the built_in function-call counts, 146084 in all, are:
+= -- 12605
+> -- 2041
 < -- 4
-+ -- 345
-- -- 265
-* -- 5804
-:= -- 7481
-add.period$ -- 316
-call.type$ -- 80
-change.case$ -- 17
++ -- 791
+- -- 625
+* -- 13311
+:= -- 16833
+add.period$ -- 658
+call.type$ -- 166
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 88
-duplicate$ -- 6719
-empty$ -- 7071
-format.name$ -- 318
-if$ -- 14065
+cite$ -- 174
+duplicate$ -- 15207
+empty$ -- 15892
+format.name$ -- 751
+if$ -- 31842
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 808
-newline$ -- 478
-num.names$ -- 80
-pop$ -- 1004
+int.to.str$ -- 166
+missing$ -- 1760
+newline$ -- 985
+num.names$ -- 166
+pop$ -- 2128
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 433
+skip$ -- 1099
 stack$ -- 0
-substring$ -- 8957
-swap$ -- 2187
+substring$ -- 20516
+swap$ -- 5087
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 493
-width$ -- 82
-write$ -- 956
+while$ -- 1080
+width$ -- 169
+write$ -- 1983
 (There was 1 error message)
