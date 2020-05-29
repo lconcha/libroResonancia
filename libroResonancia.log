@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  28 MAY 2020 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  28 MAY 2020 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,30 +1440,30 @@ LaTeX Info: Redefining \% on input line 31.
 )
 \openout1 = `libroResonancia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
-34.
+35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-LaTeX Info: Redefining \. on input line 134.
-LaTeX Info: Redefining \% on input line 134.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
 \AtBeginShipoutBox=\box126
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -1476,8 +1476,8 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-Package backref Info: ** backref set up for natbib ** on input line 134.
-Package hyperref Info: Link coloring OFF on input line 134.
+Package backref Info: ** backref set up for natbib ** on input line 135.
+Package hyperref Info: Link coloring OFF on input line 135.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1492,10 +1492,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 134.
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \nameref on input line 135.
+LaTeX Info: Redefining \ref on input line 135.
+LaTeX Info: Redefining \pageref on input line 135.
+LaTeX Info: Redefining \nameref on input line 135.
 [1
 
 \openout6 = `libroResonancia.ist'.
@@ -1543,7 +1543,11 @@ LaTeX Font Warning: Font shape `T1/pplj/b/sc' undefined
 Package spanish Warning: Replacing `T1/pplj/b/sc' by 
 (spanish)                faked small caps on input line 2.
 
-[1] [2] [3] [4]) [5] [6
+[1] [2]
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+ [3]
+[4]) [5] [6
 
 ] [1
 
@@ -1576,8 +1580,8 @@ Underfull \vbox (badness 1281) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
  [7])
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
 
 [8] (./cap_historia.tex [9
 
@@ -1597,8 +1601,8 @@ Underfull \vbox (badness 4660) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
  [12])
-LaTeX Info: Redefining \. on input line 178.
-LaTeX Info: Redefining \% on input line 178.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
 
 [13] [14
 
@@ -1646,8 +1650,8 @@ LaTeX Info: Redefining \% on input line 43.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [19])
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
  [20]
 (./cap_relajacionContraste.tex
 LaTeX Info: Redefining \bond on input line 13.
@@ -1711,12 +1715,12 @@ LaTeX Info: Redefining \% on input line 162.
 File: /home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps Gr
 aphic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps>)
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
 
 [31]
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
  [32] (./cap_codificacionEspacial.tex [33
 
 ]
@@ -1836,8 +1840,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/casos_espaciok.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/casos_espaciok.eps>)
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
  [46]
 (./cap_secuencias.tex [47
 
@@ -1944,8 +1948,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/vite_17.eps Graphic file (ty
 pe eps)
 
 </home/lconcha/Documents/libroResonancia/figs/vite_17.eps>)
-LaTeX Info: Redefining \. on input line 204.
-LaTeX Info: Redefining \% on input line 204.
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
  [56] [57
 
 ] [58
@@ -2028,8 +2032,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/seguridad_prohibidos.eps Gra
 phic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/seguridad_prohibidos.eps>)
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
 
 [74] (./cap_espectro.tex [75
 
@@ -2256,8 +2260,8 @@ Overfull \hbox (46.54pt too wide) in paragraph at lines 313--327
  []
 
 )
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
+LaTeX Info: Redefining \. on input line 221.
+LaTeX Info: Redefining \% on input line 221.
  [88] [89
 
 ] [90
@@ -2286,8 +2290,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
  [99])
-LaTeX Info: Redefining \. on input line 239.
-LaTeX Info: Redefining \% on input line 239.
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
 
 [100] (./cap_glm.tex [101
 
@@ -2329,18 +2333,12 @@ File: /home/lconcha/Documents/libroResonancia/figs/glm_figura05.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/glm_figura05.eps>)
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
+LaTeX Info: Redefining \. on input line 245.
+LaTeX Info: Redefining \% on input line 245.
  [107] [108
 
 ]
-(./cap_difusion.tex
-Overfull \hbox (21.56468pt too wide) in paragraph at lines 2--3
-\T1/pplj/m/n/10 sity of Al-ber-ta, 2007. Tex-to com-ple-to dis-po-ni-ble en per
--so-nal.inb.unam.mx/lconcha 
- []
-
-[109]
+(./cap_difusion.tex [109]
 
 Package natbib Warning: Citation `Einstein1905' on page 110 undefined on input 
 line 8.
@@ -2361,8 +2359,6 @@ File: /home/lconcha/Documents/libroResonancia/figs/isotropicExamples.eps Graphi
 c file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/isotropicExamples.eps>
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
  [110]
@@ -2397,284 +2393,229 @@ LaTeX Info: Redefining \% on input line 85.
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
  [114]
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+ [115]
+File: /home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps Graphic file
+ (type eps)
 
-Package natbib Warning: Citation `Rengachary_2004' on page 115 undefined on inp
-ut line 91.
-
-LaTeX Info: Redefining \. on input line 93.
-LaTeX Info: Redefining \% on input line 93.
-[115]
-
-Package natbib Warning: Citation `Rengachary_2004' on page 116 undefined on inp
-ut line 93.
-
+</home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps>
 
 Package natbib Warning: Citation `Rengachary_2004' on page 116 undefined on inp
-ut line 94.
+ut line 108.
 
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
 [116]
+
+Package natbib Warning: Citation `Rengachary_2004' on page 117 undefined on inp
+ut line 110.
+
+
+Package natbib Warning: Citation `Rengachary_2004' on page 117 undefined on inp
+ut line 111.
+
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+[117]
 File: /home/lconcha/Documents/libroResonancia/figs/axons2.eps Graphic file (typ
 e eps)
  </home/lconcha/Documents/libroResonancia/figs/axons2.eps>
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
- [117]
-
-Package natbib Warning: Citation `Pierpaoli_1996' on page 118 undefined on inpu
-t line 143.
-
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
-[118]
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+ [118]
+LaTeX Info: Redefining \. on input line 182.
+LaTeX Info: Redefining \% on input line 182.
+ [119]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps Graphic fi
 le (type eps)
- </home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
- []
-
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
-[119]
-File: /home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps Graphic file
- (type eps)
- </home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps>
+</home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps>
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_DWItoTensor.eps Graphic 
 file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/DTI_DWItoTensor.eps>
-LaTeX Info: Redefining \. on input line 209.
-LaTeX Info: Redefining \% on input line 209.
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
  [120]
 
 Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
-t line 210.
+t line 212.
 
 
 Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
-t line 211.
+t line 212.
 
 
 Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
-t line 217.
+t line 218.
 
-LaTeX Info: Redefining \. on input line 226.
-LaTeX Info: Redefining \% on input line 226.
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
 [121]
-LaTeX Info: Redefining \. on input line 226.
-LaTeX Info: Redefining \% on input line 226.
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
  [122]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoids_FA.eps Graphi
 c file (type eps)
+
 </home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoids_FA.eps>
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-Missing character: There is no Ö in font pplr7t!
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-Missing character: There is no Ö in font pplr7t!
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-Missing character: There is no Ö in font pplr7t!
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 235.
-
-Missing character: There is no Ö in font pplr7t!
-LaTeX Info: Redefining \. on input line 243.
-LaTeX Info: Redefining \% on input line 243.
-[123]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_anisotropy.eps
  Graphic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_anisotropy.eps>
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
 
-[124]
+[123]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps Graphic fi
 le (type eps)
  </home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps>
-
-Package natbib Warning: Citation `Basser_1998' on page 125 undefined on input l
-ine 285.
-
-LaTeX Info: Redefining \. on input line 286.
-LaTeX Info: Redefining \% on input line 286.
-[125]
+LaTeX Info: Redefining \. on input line 278.
+LaTeX Info: Redefining \% on input line 278.
+ [124]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_spher.eps Grap
 hic file (type eps)
- </home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_spher.eps>
-Overfull \hbox (13.15985pt too wide) in paragraph at lines 295--296
+
+</home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_spher.eps>
+Underfull \vbox (badness 7814) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 297.
+LaTeX Info: Redefining \% on input line 297.
+ [125]
+
+Package natbib Warning: Citation `Basser_1998' on page 126 undefined on input l
+ine 298.
+
+
+Overfull \hbox (13.15985pt too wide) in paragraph at lines 302--303
 []\T1/pplj/m/n/10 En el al-go-rit-mo de asig-na-ción de fi-bra por se-gui-mien-
 to con-ti-nuo (``FACT'')$[]$
  []
 
-LaTeX Info: Redefining \. on input line 296.
-LaTeX Info: Redefining \% on input line 296.
+LaTeX Info: Redefining \. on input line 303.
+LaTeX Info: Redefining \% on input line 303.
 [126]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps Graphic file (t
 ype eps)
  </home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps>
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 314.
+LaTeX Info: Redefining \% on input line 314.
+ [127]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_dissection.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/DTI_dissection.eps>
-Underfull \vbox (badness 4660) has occurred while \output is active []
+Overfull \hbox (4.89984pt too wide) in paragraph at lines 323--324
+[]\T1/pplj/m/n/10 Una con-si-de-ra-ción im-por-tan-te de los al-go-rit-mos de p
+ro-pa-ga-ción de stream-
+ []
 
-LaTeX Info: Redefining \. on input line 318.
-LaTeX Info: Redefining \% on input line 318.
- [127]
-LaTeX Info: Redefining \. on input line 318.
-LaTeX Info: Redefining \% on input line 318.
-
-[128]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_CSTdissection.eps Graphi
 c file (type eps)
- </home/lconcha/Documents/libroResonancia/figs/DTI_CSTdissection.eps>
-LaTeX Info: Redefining \. on input line 328.
-LaTeX Info: Redefining \% on input line 328.
+</home/lconcha/Documents/libroResonancia/figs/DTI_CSTdissection.eps>
+Underfull \vbox (badness 2343) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 334.
+LaTeX Info: Redefining \% on input line 334.
+ [128]
+LaTeX Info: Redefining \. on input line 340.
+LaTeX Info: Redefining \% on input line 340.
 
 [129]
-LaTeX Info: Redefining \. on input line 338.
-LaTeX Info: Redefining \% on input line 338.
- [130]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 341.
-LaTeX Info: Redefining \% on input line 341.
+LaTeX Info: Redefining \. on input line 344.
+LaTeX Info: Redefining \% on input line 344.
+ [130]
+LaTeX Info: Redefining \. on input line 353.
+LaTeX Info: Redefining \% on input line 353.
 
-
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 341.
-
-
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [131]
+[131]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps Graph
 ic file (type eps)
+ </home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps>
+Underfull \vbox (badness 4556) has occurred while \output is active []
 
-</home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps>
-LaTeX Info: Redefining \. on input line 357.
-LaTeX Info: Redefining \% on input line 357.
+LaTeX Info: Redefining \. on input line 363.
+LaTeX Info: Redefining \% on input line 363.
  [132]
-LaTeX Info: Redefining \. on input line 366.
-LaTeX Info: Redefining \% on input line 366.
 
+LaTeX Warning: Command \texttimes invalid in math mode on input line 373.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 373.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 373.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 373.
+
+Missing character: There is no Ö in font pplr7t!
+Missing character: There is no Ö in font pplr7t!
+LaTeX Info: Redefining \. on input line 374.
+LaTeX Info: Redefining \% on input line 374.
 [133]
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
-
-
-LaTeX Warning: Command \texttimes invalid in math mode on input line 367.
-
-Missing character: There is no Ö in font pplr7t!
-Missing character: There is no Ö in font pplr7t!
 File: /home/lconcha/Documents/libroResonancia/figs/kspace.eps Graphic file (typ
 e eps)
-</home/lconcha/Documents/libroResonancia/figs/kspace.eps>
+ </home/lconcha/Documents/libroResonancia/figs/kspace.eps>
 
 Package natbib Warning: Citation `Reber_1998' on page 134 undefined on input li
-ne 377.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
- [134]
-Underfull \vbox (badness 2573) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
- [135]
-Underfull \vbox (badness 4660) has occurred while \output is active []
+ne 383.
 
 LaTeX Info: Redefining \. on input line 384.
 LaTeX Info: Redefining \% on input line 384.
- [136]
+[134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 388.
+LaTeX Info: Redefining \% on input line 388.
+ [135]
 File: /home/lconcha/Documents/libroResonancia/figs/ReeseDTI.eps Graphic file (t
 ype eps)
 
 </home/lconcha/Documents/libroResonancia/figs/ReeseDTI.eps>
-
-Package natbib Warning: Citation `Gudbjartsson_1996' on page 137 undefined on i
-nput line 395.
-
-
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 396.
-LaTeX Info: Redefining \% on input line 396.
- [137]
-LaTeX Info: Redefining \. on input line 402.
-LaTeX Info: Redefining \% on input line 402.
-
-[138]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 404.
-LaTeX Info: Redefining \% on input line 404.
- [139])
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
+LaTeX Info: Redefining \. on input line 405.
+LaTeX Info: Redefining \% on input line 405.
+ [136]
+LaTeX Info: Redefining \. on input line 409.
+LaTeX Info: Redefining \% on input line 409.
 
-[140] (./cap_angio.tex [141
+[137])
+LaTeX Info: Redefining \. on input line 250.
+LaTeX Info: Redefining \% on input line 250.
+ [138] (./cap_angio.tex [139
 
 ]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [142]
+ [140]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image1.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image1.eps>
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- [143]
+ [141]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image2.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image2.eps>
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [144]
+ [142]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image3.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image3.eps>
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
- [145]
+ [143]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image4.eps Graphic f
 ile (type eps)
 
@@ -2685,7 +2626,7 @@ ile (type eps)
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image5.eps>
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [146]
+ [144]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image6.eps Graphic f
 ile (type eps)
 
@@ -2694,11 +2635,11 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [147]
+ [145]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
 
-[148]
+[146]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image7.eps Graphic f
 ile (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image7.eps>
@@ -2706,7 +2647,7 @@ Underfull \vbox (badness 1990) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [149]
+ [147]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image8.eps Graphic f
 ile (type eps)
 
@@ -2715,14 +2656,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
- [150]
+ [148]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image9.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image9.eps>
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
- [151]
+ [149]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image10.eps Graphic 
 file (type eps)
 
@@ -2731,7 +2672,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
- [152]
+ [150]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image11.eps Graphic 
 file (type eps)
 
@@ -2744,49 +2685,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 222.
 LaTeX Info: Redefining \% on input line 222.
- [153]
+ [151]
 LaTeX Info: Redefining \. on input line 222.
 LaTeX Info: Redefining \% on input line 222.
 
-[154]
+[152]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image13.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image13.eps>
 LaTeX Info: Redefining \. on input line 244.
 LaTeX Info: Redefining \% on input line 244.
 
-[155]
+[153]
 LaTeX Info: Redefining \. on input line 244.
 LaTeX Info: Redefining \% on input line 244.
- [156]
+ [154]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image14.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image14.eps>
 LaTeX Info: Redefining \. on input line 265.
 LaTeX Info: Redefining \% on input line 265.
 
-[157]
+[155]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image15.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image15.eps>
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
 
-[158]
+[156]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image16.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image16.eps>
 LaTeX Info: Redefining \. on input line 300.
 LaTeX Info: Redefining \% on input line 300.
 
-[159]
+[157]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image17.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image17.eps>
 LaTeX Info: Redefining \. on input line 319.
 LaTeX Info: Redefining \% on input line 319.
 
-[160]
+[158]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image18.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image18.eps>
@@ -2798,39 +2739,39 @@ Underfull \vbox (badness 1960) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 353.
 LaTeX Info: Redefining \% on input line 353.
- [161]
+ [159]
 LaTeX Info: Redefining \. on input line 353.
 LaTeX Info: Redefining \% on input line 353.
 
-[162] (./table_angio_compara.tex
+[160] (./table_angio_compara.tex
 Overfull \hbox (78.09306pt too wide) in paragraph at lines 7--16
  [][] 
  []
 
 ))
-LaTeX Info: Redefining \. on input line 256.
-LaTeX Info: Redefining \% on input line 256.
- [163]
-LaTeX Info: Redefining \. on input line 256.
-LaTeX Info: Redefining \% on input line 256.
- [164] [165
+LaTeX Info: Redefining \. on input line 257.
+LaTeX Info: Redefining \% on input line 257.
+ [161]
+LaTeX Info: Redefining \. on input line 257.
+LaTeX Info: Redefining \% on input line 257.
+ [162] [163
 
-] [166
+] [164
 
-] [167] [168
+] [165] [166
 
-] [169] [170] [171
+] [167] [168] [169
 
-] [172
+] [170
 
-] [173] [174
+] [171] [172
 
 ]
-[175] [176
+[173] [174
 
-] [177] [178
+] [175] [176
 
-] (./cap_grosorCortical.tex [179]
+] (./cap_grosorCortical.tex [177]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_1.eps Graphic file (t
 ype eps)
 
@@ -2841,7 +2782,7 @@ file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_brodmann.eps>
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [180]
+ [178]
 (./table_capasCorteza.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2862,27 +2803,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
- [181]
+ [179]
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
 
-[182]
+[180]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_desarrollo.eps Graphi
 c file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/grosor_desarrollo.eps>
 
-Package natbib Warning: Citation `Fischl1999_cortical' on page 183 undefined on
+Package natbib Warning: Citation `Fischl1999_cortical' on page 181 undefined on
  input line 105.
 
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
-[183]
+[181]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_surcos.eps Graphic fi
 le (type eps)
  </home/lconcha/Documents/libroResonancia/figs/grosor_surcos.eps>
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
- [184]
+ [182]
 (./table_grosor_protocolos.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2895,13 +2836,13 @@ aphic file (type eps)
 LaTeX Info: Redefining \. on input line 176.
 LaTeX Info: Redefining \% on input line 176.
 
-[185]
+[183]
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
- [186]
+ [184]
 LaTeX Info: Redefining \. on input line 223.
 LaTeX Info: Redefining \% on input line 223.
- [187]
+ [185]
 Overfull \hbox (3.3099pt too wide) in paragraph at lines 229--243
 []\T1/pplj/m/n/10 Las dos su-per-fi-cies de sus-tan-cia blan-
  []
@@ -2911,46 +2852,46 @@ e (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_pasos.eps>
 
 LaTeX Warning: Reference `Lerch_Evans_2005,Thorstensen_measuringcortical' on pa
-ge 188 undefined on input line 260.
+ge 186 undefined on input line 260.
 
 LaTeX Info: Redefining \. on input line 261.
 LaTeX Info: Redefining \% on input line 261.
-[188]
+[186]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_mediciongrosor.eps Gr
 aphic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/grosor_mediciongrosor.eps>
 
-LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 189 undefined 
+LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 187 undefined 
 on input line 267.
 
 
-LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 189 undefined 
+LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 187 undefined 
 on input line 267.
 
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_flat.eps Graphic file
  (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_flat.eps>)
-LaTeX Info: Redefining \. on input line 332.
-LaTeX Info: Redefining \% on input line 332.
- [189]
+LaTeX Info: Redefining \. on input line 333.
+LaTeX Info: Redefining \% on input line 333.
+ [187]
 (./libroResonancia.bbl (./libroResonancia.brf)
 \tf@brf=\write9
 \openout9 = `libroResonancia.brf'.
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [190] [191
+ [188] [189
 
 ]
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
- [192]
+ [190]
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
- [193]
+ [191]
 LaTeX Info: Redefining \. on input line 379.
 LaTeX Info: Redefining \% on input line 379.
- [194]
+ [192]
 Underfull \hbox (badness 1248) in paragraph at lines 453--453
 []\T1/pplj/m/sc/9 Torrey HC\T1/pplj/m/n/9 .  Bloch Equa-tions with Dif-fu-sion 
 Terms.  \T1/pplj/m/it/9 Phys Rev\T1/pplj/m/n/9 , 1956.
@@ -2958,59 +2899,59 @@ Terms.  \T1/pplj/m/it/9 Phys Rev\T1/pplj/m/n/9 , 1956.
 
 LaTeX Info: Redefining \. on input line 487.
 LaTeX Info: Redefining \% on input line 487.
-[195]
-LaTeX Info: Redefining \. on input line 583.
-LaTeX Info: Redefining \% on input line 583.
+[193]
+LaTeX Info: Redefining \. on input line 578.
+LaTeX Info: Redefining \% on input line 578.
+ [194]
+LaTeX Info: Redefining \. on input line 676.
+LaTeX Info: Redefining \% on input line 676.
+ [195]
+LaTeX Info: Redefining \. on input line 764.
+LaTeX Info: Redefining \% on input line 764.
  [196]
-LaTeX Info: Redefining \. on input line 667.
-LaTeX Info: Redefining \% on input line 667.
- [197]
-LaTeX Info: Redefining \. on input line 755.
-LaTeX Info: Redefining \% on input line 755.
- [198]
-Underfull \hbox (badness 1348) in paragraph at lines 831--831
+Underfull \hbox (badness 1348) in paragraph at lines 839--839
 []\T1/pplj/m/sc/9 Behrens TE\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Johansen-Berg H\T1
 /pplj/m/n/9 , \T1/pplj/m/sc/9 Wool-rich MW\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Smit
 h SM\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Wheeler-
  []
 
-LaTeX Info: Redefining \. on input line 853.
-LaTeX Info: Redefining \% on input line 853.
+LaTeX Info: Redefining \. on input line 854.
+LaTeX Info: Redefining \% on input line 854.
+[197]
+LaTeX Info: Redefining \. on input line 943.
+LaTeX Info: Redefining \% on input line 943.
+ [198]
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+[]\T1/pplj/m/sc/9 Rojas-Vite G\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Coronado-Leija R
+\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Narvaez-Delgado O\T1/pplj/m/n/9 , \T1/pplj/m/s
+c/9 Ramírez-
+ []
+
+LaTeX Info: Redefining \. on input line 1031.
+LaTeX Info: Redefining \% on input line 1031.
 [199]
-LaTeX Info: Redefining \. on input line 948.
-LaTeX Info: Redefining \% on input line 948.
- [200]
-LaTeX Info: Redefining \. on input line 1039.
-LaTeX Info: Redefining \% on input line 1039.
- [201]
 
 LaTeX Font Warning: Font shape `TS1/pplj/m/sc' undefined
 (Font)              using `TS1/pplj/m/n' instead
 (Font)              for symbol `textquotesingle' on input line 1073.
 
-LaTeX Info: Redefining \. on input line 1132.
-LaTeX Info: Redefining \% on input line 1132.
-[202])
-LaTeX Info: Redefining \. on input line 339.
-LaTeX Info: Redefining \% on input line 339.
- [203] [204
+LaTeX Info: Redefining \. on input line 1123.
+LaTeX Info: Redefining \% on input line 1123.
+[200])
+LaTeX Info: Redefining \. on input line 340.
+LaTeX Info: Redefining \% on input line 340.
+ [201] [202
 
-] [205] [206] [207
+] [203] [204] [205
 
-] [208
+] [206
 
-] (./libroResonancia.ind [209]
-[210
+] (./libroResonancia.ind [207]
+[208
 
-] [211
+] [209
 
 ])
-
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 367.
-
 
 Package natbib Warning: There were undefined citations.
 
@@ -3022,16 +2963,16 @@ This document will not have a glossary.
 \tf@toc=\write10
 \openout10 = `libroResonancia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
 (./libroResonancia.aux
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 368.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
 Package rerunfilecheck Info: File `libroResonancia.brf' has not changed.
-(rerunfilecheck)             Checksum: 87272863997093E675FAA7FDF1DAF07C;12261.
+(rerunfilecheck)             Checksum: CB37C3487AD18249948BA4223A0FAE89;12162.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3041,12 +2982,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 33272 strings out of 483008
- 617503 string characters out of 5961783
- 1009533 words of memory out of 5000000
- 47648 multiletter control sequences out of 15000+600000
- 607819 words of font info for 121 fonts, out of 8000000 for 9000
+ 33261 strings out of 483008
+ 618203 string characters out of 5961783
+ 1007329 words of memory out of 5000000
+ 47637 multiletter control sequences out of 15000+600000
+ 609533 words of font info for 122 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 73i,16n,84p,4357b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,84p,3458b,1231s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on libroResonancia.dvi (219 pages, 685520 bytes).
+Output written on libroResonancia.dvi (217 pages, 678556 bytes).

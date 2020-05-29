@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=false
 kile_livePreviewStatusUserSpecified=true
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap_relajacionContraste.tex
+lastDocument=cap_difusion.tex
 
 [document-settings,item:abrevs.tex]
 Bookmarks=
@@ -208,16 +208,16 @@ open=false
 order=2
 
 [item:cap_angio.tex]
-open=false
+open=true
 order=5
 
 [item:cap_codificacionEspacial.tex]
-open=false
-order=9
+open=true
+order=4
 
 [item:cap_difusion.tex]
-open=false
-order=4
+open=true
+order=2
 
 [item:cap_espectro.tex]
 open=false
@@ -272,8 +272,8 @@ open=false
 order=3
 
 [item:libroResonancia.bib]
-open=false
-order=-1
+open=true
+order=3
 
 [item:libroResonancia.tex]
 open=true
@@ -314,12 +314,12 @@ TextFolding=[]
 ViMarks=.,163,15,[,163,7,],163,15
 
 [view-settings,view=0,item:cap_difusion.tex]
-CursorColumn=1189
-CursorLine=402
-Dynamic Word Wrap=false
+CursorColumn=31
+CursorLine=248
+Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,402,0,[,1,0,],402,1188
+ViMarks=.,252,10,[,253,0,],-1,-1
 
 [view-settings,view=0,item:cap_espectro.tex]
 CursorColumn=36
@@ -414,20 +414,20 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:libroResonancia.bib]
-CursorColumn=1
-CursorLine=8
+CursorColumn=18
+CursorLine=47
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,8,0,[,3,0,],8,0
+ViMarks=.,0,0,[,0,0,],0,0
 
 [view-settings,view=0,item:libroResonancia.tex]
-CursorColumn=12
-CursorLine=329
+CursorColumn=40
+CursorLine=87
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,358,0,[,358,0,],358,0
+ViMarks=.,87,30,[,87,30,],87,30
 
 [view-settings,view=0,item:libroresonancia_estilos.tex]
 CursorColumn=0

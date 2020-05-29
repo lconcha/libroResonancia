@@ -492,6 +492,42 @@
 \newblock \emph{Journal of Chemical Physics}, 1968.
 \newblock 49:1768–1777.
 
+\bibitem{Mansfield_1977}
+\textsc{Mansfield P}.
+\newblock Multi-planar image formation using NMR spin echoes.
+\newblock \emph{Journal of Physics C: Solid State Physics}, 1977.
+\newblock 10(3):L55–L58.
+
+\bibitem{Ordidge_1988}
+\textsc{Ordidge RJ}, \textsc{Coxon R}, \textsc{Howseman A}, \textsc{Chapman B},
+  \textsc{Turner R}, \textsc{Stehling M} and \textsc{Mansfield P}.
+\newblock Snapshot head imaging at 0.5 T using the echo planar technique.
+\newblock \emph{Magn Reson Med}, 1988.
+\newblock 8(1):110–115.
+
+\bibitem{Avram_1988}
+\textsc{Avram H} and \textsc{Crooks L}.
+\newblock Effect of self-diffusion on echo-planar imaging.
+\newblock In: \emph{Book of abstracts: Society of Magnetic Resonance in
+  Medicine}. Society of Magnetic Resonance in Medicine, Berkeley, 1988 980.
+
+\bibitem{Moseley_1990a}
+\textsc{Moseley ME}, \textsc{Cohen Y}, \textsc{Mintorovitch J},
+  \textsc{Chileuitt L}, \textsc{Shimizu H}, \textsc{Kucharczyk J},
+  \textsc{Wendland MF} and \textsc{Weinstein PR}.
+\newblock Early detection of regional cerebral ischemia in cats: comparison of
+  diffusion- and T2-weighted MRI and spectroscopy.
+\newblock \emph{Magn Reson Med}, 1990.
+\newblock 14(2):330–346.
+
+\bibitem{Warach_1995}
+\textsc{Warach S}, \textsc{Gaa J}, \textsc{Siewert B}, \textsc{Wielopolski P}
+  and \textsc{Edelman RR}.
+\newblock Acute human stroke studied by whole brain echo planar
+  diffusion-weighted magnetic resonance imaging.
+\newblock \emph{Annals of Neurology}, 1995.
+\newblock 37(2):231–41.
+
 \bibitem{Pakkenberg_1997}
 \textsc{Pakkenberg B} and \textsc{Gundersen HJ}.
 \newblock Neocortical neuron number in humans: effect of sex and age.
@@ -567,11 +603,20 @@
 \newblock \emph{Magn Reson Med}, 2004.
 \newblock 51(4):807–815.
 
-\bibitem{Hasan_2001}
-\textsc{Hasan KM}, \textsc{Parker DL} and \textsc{Alexander AL}.
-\newblock Comparison of gradient encoding schemes for diffusion-tensor MRI.
-\newblock \emph{Journal of Magnetic Resonance Imaging}, 2001.
-\newblock 13(5):769–80.
+\bibitem{chang2005restore}
+\textsc{Chang LC}, \textsc{Jones DK} and \textsc{Pierpaoli C}.
+\newblock RESTORE: robust estimation of tensors by outlier rejection.
+\newblock \emph{Magnetic Resonance in Medicine: An Official Journal of the
+  International Society for Magnetic Resonance in Medicine}, 2005.
+\newblock 53(5):1088–1095.
+
+\bibitem{mangin2002distortion}
+\textsc{Mangin JF}, \textsc{Poupon C}, \textsc{Clark C}, \textsc{{Le Bihan} D}
+  and \textsc{Bloch I}.
+\newblock Distortion correction and robust tensor estimation for MR diffusion
+  imaging.
+\newblock \emph{Medical image analysis}, 2002.
+\newblock 6(3):191–198.
 
 \bibitem{Song_2003}
 \textsc{Song SK}, \textsc{Sun SW}, \textsc{Ju WK}, \textsc{Lin SJ},
@@ -588,42 +633,6 @@
   degradation after corpus callosotomy in epilepsy patients.
 \newblock \emph{Neuroimage}, 2006.
 \newblock 32(3):1090–9.
-
-\bibitem{Mansfield_1977}
-\textsc{Mansfield P}.
-\newblock Multi-planar image formation using NMR spin echoes.
-\newblock \emph{Journal of Physics C: Solid State Physics}, 1977.
-\newblock 10(3):L55–L58.
-
-\bibitem{Ordidge_1988}
-\textsc{Ordidge RJ}, \textsc{Coxon R}, \textsc{Howseman A}, \textsc{Chapman B},
-  \textsc{Turner R}, \textsc{Stehling M} and \textsc{Mansfield P}.
-\newblock Snapshot head imaging at 0.5 T using the echo planar technique.
-\newblock \emph{Magn Reson Med}, 1988.
-\newblock 8(1):110–115.
-
-\bibitem{Avram_1988}
-\textsc{Avram H} and \textsc{Crooks L}.
-\newblock Effect of self-diffusion on echo-planar imaging.
-\newblock In: \emph{Book of abstracts: Society of Magnetic Resonance in
-  Medicine}. Society of Magnetic Resonance in Medicine, Berkeley, 1988 980.
-
-\bibitem{Moseley_1990a}
-\textsc{Moseley ME}, \textsc{Cohen Y}, \textsc{Mintorovitch J},
-  \textsc{Chileuitt L}, \textsc{Shimizu H}, \textsc{Kucharczyk J},
-  \textsc{Wendland MF} and \textsc{Weinstein PR}.
-\newblock Early detection of regional cerebral ischemia in cats: comparison of
-  diffusion- and T2-weighted MRI and spectroscopy.
-\newblock \emph{Magn Reson Med}, 1990.
-\newblock 14(2):330–346.
-
-\bibitem{Warach_1995}
-\textsc{Warach S}, \textsc{Gaa J}, \textsc{Siewert B}, \textsc{Wielopolski P}
-  and \textsc{Edelman RR}.
-\newblock Acute human stroke studied by whole brain echo planar
-  diffusion-weighted magnetic resonance imaging.
-\newblock \emph{Annals of Neurology}, 1995.
-\newblock 37(2):231–41.
 
 \bibitem{Sands_1995}
 \textsc{Sands DE}.
@@ -768,14 +777,6 @@
 \newblock \emph{Neuroimage}, 2007.
 \newblock 37(2):530–538.
 
-\bibitem{Jiang_2006}
-\textsc{Jiang H}, \textsc{van Zijl PCM}, \textsc{Kim J}, \textsc{Pearlson GD}
-  and \textsc{Mori S}.
-\newblock DtiStudio: resource program for diffusion tensor computation and
-  fiber bundle tracking.
-\newblock \emph{Comput Methods Programs Biomed}, 2006.
-\newblock 81(2):106–116.
-
 \bibitem{Conturo_1999}
 \textsc{Conturo TE}, \textsc{Lori NF}, \textsc{Cull TS}, \textsc{Akbudak E},
   \textsc{Snyder AZ}, \textsc{Shimony JS}, \textsc{McKinstry RC},
@@ -801,6 +802,13 @@
 \newblock Reproducibility of quantitative tractography methods applied to
   cerebral white matter.
 \newblock \emph{Neuroimage}, 2007.
+
+\bibitem{catani2008diffusion}
+\textsc{Catani M} and \textsc{{De Schotten} MT}.
+\newblock A diffusion tensor imaging tractography atlas for virtual in vivo
+  dissections.
+\newblock \emph{cortex}, 2008.
+\newblock 44(8):1105–1132.
 
 \bibitem{Jones_2003}
 \textsc{Jones DK}.
@@ -869,6 +877,14 @@
 \newblock \emph{Neuroimage}, 2006.
 \newblock 31(4):1487–505.
 
+\bibitem{Jeurissen_2012}
+\textsc{Jeurissen B}, \textsc{Leemans A}, \textsc{Tournier JD}, \textsc{Jones
+  DK} and \textsc{Sijbers J}.
+\newblock Investigating the prevalence of complex fiber configurations in white
+  matter tissue with diffusion magnetic resonance imaging.
+\newblock \emph{Human Brain Mapping}, 2012.
+\newblock Published online ahead of print.
+
 \bibitem{Alexander_2002}
 \textsc{Alexander DC}, \textsc{Barker GJ} and \textsc{Arridge SR}.
 \newblock Detection and modeling of non-Gaussian apparent diffusion coefficient
@@ -895,6 +911,14 @@
   epilepsy.
 \newblock \emph{Ann Neurol}, 2005.
 \newblock 57(2):188–196.
+
+\bibitem{pasternak2009free}
+\textsc{Pasternak O}, \textsc{Sochen N}, \textsc{Gur Y}, \textsc{Intrator N}
+  and \textsc{Assaf Y}.
+\newblock Free water elimination and mapping from diffusion MRI.
+\newblock \emph{Magnetic Resonance in Medicine: An Official Journal of the
+  International Society for Magnetic Resonance in Medicine}, 2009.
+\newblock 62(3):717–730.
 
 \bibitem{Hu_1996}
 \textsc{Hu X} and \textsc{Le TH}.
@@ -931,6 +955,13 @@
 \newblock \emph{Magn Reson Med}, 1999.
 \newblock 42(5):952–962.
 
+\bibitem{andersson2016integrated}
+\textsc{Andersson JL} and \textsc{Sotiropoulos SN}.
+\newblock An integrated approach to correction for off-resonance effects and
+  subject movement in diffusion MR imaging.
+\newblock \emph{Neuroimage}, 2016.
+\newblock 125:1063–1078.
+
 \bibitem{Reese_2003}
 \textsc{Reese TG}, \textsc{Heid O}, \textsc{Weisskoff RM} and \textsc{Wedeen
   VJ}.
@@ -938,54 +969,6 @@
   twice-refocused spin echo.
 \newblock \emph{Magn Reson Med}, 2003.
 \newblock 49(1):177–82.
-
-\bibitem{Alsop1997}
-\textsc{Alsop DC}.
-\newblock Phase insensitive preparation of single-shot RARE: application to
-  diffusion imaging in humans.
-\newblock \emph{Magn Reson Med}, 1997.
-\newblock 38(4):527–533.
-
-\bibitem{Nolte2000}
-\textsc{Nolte UG}, \textsc{Finsterbusch J} and \textsc{Frahm J}.
-\newblock Rapid isotropic diffusion mapping without susceptibility artifacts:
-  whole brain studies using diffusion-weighted single-shot STEAM MR imaging.
-\newblock \emph{Magn Reson Med}, 2000.
-\newblock 44(5):731–736.
-
-\bibitem{Pipe2006}
-\textsc{Pipe JG} and \textsc{Zwart N}.
-\newblock Turboprop: improved PROPELLER imaging.
-\newblock \emph{Magn Reson Med}, 2006.
-\newblock 55(2):380–385.
-
-\bibitem{Pipe2002}
-\textsc{Pipe JG}, \textsc{Farthing VG} and \textsc{Forbes KP}.
-\newblock Multishot diffusion-weighted FSE using PROPELLER MRI.
-\newblock \emph{Magn Reson Med}, 2002.
-\newblock 47(1):42–52.
-
-\bibitem{Sarlls2005}
-\textsc{Sarlls JE}, \textsc{Newbould RD}, \textsc{Altbach MI}, \textsc{Gmitro
-  AF}, \textsc{Seeger J} and \textsc{Trouard TP}.
-\newblock Isotropic diffusion weighting in radial fast spin-echo magnetic
-  resonance imaging.
-\newblock \emph{Magn Reson Med}, 2005.
-\newblock 53(6):1347–1354.
-
-\bibitem{Beaulieu_1994a}
-\textsc{Beaulieu C} and \textsc{Allen PS}.
-\newblock Determinants of anisotropic water diffusion in nerves.
-\newblock \emph{Magnetic Resonance in Medicine}, 1994.
-\newblock 31(4):394–400.
-
-\bibitem{Jeurissen_2012}
-\textsc{Jeurissen B}, \textsc{Leemans A}, \textsc{Tournier JD}, \textsc{Jones
-  DK} and \textsc{Sijbers J}.
-\newblock Investigating the prevalence of complex fiber configurations in white
-  matter tissue with diffusion magnetic resonance imaging.
-\newblock \emph{Human Brain Mapping}, 2012.
-\newblock Published online ahead of print.
 
 \bibitem{Tuch_2002}
 \textsc{Tuch DS}, \textsc{Reese TG}, \textsc{Wiegell MR}, \textsc{Makris N},
@@ -1029,21 +1012,38 @@
 \newblock \emph{NeuroImage}, 2007.
 \newblock 34(1):144–155.
 
-\bibitem{Wedeen_2005}
-\textsc{Wedeen VJ}, \textsc{Hagmann P}, \textsc{Tseng WYI}, \textsc{Reese TG}
-  and \textsc{Weisskoff RM}.
-\newblock Mapping complex tissue architecture with diffusion spectrum magnetic
-  resonance imaging.
-\newblock \emph{Magnetic Resonance in Medicine}, 2005.
-\newblock 54(6):1377–1386.
+\bibitem{Concha_Neurosci_2013}
+\textsc{Concha L}.
+\newblock A macroscopic view of microstructure: using diffusion-weighted images
+  to infer damage, repair, and plasticity of white matter.
+\newblock \emph{Neuroscience}, 2014.
+\newblock 276:14–28.
 
-\bibitem{Jespersen_2007}
-\textsc{Jespersen SN}, \textsc{Kroenke CD}, \textsc{Østergaard L},
-  \textsc{Ackerman JJ} and \textsc{Yablonskiy DA}.
-\newblock Modeling dendrite density from magnetic resonance diffusion
-  measurements.
-\newblock \emph{NeuroImage}, 2007.
-\newblock 34(4):1473–1486.
+\bibitem{rojas2019histological}
+\textsc{Rojas-Vite G}, \textsc{Coronado-Leija R}, \textsc{Narvaez-Delgado O},
+  \textsc{Ramírez-Manzanares A}, \textsc{Marroquín JL}, \textsc{Noguez-Imm
+  R}, \textsc{Aranda ML}, \textsc{Scherrer B}, \textsc{Larriva-Sahd J} and
+  \textsc{Concha L}.
+\newblock Histological validation of per-bundle water diffusion metrics within
+  a region of fiber crossing following axonal degeneration.
+\newblock \emph{Neuroimage}, 2019.
+\newblock 201:116013.
+
+\bibitem{panagiotaki2012compartment}
+\textsc{Panagiotaki E}, \textsc{Schneider T}, \textsc{Siow B}, \textsc{Hall
+  MG}, \textsc{Lythgoe MF} and \textsc{Alexander DC}.
+\newblock Compartment models of the diffusion MR signal in brain white matter:
+  a taxonomy and comparison.
+\newblock \emph{Neuroimage}, 2012.
+\newblock 59(3):2241–2254.
+
+\bibitem{alexander2010orientationally}
+\textsc{Alexander DC}, \textsc{Hubbard PL}, \textsc{Hall MG}, \textsc{Moore
+  EA}, \textsc{Ptito M}, \textsc{Parker GJ} and \textsc{Dyrby TB}.
+\newblock Orientationally invariant indices of axon diameter and density from
+  diffusion MRI.
+\newblock \emph{Neuroimage}, 2010.
+\newblock 52(4):1374–1389.
 
 \bibitem{Tournier2004}
 \textsc{Tournier JD}, \textsc{Calamante F}, \textsc{Gadian DG} and

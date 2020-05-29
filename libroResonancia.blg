@@ -9,7 +9,6 @@ Warning--I didn't find a database entry for "Rengachary_2004"
 Warning--I didn't find a database entry for "Pierpaoli_1996"
 Warning--I didn't find a database entry for "Basser_1998"
 Warning--I didn't find a database entry for "Reber_1998"
-Warning--I didn't find a database entry for "Gudbjartsson_1996"
 Warning--I didn't find a database entry for "Fischl1999_cortical"
 Warning--can't use both author and editor fields in Maestu_2008
 Warning--missing publisher in Maestu_2008
@@ -21,45 +20,45 @@ Warning--missing publisher in Budinger_1983
 Warning--can't use both author and editor fields in Runge2009
 Warning--can't use both author and editor fields in PM2001
 Warning--can't use both author and editor fields in A2001
-You've used 166 entries,
+You've used 165 entries,
             2268 wiz_defined-function locations,
-            1585 strings with 37551 characters,
-and the built_in function-call counts, 146084 in all, are:
-= -- 12605
-> -- 2041
+            1579 strings with 37886 characters,
+and the built_in function-call counts, 147715 in all, are:
+= -- 12778
+> -- 2058
 < -- 4
-+ -- 791
-- -- 625
-* -- 13311
-:= -- 16833
-add.period$ -- 658
-call.type$ -- 166
++ -- 796
+- -- 631
+* -- 13509
+:= -- 17018
+add.period$ -- 654
+call.type$ -- 165
 change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 174
-duplicate$ -- 15207
-empty$ -- 15892
-format.name$ -- 751
-if$ -- 31842
+cite$ -- 173
+duplicate$ -- 15386
+empty$ -- 16067
+format.name$ -- 756
+if$ -- 32201
 int.to.chr$ -- 0
-int.to.str$ -- 166
-missing$ -- 1760
-newline$ -- 985
-num.names$ -- 166
-pop$ -- 2128
+int.to.str$ -- 165
+missing$ -- 1759
+newline$ -- 979
+num.names$ -- 165
+pop$ -- 2129
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1099
+skip$ -- 1095
 stack$ -- 0
-substring$ -- 20516
-swap$ -- 5087
+substring$ -- 20887
+swap$ -- 5073
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 1080
-width$ -- 169
-write$ -- 1983
+while$ -- 1083
+width$ -- 168
+write$ -- 1971
 (There was 1 error message)
