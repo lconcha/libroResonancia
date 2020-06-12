@@ -2,7 +2,7 @@
 kile_livePreviewEnabled=false
 kile_livePreviewStatusUserSpecified=true
 kile_livePreviewTool=LivePreview-PDFLaTeX
-lastDocument=cap_difusion.tex
+lastDocument=cap_artefactos.tex
 
 [document-settings,item:abrevs.tex]
 Bookmarks=
@@ -15,6 +15,15 @@ Mode=LaTeX
 ReadWrite=true
 
 [document-settings,item:cap_angio.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=LaTeX
+Mode Set By User=false
+
+[document-settings,item:cap_artefactos.tex]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=LaTeX
@@ -211,6 +220,10 @@ order=2
 open=true
 order=5
 
+[item:cap_artefactos.tex]
+open=true
+order=8
+
 [item:cap_codificacionEspacial.tex]
 open=true
 order=4
@@ -220,12 +233,12 @@ open=true
 order=2
 
 [item:cap_espectro.tex]
-open=false
-order=11
+open=true
+order=6
 
 [item:cap_fenomeno.tex]
-open=false
-order=2
+open=true
+order=7
 
 [item:cap_glm.tex]
 open=false
@@ -305,6 +318,14 @@ JumpList=
 TextFolding=[]
 ViMarks=.,368,0,[,368,0,],368,1
 
+[view-settings,view=0,item:cap_artefactos.tex]
+CursorColumn=15
+CursorLine=0
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,0,14,[,0,0,],0,14
+
 [view-settings,view=0,item:cap_codificacionEspacial.tex]
 CursorColumn=531
 CursorLine=3
@@ -314,12 +335,12 @@ TextFolding=[]
 ViMarks=.,163,15,[,163,7,],163,15
 
 [view-settings,view=0,item:cap_difusion.tex]
-CursorColumn=31
-CursorLine=248
+CursorColumn=202
+CursorLine=1
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,252,10,[,253,0,],-1,-1
+ViMarks=.,1,265,[,1,265,],1,265
 
 [view-settings,view=0,item:cap_espectro.tex]
 CursorColumn=36
@@ -378,12 +399,12 @@ TextFolding=[]
 ViMarks=
 
 [view-settings,view=0,item:cap_relajacionContraste.tex]
-CursorColumn=83
-CursorLine=12
+CursorColumn=323
+CursorLine=154
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,12,21,[,12,21,],12,21
+ViMarks=.,156,2038,[,156,2038,],156,2038
 
 [view-settings,view=0,item:cap_secuencias.tex]
 CursorColumn=527
@@ -422,12 +443,12 @@ TextFolding=[]
 ViMarks=.,0,0,[,0,0,],0,0
 
 [view-settings,view=0,item:libroResonancia.tex]
-CursorColumn=40
-CursorLine=87
+CursorColumn=22
+CursorLine=225
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,87,30,[,87,30,],87,30
+ViMarks=.,225,21,[,225,21,],225,21
 
 [view-settings,view=0,item:libroresonancia_estilos.tex]
 CursorColumn=0

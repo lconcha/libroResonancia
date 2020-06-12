@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  28 MAY 2020 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  11 JUN 2020 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,7 +598,13 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen261
 \SOUL@uldp=\dimen262
 \SOUL@ulht=\dimen263
-) (./newfloat.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/totalcount.sty
+Package: totalcount 2018/01/21 v1.0a Total values of counters (AR)
+\c@totalcount@figure=\count314
+\c@totalcount@table=\count315
+)
+(./newfloat.sty
 Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
 )
 
@@ -622,16 +628,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 \caption@hangindent=\dimen270
 Package caption Info: memoir document class detected.
 )
-\c@caption@flags=\count314
-\c@continuedfloat=\count315
+\c@caption@flags=\count316
+\c@continuedfloat=\count317
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 Package newfloat Info: New float `myfloat' with options `fileext=frm,placement=
-{!ht},name=Frame' on input line 54.
-\c@myfloat=\count316
-Package newfloat Info: float type `myfloat'=4 on input line 54.
-\c@frmdepth=\count317
+{!ht},name=Frame' on input line 55.
+\c@myfloat=\count318
+Package newfloat Info: float type `myfloat'=4 on input line 55.
+\c@frmdepth=\count319
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
@@ -649,22 +655,22 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
 \l__pdf_internal_box=\box99
-\g__pdf_backend_object_int=\count318
+\g__pdf_backend_object_int=\count320
 \l__pdf_backend_content_box=\box100
 \l__pdf_backend_model_box=\box101
-\g__pdf_backend_annotation_int=\count319
-\g__pdf_backend_link_int=\count320
-\g__pdf_backend_link_sf_int=\count321
+\g__pdf_backend_annotation_int=\count321
+\g__pdf_backend_link_int=\count322
+\g__pdf_backend_link_sf_int=\count323
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count322
-\g__xparse_grabber_int=\count323
-\l__xparse_m_args_int=\count324
-\l__xparse_v_nesting_int=\count325
+\l__xparse_current_arg_int=\count324
+\g__xparse_grabber_int=\count325
+\l__xparse_m_args_int=\count326
+\l__xparse_v_nesting_int=\count327
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
+\etb@tempcnta=\count328
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
@@ -692,11 +698,11 @@ Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count327
+\c@abspage=\count329
 Package zref Info: New property: abspage on input line 66.
 )
 \mdf@templength=\skip270
-\c@mdf@globalstyle@cnt=\count328
+\c@mdf@globalstyle@cnt=\count330
 \mdf@skipabove@length=\skip271
 \mdf@skipbelow@length=\skip272
 \mdf@leftmargin@length=\skip273
@@ -782,14 +788,14 @@ ex
 \pgf@yd=\dimen282
 \w@pgf@writea=\write4
 \r@pgf@reada=\read5
-\c@pgf@counta=\count329
-\c@pgf@countb=\count330
-\c@pgf@countc=\count331
-\c@pgf@countd=\count332
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
 \t@pgf@toka=\toks38
 \t@pgf@tokb=\toks39
 \t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count333
+\pgf@sys@id@count=\count335
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -801,13 +807,13 @@ File: pgfsys-dvips.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
 ript.def
 File: pgfsys-common-postscript.def 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@objectcount=\count334
+\pgf@objectcount=\count336
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count335
-\pgfsyssoftpath@bigbuffer@items=\count336
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -821,7 +827,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen283
-\pgfmath@count=\count337
+\pgfmath@count=\count339
 \pgfmath@box=\box103
 \pgfmath@toks=\toks41
 \pgfmath@stack@operand=\toks42
@@ -845,7 +851,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count338
+\c@pgfmathroundto@lastzeros=\count340
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -884,7 +890,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box104
 \pgf@hbox=\box105
 \pgf@layerbox@main=\box106
-\pgf@picture@serial@count=\count339
+\pgf@picture@serial@count=\count341
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -917,8 +923,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen307
-\pgf@sys@shading@range@num=\count340
-\pgf@shadingcount=\count341
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -978,7 +984,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count342
+\pgf@plot@mark@count=\count344
 \pgfplotmarksize=\dimen312
 )
 \tikz@lastx=\dimen313
@@ -993,18 +999,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box110
 \tikz@tempbox=\box111
 \tikz@tempbox@bg=\box112
-\tikztreelevel=\count343
-\tikznumberofchildren=\count344
-\tikznumberofcurrentchild=\count345
-\tikz@fig@count=\count346
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count347
-\pgfmatrixcurrentcolumn=\count348
-\pgf@matrix@numberofcolumns=\count349
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
 )
-\tikz@expandcount=\count350
+\tikz@expandcount=\count352
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1045,16 +1051,16 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip334
 \mdfsubtitleheight=\skip335
 \mdfsubsubtitleheight=\skip336
-\c@mdfcountframes=\count351
+\c@mdfcountframes=\count353
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count352
-\c@mdf@env@i=\count353
-\c@mdf@env@ii=\count354
-\c@mdf@zref@counter=\count355
+\mdf@envdepth=\count354
+\c@mdf@env@i=\count355
+\c@mdf@env@ii=\count356
+\c@mdf@zref@counter=\count357
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (./libroresonancia_glosario.tex
@@ -1069,7 +1075,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks46
 \XKV@tempa@toks=\toks47
 )
-\XKV@depth=\count356
+\XKV@depth=\count358
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -1103,13 +1109,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count357
+\inf@bad=\count359
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count358
-\leftroot@=\count359
+\uproot@=\count360
+\leftroot@=\count361
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count360
-\DOTSCASE@=\count361
+\classnum@=\count362
+\DOTSCASE@=\count363
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -1118,15 +1124,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen323
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count362
-\c@MaxMatrixCols=\count363
+\macc@depth=\count364
+\c@MaxMatrixCols=\count365
 \dotsspace@=\muskip16
-\c@parentequation=\count364
-\dspbrk@lvl=\count365
+\c@parentequation=\count366
+\dspbrk@lvl=\count367
 \tag@help=\toks51
-\row@=\count366
-\column@=\count367
-\maxfields@=\count368
+\row@=\count368
+\column@=\count369
+\maxfields@=\count370
 \andhelp@=\toks52
 \eqnshift@=\dimen324
 \alignsep@=\dimen325
@@ -1143,7 +1149,7 @@ LaTeX Info: Redefining \] on input line 2860.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count369
+\c@su@anzahl=\count371
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -1154,19 +1160,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count370
+\actioncount=\count372
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count371
-\FP@xia=\count372
-\FP@xib=\count373
-\FP@xfa=\count374
-\FP@xfb=\count375
-\FP@rega=\count376
-\FP@regb=\count377
-\FP@regs=\count378
-\FP@times=\count379
+\FP@xs=\count373
+\FP@xia=\count374
+\FP@xib=\count375
+\FP@xfa=\count376
+\FP@xfb=\count377
+\FP@rega=\count378
+\FP@regb=\count379
+\FP@regs=\count380
+\FP@times=\count381
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1185,7 +1191,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count380
+\FPseed=\count382
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1197,14 +1203,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks55
-\@dtl@tmpcount=\count381
+\@dtl@tmpcount=\count383
 \dtl@tmplength=\skip340
-\dtl@sortresult=\count382
-\@dtl@numgrpsepcount=\count383
-\@dtl@datatype=\count384
-\dtl@codeA=\count385
-\dtl@codeB=\count386
-\@dtl@foreach@level=\count387
+\dtl@sortresult=\count384
+\@dtl@numgrpsepcount=\count385
+\@dtl@datatype=\count386
+\dtl@codeA=\count387
+\dtl@codeB=\count388
+\@dtl@foreach@level=\count389
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
 307.sty
@@ -1222,7 +1228,7 @@ File: glossaries-spanish.ldf 2014/11/23 v1.0
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-
 utf8.ldf))
-\gls@level=\count388
+\gls@level=\count390
 \@gls@tmpb=\toks56
 \gls@tmplen=\skip341
 
@@ -1253,16 +1259,16 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip344
 \LTpre=\skip345
 \LTpost=\skip346
-\LTchunksize=\count389
+\LTchunksize=\count391
 \LTcapwidth=\dimen330
 \LT@head=\box120
 \LT@firsthead=\box121
 \LT@foot=\box122
 \LT@lastfoot=\box123
-\LT@cols=\count390
-\LT@rows=\count391
-\c@LT@tables=\count392
-\c@LT@chunks=\count393
+\LT@cols=\count392
+\LT@rows=\count393
+\c@LT@tables=\count394
+\c@LT@chunks=\count395
 \LT@p@ftn=\toks61
 )
 \glsdescwidth=\skip347
@@ -1273,7 +1279,7 @@ Package: glossary-super 2020/02/13 v4.45 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count394
+\c@tracingst=\count396
 \ST@wd=\dimen331
 \ST@rightskip=\skip349
 \ST@leftskip=\skip350
@@ -1354,8 +1360,8 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \@linkdim=\dimen341
-\Hy@linkcounter=\count395
-\Hy@pagecounter=\count396
+\Hy@linkcounter=\count397
+\Hy@pagecounter=\count398
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -1365,8 +1371,8 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count397
-\pdfmajorversion=\count398
+\Hy@SavedSpaceFactor=\count399
+\pdfmajorversion=\count400
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -1394,7 +1400,7 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
-\c@Hy@tempcnt=\count399
+\c@Hy@tempcnt=\count401
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1406,7 +1412,7 @@ LaTeX Info: Redefining \url on input line 5159.
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count400
+\Fld@menulength=\count402
 \Field@Width=\dimen343
 \Fld@charsize=\dimen344
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -1418,15 +1424,15 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count401
-\c@Item=\count402
-\c@Hfootnote=\count403
+\Hy@abspage=\count403
+\c@Item=\count404
+\c@Hfootnote=\count405
 )
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count404
-\c@Hpagenote=\count405
+\c@memhycontfloat=\count406
+\c@Hpagenote=\count407
 )
 Package hyperref Info: Driver: hypertex.
 
@@ -1440,30 +1446,30 @@ LaTeX Info: Redefining \% on input line 31.
 )
 \openout1 = `libroResonancia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
-35.
+36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 \AtBeginShipoutBox=\box126
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -1476,8 +1482,8 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-Package backref Info: ** backref set up for natbib ** on input line 135.
-Package hyperref Info: Link coloring OFF on input line 135.
+Package backref Info: ** backref set up for natbib ** on input line 136.
+Package hyperref Info: Link coloring OFF on input line 136.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1488,14 +1494,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count406
+\c@section@level=\count408
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 135.
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
+LaTeX Info: Redefining \nameref on input line 136.
+LaTeX Info: Redefining \ref on input line 136.
+LaTeX Info: Redefining \pageref on input line 136.
+LaTeX Info: Redefining \nameref on input line 136.
 [1
 
 \openout6 = `libroResonancia.ist'.
@@ -1543,11 +1549,7 @@ LaTeX Font Warning: Font shape `T1/pplj/b/sc' undefined
 Package spanish Warning: Replacing `T1/pplj/b/sc' by 
 (spanish)                faked small caps on input line 2.
 
-[1] [2]
-Underfull \vbox (badness 1997) has occurred while \output is active []
-
- [3]
-[4]) [5] [6
+[1] [2] [3] [4]) [5] [6
 
 ] [1
 
@@ -1580,8 +1582,8 @@ Underfull \vbox (badness 1281) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
  [7])
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
 
 [8] (./cap_historia.tex [9
 
@@ -1601,8 +1603,8 @@ Underfull \vbox (badness 4660) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
  [12])
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
 
 [13] [14
 
@@ -1650,8 +1652,8 @@ LaTeX Info: Redefining \% on input line 43.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [19])
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
  [20]
 (./cap_relajacionContraste.tex
 LaTeX Info: Redefining \bond on input line 13.
@@ -1660,70 +1662,80 @@ LaTeX Info: Redefining \tbond on input line 13.
  [21
 
 ]
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ [22]
 File: /home/lconcha/Documents/libroResonancia/figs/contraste_T1.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/contraste_T1.eps>
-LaTeX Info: Redefining \. on input line 52.
-LaTeX Info: Redefining \% on input line 52.
- [22]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [23]
 
-LaTeX Warning: Reference `contraste_T1' on page 23 undefined on input line 56.
+LaTeX Warning: Reference `contraste_T1' on page 24 undefined on input line 65.
 
 File: /home/lconcha/Documents/libroResonancia/figs/contraste_T1_tejidos.eps Gra
 phic file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/contraste_T1_tejidos.eps>
-LaTeX Info: Redefining \. on input line 72.
-LaTeX Info: Redefining \% on input line 72.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
-[23]
-Underfull \vbox (badness 2653) has occurred while \output is active []
+[24]
+Underfull \vbox (badness 6741) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
- [24]
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+ [25]
 File: /home/lconcha/Documents/libroResonancia/figs/contraste_T2.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/contraste_T2.eps>
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
- [25]
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
  [26]
-LaTeX Info: Redefining \bond on input line 112.
-LaTeX Info: Redefining \dbond on input line 112.
-LaTeX Info: Redefining \tbond on input line 112.
-LaTeX Info: Redefining \. on input line 128.
-LaTeX Info: Redefining \% on input line 128.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+ [27]
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
 
-[27]
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
- [28]
+[28]
+LaTeX Info: Redefining \bond on input line 128.
+LaTeX Info: Redefining \dbond on input line 128.
+LaTeX Info: Redefining \tbond on input line 128.
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [29]
+LaTeX Info: Redefining \. on input line 147.
+LaTeX Info: Redefining \% on input line 147.
+ [30]
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+ [31]
 File: /home/lconcha/Documents/libroResonancia/figs/whack.eps Graphic file (type
  eps)
  </home/lconcha/Documents/libroResonancia/figs/whack.eps>
-LaTeX Info: Redefining \. on input line 153.
-LaTeX Info: Redefining \% on input line 153.
- [29]
-LaTeX Info: Redefining \. on input line 162.
-LaTeX Info: Redefining \% on input line 162.
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
 
-[30]
+[32]
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+ [33]
 File: /home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps Gr
 aphic file (type eps)
- </home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps>)
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
 
-[31]
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
- [32] (./cap_codificacionEspacial.tex [33
+</home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps>)
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
 
-]
+[34]
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+ [35] [36
+
+] (./cap_codificacionEspacial.tex [37]
 File: /home/lconcha/Documents/libroResonancia/figs/gradientes.eps Graphic file 
 (type eps)
 
@@ -1736,10 +1748,10 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [34]
+ [38]
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [35]
+ [39]
 File: /home/lconcha/Documents/libroResonancia/figs/rebanadas.eps Graphic file (
 type eps)
 
@@ -1750,7 +1762,7 @@ e (type eps)
 </home/lconcha/Documents/libroResonancia/figs/rebanadas_BW.eps>
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [36]
+ [40]
 File: gradientes2.eps Graphic file (type eps)
 
 <gradientes2.eps>
@@ -1758,7 +1770,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
- [37]
+ [41]
 File: /home/lconcha/Documents/libroResonancia/figs/Fourier_decomposition.eps Gr
 aphic file (type eps)
 
@@ -1774,10 +1786,10 @@ phic file (type eps)
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
 
-[38]
+[42]
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
- [39]
+ [43]
 File: /home/lconcha/Documents/libroResonancia/figs/sine_anim.eps Graphic file (
 type eps)
  </home/lconcha/Documents/libroResonancia/figs/sine_anim.eps>
@@ -1805,17 +1817,17 @@ Underfull \vbox (badness 2460) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
- [40]
+ [44]
 LaTeX Info: Redefining \. on input line 130.
 LaTeX Info: Redefining \% on input line 130.
 
-[41]
+[45]
 LaTeX Info: Redefining \. on input line 154.
 LaTeX Info: Redefining \% on input line 154.
- [42]
+ [46]
 LaTeX Info: Redefining \. on input line 168.
 LaTeX Info: Redefining \% on input line 168.
- [43]
+ [47]
 File: /home/lconcha/Documents/libroResonancia/figs/kspace_stencils.eps Graphic 
 file (type eps)
 
@@ -1828,22 +1840,22 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
 LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
- [44]
+ [48]
 File: /home/lconcha/Documents/libroResonancia/figs/kspace_viz.eps Graphic file 
 (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/kspace_viz.eps>
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
- [45]
+ [49]
 File: /home/lconcha/Documents/libroResonancia/figs/casos_espaciok.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/casos_espaciok.eps>)
-LaTeX Info: Redefining \. on input line 199.
-LaTeX Info: Redefining \% on input line 199.
- [46]
-(./cap_secuencias.tex [47
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
+ [50]
+(./cap_secuencias.tex [51
 
 ]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_01.eps Graphic file (ty
@@ -1864,7 +1876,7 @@ pe eps)
 </home/lconcha/Documents/libroResonancia/figs/vite_04.eps>
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
- [48]
+ [52]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_05.eps Graphic file (ty
 pe eps)
 
@@ -1873,7 +1885,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 74.
 LaTeX Info: Redefining \% on input line 74.
- [49]
+ [53]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_06.eps Graphic file (ty
 pe eps)
 
@@ -1884,7 +1896,7 @@ pe eps)
 </home/lconcha/Documents/libroResonancia/figs/vite_07.eps>
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
- [50]
+ [54]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_08.eps Graphic file (ty
 pe eps)
 
@@ -1893,7 +1905,7 @@ Underfull \vbox (badness 7151) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 118.
 LaTeX Info: Redefining \% on input line 118.
- [51]
+ [55]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_09.eps Graphic file (ty
 pe eps)
 
@@ -1922,11 +1934,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 188.
 LaTeX Info: Redefining \% on input line 188.
- [52]
+ [56]
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
 
-[53]
+[57]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_15.eps Graphic file (ty
 pe eps)
  </home/lconcha/Documents/libroResonancia/figs/vite_15.eps>
@@ -1934,7 +1946,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 216.
 LaTeX Info: Redefining \% on input line 216.
- [54]
+ [58]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_16.eps Graphic file (ty
 pe eps)
 
@@ -1943,47 +1955,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 232.
 LaTeX Info: Redefining \% on input line 232.
- [55]
+ [59]
 File: /home/lconcha/Documents/libroResonancia/figs/vite_17.eps Graphic file (ty
 pe eps)
 
 </home/lconcha/Documents/libroResonancia/figs/vite_17.eps>)
-LaTeX Info: Redefining \. on input line 205.
-LaTeX Info: Redefining \% on input line 205.
- [56] [57
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
+ [60] [61
 
-] [58
+] [62
 
 ]
-(./cap_seguridad.tex [59]
+(./cap_seguridad.tex [63]
 File: /home/lconcha/Documents/libroResonancia/figs/seguridad_bcero.eps Graphic 
 file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/seguridad_bcero.eps>
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- [60]
+ [64]
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 
-[61]
+[65]
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [62]
+ [66]
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
- [63]
+ [67]
 Underfull \vbox (badness 4660) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
- [64]
+ [68]
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
 
-[65]
+[69]
 
-Package natbib Warning: Citation `Quirk_Letendre_Ciottone_Lingley' on page 66 u
+Package natbib Warning: Citation `Quirk_Letendre_Ciottone_Lingley' on page 70 u
 ndefined on input line 116.
 
 
@@ -1991,14 +2003,14 @@ Underfull \vbox (badness 6047) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
- [66]
+ [70]
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
 
-[67]
+[71]
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
- [68]
+ [72]
 File: /home/lconcha/Documents/libroResonancia/figs/seguridad_formularioA.eps Gr
 aphic file (type eps)
 
@@ -2010,32 +2022,32 @@ aphic file (type eps)
 LaTeX Info: Redefining \. on input line 172.
 LaTeX Info: Redefining \% on input line 172.
 
-[69]
+[73]
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
- [70]
+ [74]
 File: /home/lconcha/Documents/libroResonancia/figs/seguridad_simbolos.eps Graph
 ic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/seguridad_simbolos.eps>
 LaTeX Info: Redefining \. on input line 191.
 LaTeX Info: Redefining \% on input line 191.
- [71]
+ [75]
 LaTeX Info: Redefining \. on input line 198.
 LaTeX Info: Redefining \% on input line 198.
 
-[72]
+[76]
 LaTeX Info: Redefining \. on input line 205.
 LaTeX Info: Redefining \% on input line 205.
- [73]
+ [77]
 File: /home/lconcha/Documents/libroResonancia/figs/seguridad_prohibidos.eps Gra
 phic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/seguridad_prohibidos.eps>)
-LaTeX Info: Redefining \. on input line 216.
-LaTeX Info: Redefining \% on input line 216.
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
 
-[74] (./cap_espectro.tex [75
+[78] (./cap_espectro.tex [79
 
 ]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_deltaE.eps Graphic 
@@ -2044,28 +2056,28 @@ file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/espectro_deltaE.eps>
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- [76]
+ [80]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_metanol.eps Graphic
  file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/espectro_metanol.eps>
 LaTeX Info: Redefining \. on input line 74.
 LaTeX Info: Redefining \% on input line 74.
- [77]
+ [81]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_espectro.eps Graphi
 c file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/espectro_espectro.eps>
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
- [78]
+ [82]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_coupling.eps Graphi
 c file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/espectro_coupling.eps>
 LaTeX Info: Redefining \. on input line 106.
 LaTeX Info: Redefining \% on input line 106.
- [79]
+ [83]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_pascal.eps Graphic 
 file (type eps)
 
@@ -2077,17 +2089,17 @@ File: /home/lconcha/Documents/libroResonancia/figs/espectro_couplingComplex.eps
 LaTeX Info: Redefining \. on input line 157.
 LaTeX Info: Redefining \% on input line 157.
 
-[80]
+[84]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_singleVoxel.eps Gra
 phic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/espectro_singleVoxel.eps>
 LaTeX Info: Redefining \. on input line 173.
 LaTeX Info: Redefining \% on input line 173.
 
-[81]
+[85]
 LaTeX Info: Redefining \. on input line 175.
 LaTeX Info: Redefining \% on input line 175.
- [82]
+ [86]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_press.eps Graphic f
 ile (type eps)
  </home/lconcha/Documents/libroResonancia/figs/espectro_press.eps>
@@ -2097,7 +2109,7 @@ ile (type eps)
 </home/lconcha/Documents/libroResonancia/figs/espectro_steam.eps>
 LaTeX Info: Redefining \. on input line 227.
 LaTeX Info: Redefining \% on input line 227.
- [83]
+ [87]
 File: /home/lconcha/Documents/libroResonancia/figs/espectro_TEs.eps Graphic fil
 e (type eps)
 
@@ -2114,17 +2126,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 273.
 LaTeX Info: Redefining \% on input line 273.
- [84]
+ [88]
 LaTeX Info: Redefining \. on input line 273.
 LaTeX Info: Redefining \% on input line 273.
 
-[85]
+[89]
 LaTeX Info: Redefining \. on input line 285.
 LaTeX Info: Redefining \% on input line 285.
- [86]
+ [90]
 LaTeX Info: Redefining \. on input line 299.
 LaTeX Info: Redefining \% on input line 299.
- [87]
+ [91]
 Package textcomp Info: Symbol \textuparrow not provided by
 (textcomp)             font family pplj in TS1 encoding.
 (textcomp)             Default family used instead on input line 311.
@@ -2260,52 +2272,67 @@ Overfull \hbox (46.54pt too wide) in paragraph at lines 313--327
  []
 
 )
-LaTeX Info: Redefining \. on input line 221.
-LaTeX Info: Redefining \% on input line 221.
- [88] [89
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
+ [92] (./cap_artefactos.tex [93
 
-] [90
+]
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ [94]
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+ [95])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [91] [92] (./cap_origenBOLD.tex [93
+LaTeX Info: Redefining \. on input line 232.
+LaTeX Info: Redefining \% on input line 232.
+ [96]
+LaTeX Info: Redefining \. on input line 232.
+LaTeX Info: Redefining \% on input line 232.
+
+[97] [98
+
+] [99] [100] (./cap_origenBOLD.tex [101
 
 ]
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
- [94]
+ [102]
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
- [95]
+ [103]
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
- [96]
+ [104]
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [97]
+ [105]
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
 
-[98]
+[106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [99])
-LaTeX Info: Redefining \. on input line 240.
-LaTeX Info: Redefining \% on input line 240.
+ [107])
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
 
-[100] (./cap_glm.tex [101
+[108] (./cap_glm.tex [109
 
 ]
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [102]
+ [110]
 File: /home/lconcha/Documents/libroResonancia/figs/glm_figura01.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/glm_figura01.eps>
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
- [103]
+ [111]
 File: /home/lconcha/Documents/libroResonancia/figs/glm_figura02.eps Graphic fil
 e (type eps)
 
@@ -2318,33 +2345,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [104]
+ [112]
 File: /home/lconcha/Documents/libroResonancia/figs/glm_figura04.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/glm_figura04.eps>
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
- [105]
+ [113]
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
- [106]
+ [114]
 File: /home/lconcha/Documents/libroResonancia/figs/glm_figura05.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/glm_figura05.eps>)
-LaTeX Info: Redefining \. on input line 245.
-LaTeX Info: Redefining \% on input line 245.
- [107] [108
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
+ [115] [116
 
 ]
-(./cap_difusion.tex [109]
+(./cap_difusion.tex [117]
 
-Package natbib Warning: Citation `Einstein1905' on page 110 undefined on input 
+Package natbib Warning: Citation `Einstein1905' on page 118 undefined on input 
 line 8.
 
 
-Package natbib Warning: Citation `Einstein1905' on page 110 undefined on input 
+Package natbib Warning: Citation `Einstein1905' on page 118 undefined on input 
 line 9.
 
 
@@ -2359,18 +2386,20 @@ File: /home/lconcha/Documents/libroResonancia/figs/isotropicExamples.eps Graphi
 c file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/isotropicExamples.eps>
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [110]
+ [118]
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
- [111]
+ [119]
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
 
-[112]
+[120]
 Overfull \hbox (6.6497pt too wide) in paragraph at lines 51--53
 \T1/pplj/m/n/10 donde $\OML/zplm/m/it/10 ^^M$ \T1/pplj/m/n/10 es la re-la-ción 
 gi-ro-mag-né-ti-ca de pro-to-nes de hi-dró-geno (42,58 MHz/T).
@@ -2389,44 +2418,44 @@ s Graphic file (type eps)
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
 
-[113]
+[121]
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
- [114]
+ [122]
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
- [115]
+ [123]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps Graphic file
  (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/DTI_ADCmaps.eps>
 
-Package natbib Warning: Citation `Rengachary_2004' on page 116 undefined on inp
+Package natbib Warning: Citation `Rengachary_2004' on page 124 undefined on inp
 ut line 108.
 
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
-[116]
+[124]
 
-Package natbib Warning: Citation `Rengachary_2004' on page 117 undefined on inp
+Package natbib Warning: Citation `Rengachary_2004' on page 125 undefined on inp
 ut line 110.
 
 
-Package natbib Warning: Citation `Rengachary_2004' on page 117 undefined on inp
+Package natbib Warning: Citation `Rengachary_2004' on page 125 undefined on inp
 ut line 111.
 
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
-[117]
+[125]
 File: /home/lconcha/Documents/libroResonancia/figs/axons2.eps Graphic file (typ
 e eps)
  </home/lconcha/Documents/libroResonancia/figs/axons2.eps>
 LaTeX Info: Redefining \. on input line 131.
 LaTeX Info: Redefining \% on input line 131.
- [118]
+ [126]
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
- [119]
+ [127]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoid.eps Graphic fi
 le (type eps)
 
@@ -2437,25 +2466,25 @@ file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/DTI_DWItoTensor.eps>
 LaTeX Info: Redefining \. on input line 211.
 LaTeX Info: Redefining \% on input line 211.
- [120]
+ [128]
 
-Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
+Package natbib Warning: Citation `Pierpaoli_1996' on page 129 undefined on inpu
 t line 212.
 
 
-Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
+Package natbib Warning: Citation `Pierpaoli_1996' on page 129 undefined on inpu
 t line 212.
 
 
-Package natbib Warning: Citation `Pierpaoli_1996' on page 121 undefined on inpu
+Package natbib Warning: Citation `Pierpaoli_1996' on page 129 undefined on inpu
 t line 218.
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[121]
+[129]
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
- [122]
+ [130]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_ellipsoids_FA.eps Graphi
 c file (type eps)
 
@@ -2467,13 +2496,13 @@ File: /home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_anisotropy.eps
 LaTeX Info: Redefining \. on input line 254.
 LaTeX Info: Redefining \% on input line 254.
 
-[123]
+[131]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps Graphic fi
 le (type eps)
  </home/lconcha/Documents/libroResonancia/figs/DTI_colormaps.eps>
 LaTeX Info: Redefining \. on input line 278.
 LaTeX Info: Redefining \% on input line 278.
- [124]
+ [132]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_quantMaps_spher.eps Grap
 hic file (type eps)
 
@@ -2482,9 +2511,9 @@ Underfull \vbox (badness 7814) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 297.
 LaTeX Info: Redefining \% on input line 297.
- [125]
+ [133]
 
-Package natbib Warning: Citation `Basser_1998' on page 126 undefined on input l
+Package natbib Warning: Citation `Basser_1998' on page 134 undefined on input l
 ine 298.
 
 
@@ -2495,7 +2524,7 @@ to con-ti-nuo (``FACT'')$[]$
 
 LaTeX Info: Redefining \. on input line 303.
 LaTeX Info: Redefining \% on input line 303.
-[126]
+[134]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps Graphic file (t
 ype eps)
  </home/lconcha/Documents/libroResonancia/figs/DTI_FACT.eps>
@@ -2503,7 +2532,7 @@ Underfull \vbox (badness 1609) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 314.
 LaTeX Info: Redefining \% on input line 314.
- [127]
+ [135]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_dissection.eps Graphic f
 ile (type eps)
 
@@ -2520,20 +2549,20 @@ Underfull \vbox (badness 2343) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 334.
 LaTeX Info: Redefining \% on input line 334.
- [128]
+ [136]
 LaTeX Info: Redefining \. on input line 340.
 LaTeX Info: Redefining \% on input line 340.
 
-[129]
+[137]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 344.
 LaTeX Info: Redefining \% on input line 344.
- [130]
+ [138]
 LaTeX Info: Redefining \. on input line 353.
 LaTeX Info: Redefining \% on input line 353.
 
-[131]
+[139]
 File: /home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps Graph
 ic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/DTI_tensorAddition.eps>
@@ -2541,7 +2570,7 @@ Underfull \vbox (badness 4556) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 363.
 LaTeX Info: Redefining \% on input line 363.
- [132]
+ [140]
 
 LaTeX Warning: Command \texttimes invalid in math mode on input line 373.
 
@@ -2558,22 +2587,22 @@ Missing character: There is no Ö in font pplr7t!
 Missing character: There is no Ö in font pplr7t!
 LaTeX Info: Redefining \. on input line 374.
 LaTeX Info: Redefining \% on input line 374.
-[133]
+[141]
 File: /home/lconcha/Documents/libroResonancia/figs/kspace.eps Graphic file (typ
 e eps)
  </home/lconcha/Documents/libroResonancia/figs/kspace.eps>
 
-Package natbib Warning: Citation `Reber_1998' on page 134 undefined on input li
+Package natbib Warning: Citation `Reber_1998' on page 142 undefined on input li
 ne 383.
 
 LaTeX Info: Redefining \. on input line 384.
 LaTeX Info: Redefining \% on input line 384.
-[134]
+[142]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 388.
 LaTeX Info: Redefining \% on input line 388.
- [135]
+ [143]
 File: /home/lconcha/Documents/libroResonancia/figs/ReeseDTI.eps Graphic file (t
 ype eps)
 
@@ -2582,40 +2611,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 405.
 LaTeX Info: Redefining \% on input line 405.
- [136]
+ [144]
 LaTeX Info: Redefining \. on input line 409.
 LaTeX Info: Redefining \% on input line 409.
 
-[137])
-LaTeX Info: Redefining \. on input line 250.
-LaTeX Info: Redefining \% on input line 250.
- [138] (./cap_angio.tex [139
+[145])
+LaTeX Info: Redefining \. on input line 253.
+LaTeX Info: Redefining \% on input line 253.
+ [146] (./cap_angio.tex [147
 
 ]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [140]
+ [148]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image1.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image1.eps>
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
- [141]
+ [149]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image2.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image2.eps>
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [142]
+ [150]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image3.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image3.eps>
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
- [143]
+ [151]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image4.eps Graphic f
 ile (type eps)
 
@@ -2626,7 +2655,7 @@ ile (type eps)
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image5.eps>
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [144]
+ [152]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image6.eps Graphic f
 ile (type eps)
 
@@ -2635,11 +2664,11 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
- [145]
+ [153]
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
 
-[146]
+[154]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image7.eps Graphic f
 ile (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image7.eps>
@@ -2647,7 +2676,7 @@ Underfull \vbox (badness 1990) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [147]
+ [155]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image8.eps Graphic f
 ile (type eps)
 
@@ -2656,14 +2685,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
- [148]
+ [156]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image9.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/fig_arm_image9.eps>
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
- [149]
+ [157]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image10.eps Graphic 
 file (type eps)
 
@@ -2672,7 +2701,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
- [150]
+ [158]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image11.eps Graphic 
 file (type eps)
 
@@ -2685,49 +2714,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 222.
 LaTeX Info: Redefining \% on input line 222.
- [151]
+ [159]
 LaTeX Info: Redefining \. on input line 222.
 LaTeX Info: Redefining \% on input line 222.
 
-[152]
+[160]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image13.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image13.eps>
 LaTeX Info: Redefining \. on input line 244.
 LaTeX Info: Redefining \% on input line 244.
 
-[153]
+[161]
 LaTeX Info: Redefining \. on input line 244.
 LaTeX Info: Redefining \% on input line 244.
- [154]
+ [162]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image14.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image14.eps>
 LaTeX Info: Redefining \. on input line 265.
 LaTeX Info: Redefining \% on input line 265.
 
-[155]
+[163]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image15.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image15.eps>
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
 
-[156]
+[164]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image16.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image16.eps>
 LaTeX Info: Redefining \. on input line 300.
 LaTeX Info: Redefining \% on input line 300.
 
-[157]
+[165]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image17.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image17.eps>
 LaTeX Info: Redefining \. on input line 319.
 LaTeX Info: Redefining \% on input line 319.
 
-[158]
+[166]
 File: /home/lconcha/Documents/libroResonancia/figs/fig_arm_image18.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/fig_arm_image18.eps>
@@ -2739,39 +2768,39 @@ Underfull \vbox (badness 1960) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 353.
 LaTeX Info: Redefining \% on input line 353.
- [159]
+ [167]
 LaTeX Info: Redefining \. on input line 353.
 LaTeX Info: Redefining \% on input line 353.
 
-[160] (./table_angio_compara.tex
+[168] (./table_angio_compara.tex
 Overfull \hbox (78.09306pt too wide) in paragraph at lines 7--16
  [][] 
  []
 
 ))
-LaTeX Info: Redefining \. on input line 257.
-LaTeX Info: Redefining \% on input line 257.
- [161]
-LaTeX Info: Redefining \. on input line 257.
-LaTeX Info: Redefining \% on input line 257.
- [162] [163
+LaTeX Info: Redefining \. on input line 260.
+LaTeX Info: Redefining \% on input line 260.
+ [169]
+LaTeX Info: Redefining \. on input line 260.
+LaTeX Info: Redefining \% on input line 260.
+ [170] [171
 
-] [164
+] [172
 
-] [165] [166
+] [173] [174
 
-] [167] [168] [169
+] [175] [176] [177
 
-] [170
+] [178
 
-] [171] [172
+] [179] [180
 
 ]
-[173] [174
+[181] [182
 
-] [175] [176
+] [183] [184
 
-] (./cap_grosorCortical.tex [177]
+] (./cap_grosorCortical.tex [185]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_1.eps Graphic file (t
 ype eps)
 
@@ -2782,7 +2811,7 @@ file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_brodmann.eps>
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [178]
+ [186]
 (./table_capasCorteza.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2803,27 +2832,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
- [179]
+ [187]
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
 
-[180]
+[188]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_desarrollo.eps Graphi
 c file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/grosor_desarrollo.eps>
 
-Package natbib Warning: Citation `Fischl1999_cortical' on page 181 undefined on
+Package natbib Warning: Citation `Fischl1999_cortical' on page 189 undefined on
  input line 105.
 
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
-[181]
+[189]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_surcos.eps Graphic fi
 le (type eps)
  </home/lconcha/Documents/libroResonancia/figs/grosor_surcos.eps>
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
- [182]
+ [190]
 (./table_grosor_protocolos.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2836,13 +2865,13 @@ aphic file (type eps)
 LaTeX Info: Redefining \. on input line 176.
 LaTeX Info: Redefining \% on input line 176.
 
-[183]
+[191]
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
- [184]
+ [192]
 LaTeX Info: Redefining \. on input line 223.
 LaTeX Info: Redefining \% on input line 223.
- [185]
+ [193]
 Overfull \hbox (3.3099pt too wide) in paragraph at lines 229--243
 []\T1/pplj/m/n/10 Las dos su-per-fi-cies de sus-tan-cia blan-
  []
@@ -2852,46 +2881,46 @@ e (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_pasos.eps>
 
 LaTeX Warning: Reference `Lerch_Evans_2005,Thorstensen_measuringcortical' on pa
-ge 186 undefined on input line 260.
+ge 194 undefined on input line 260.
 
 LaTeX Info: Redefining \. on input line 261.
 LaTeX Info: Redefining \% on input line 261.
-[186]
+[194]
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_mediciongrosor.eps Gr
 aphic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/grosor_mediciongrosor.eps>
 
-LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 187 undefined 
+LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 195 undefined 
 on input line 267.
 
 
-LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 187 undefined 
+LaTeX Warning: Reference `Thorstensen_measuringcortical' on page 195 undefined 
 on input line 267.
 
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_flat.eps Graphic file
  (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_flat.eps>)
-LaTeX Info: Redefining \. on input line 333.
-LaTeX Info: Redefining \% on input line 333.
- [187]
+LaTeX Info: Redefining \. on input line 336.
+LaTeX Info: Redefining \% on input line 336.
+ [195]
 (./libroResonancia.bbl (./libroResonancia.brf)
 \tf@brf=\write9
 \openout9 = `libroResonancia.brf'.
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [188] [189
+ [196] [197
 
 ]
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
- [190]
+ [198]
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
- [191]
+ [199]
 LaTeX Info: Redefining \. on input line 379.
 LaTeX Info: Redefining \% on input line 379.
- [192]
+ [200]
 Underfull \hbox (badness 1248) in paragraph at lines 453--453
 []\T1/pplj/m/sc/9 Torrey HC\T1/pplj/m/n/9 .  Bloch Equa-tions with Dif-fu-sion 
 Terms.  \T1/pplj/m/it/9 Phys Rev\T1/pplj/m/n/9 , 1956.
@@ -2899,16 +2928,16 @@ Terms.  \T1/pplj/m/it/9 Phys Rev\T1/pplj/m/n/9 , 1956.
 
 LaTeX Info: Redefining \. on input line 487.
 LaTeX Info: Redefining \% on input line 487.
-[193]
+[201]
 LaTeX Info: Redefining \. on input line 578.
 LaTeX Info: Redefining \% on input line 578.
- [194]
+ [202]
 LaTeX Info: Redefining \. on input line 676.
 LaTeX Info: Redefining \% on input line 676.
- [195]
+ [203]
 LaTeX Info: Redefining \. on input line 764.
 LaTeX Info: Redefining \% on input line 764.
- [196]
+ [204]
 Underfull \hbox (badness 1348) in paragraph at lines 839--839
 []\T1/pplj/m/sc/9 Behrens TE\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Johansen-Berg H\T1
 /pplj/m/n/9 , \T1/pplj/m/sc/9 Wool-rich MW\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Smit
@@ -2917,10 +2946,10 @@ h SM\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Wheeler-
 
 LaTeX Info: Redefining \. on input line 854.
 LaTeX Info: Redefining \% on input line 854.
-[197]
+[205]
 LaTeX Info: Redefining \. on input line 943.
 LaTeX Info: Redefining \% on input line 943.
- [198]
+ [206]
 Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
 []\T1/pplj/m/sc/9 Rojas-Vite G\T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Coronado-Leija R
 \T1/pplj/m/n/9 , \T1/pplj/m/sc/9 Narvaez-Delgado O\T1/pplj/m/n/9 , \T1/pplj/m/s
@@ -2929,7 +2958,7 @@ c/9 Ramírez-
 
 LaTeX Info: Redefining \. on input line 1031.
 LaTeX Info: Redefining \% on input line 1031.
-[199]
+[207]
 
 LaTeX Font Warning: Font shape `TS1/pplj/m/sc' undefined
 (Font)              using `TS1/pplj/m/n' instead
@@ -2937,19 +2966,19 @@ LaTeX Font Warning: Font shape `TS1/pplj/m/sc' undefined
 
 LaTeX Info: Redefining \. on input line 1123.
 LaTeX Info: Redefining \% on input line 1123.
-[200])
-LaTeX Info: Redefining \. on input line 340.
-LaTeX Info: Redefining \% on input line 340.
- [201] [202
+[208])
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+ [209] [210
 
-] [203] [204] [205
+] [211] [212] [213
 
-] [206
+] [214
 
-] (./libroResonancia.ind [207]
-[208
+] (./libroResonancia.ind [215]
+[216
 
-] [209
+] [217
 
 ])
 
@@ -2963,16 +2992,16 @@ This document will not have a glossary.
 \tf@toc=\write10
 \openout10 = `libroResonancia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
 (./libroResonancia.aux
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 368.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 Package rerunfilecheck Info: File `libroResonancia.brf' has not changed.
-(rerunfilecheck)             Checksum: CB37C3487AD18249948BA4223A0FAE89;12162.
+(rerunfilecheck)             Checksum: FDBB848D61A95232A0C6A4C08CC712B9;12202.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2982,12 +3011,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 33261 strings out of 483008
- 618203 string characters out of 5961783
- 1007329 words of memory out of 5000000
- 47637 multiletter control sequences out of 15000+600000
- 609533 words of font info for 122 fonts, out of 8000000 for 9000
+ 33307 strings out of 483008
+ 619046 string characters out of 5961783
+ 1008381 words of memory out of 5000000
+ 47677 multiletter control sequences out of 15000+600000
+ 610701 words of font info for 123 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
  73i,16n,84p,3458b,1231s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on libroResonancia.dvi (217 pages, 678556 bytes).
+Output written on libroResonancia.dvi (225 pages, 707708 bytes).
