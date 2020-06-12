@@ -1,0 +1,57 @@
+Los capículos previos dejan ver que la obtención de una imagen es un proceso complejo. Diversos sistemas actúan concertadamente para la obtención de la señal, que debe ser digitalizada y procesada para finalmente dar como resultado una imagen. En cada uno de los pasos involucrados existe el potencial de la introducción de errores, que repercuten negativamente en la imagen final. Se denomina \textit{artefacto} a cualquier anormalidad en la imagen derivada de un proceso fallido o erróneo durante la adquisición o procesamiento de la señal, que perturba la correcta interpretación del resultado. Mientras que algunos artefactos dominan la imagen y la convierten en inútil, otros son sutiles e interfieren poco con la interpretación clínica  de la imagen. Más peligrosos son los que pueden confundirse con anormalidades anatómicas. Es por eso que todo usuario de IRM debe conocer los diversos tipos de artefactos para poder identificarlos, distinguirlos de la anatomía en cuestión, y conocer  acciones  para minimizarlos. Este capítulo recopila los artefactos más frecuentes pero no pretende ser una lista exhaustiva. Cada técnica de IRM es susceptible a artefactos particulares, y es responsabilidad del usuario conocerlos.
+
+Un aspecto particularmente interesante de los artefactos en IRM es que dejan ver la física y técnica detrás de la generación de la imagen. En otras palabras, los artefactos exageran la contribución de un proceso dentro de la cadena de generación de la imagen, y nos permiten entender mejor cómo funciona el sistema. Por otra parte, algunos artefactos pueden ser domados y convertidos en técnicas útiles.
+
+
+\section{Artefactos derivados de los instrumentos}
+Estos problemas se derivan de problemas técnicos, de manufactura, o de uso de los diferentes componentes del resonador (\textit{hardware}) o el cuarto en el que se encuentran.
+
+
+\subsection{Artefacto de cremallera (\textit{zipper})}
+Sucede cuando la antena receptora de la señal de RM recibe además una RF externa, no relacionada al tejido de interés. Habitualmente, el cuarto donde se alberga un resonador magnético dispone de una jaula de Faraday (todo el cuarto está envuelto en una malla de cobre) que impide que RF externas se propaguen dentro del cuarto. La jaula de Faraday limita las RF que habitualmente existen en el ambiente, que por sus frecuencias resultan relevante la radio FM y televisión (VHF). Defectos en la jaula de Faraday, o la presencia de un emisor de RF dentro del cuarto del resonador, serán fácilmente captados por la antena receptora, pues su amplitud es considerablemente mayor a la RF de resonancia. Al entrometerse en la recepción del eco, se traducen en líneas de ruido en la dirección de codificación de frecuencia.
+
+
+\subsection{Bandas de zebra}
+Este artefacto tiene un origen similar al anterior, pero con una frecuencia constante, habitualmente causada por fallas de equipo eléctrico dentro del cuarto del resonador. Una vez que la RF espuria es captada por la antena, será mal interpretada como provenientes de la anatomía en estudio, e incluida dentro del \espaciok de acuerdo a su frecuencia y fase.  Dado que cada celda de \espaciok representa la contribución de una orientación y frecuencia espacial, el artefacto se expresará como bandas que se repiten con cierta orientación y frecuencia, dependiendo de cuál celda de \espaciok resultó sobrevaluada. Este artefacto nos permite ver la relación entre imagen y \espaciok, y se minimiza mediante la eliminación de la RF externa. 
+
+
+\subsection{Efecto de Moiré}
+Relacionado con el artefacto de enrollamiento, sucede más frecuentemente en imágenes con eco de gradiente y con FOV reducido. Comportamientos no lineales en los extremos de los gradientes codificadores provocan enrrollamiento de la señal, que provoca interferencia construcitiva/destructiva de las fases correspondientes, provocando bandas alternantes curvilíneas similares a las que se producen al mirar a través de dos mallas de mosquitero. 
+
+\subsection{Saturación de RF}
+La señal recibida debe digitalizarse antes de ser tratada mediante la transformada de Fourier. Una serie de amplificadores incrementan la magnitud de la señal antes de pasarla al convertidor analógico-digital (CAD). Si la amplificación de la señal es demasiada, el CAD se satura y se pierde el rango dinámico de la señal codificada. Esto se traduce una apariencia borrosa y variaciones de intensidad de la señal a lo largo de la imagen.
+
+\subsection{Inhomogeneidades de intensidad relacionados a la antena receptora}
+La intensidad de la señal de RM disminuye en función de la distancia con respecto a la antena receptora. Esto es idéntico a la manera en que una estación de radio se pierde mientras nos alejamos de la ciudad de donde se emite. Por lo tanto, se procura siempre que la antena receptora se acerque lo más posible a la anatomía a estudiar, razón por la cual existen muchos tipos de antena (para cráneo,  abdomen,  rodilla, etc). El efecto de pérdida de señal es sumamente notorio cuando utilizamos antenas de superficie, o en un solo lado de la anatomía. Ejemplo de ésto es la antena para ver columna vertebral que, aunque muy larga y colocada en contacto con la espalda del paciente, solo permite ver la columna y tejidos circundantes, pero el abdomen del paciente es prácticamente invisible. Otra característica de adquisiciones con inhomogeneidades de intensidad es que la relación señal/ruido es también inhomogénea, siendo más baja conforme se está más lejos de la antena.
+
+Un punto a tener en consideración es que en las últimas dos décadas se han popularizado las antenas con múltiples canales. Estas funcionan como un arreglo de múltiples antenas con perfiles espaciales limitados que se sobrelapan. Cada elemento o canal ``ve'' una porción acotada de la anatomía con gran calidad, pero no logra captar señal de regiones más lejanas; éstas otras regiones son idealmente captadas por otros canales del arreglo de antenas. Por lo tanto, la inhomogeneidad de intensidad resultante es compleja y el ruido es espacialmente variable.
+
+\subsection{Inhomogeneidades de \Bone}
+Como se vió en el Capítulo \ref{chapter_secuencias}, el uso juicioso de pulsos de RF que provoquen desviaciones específicas del vector de magnetización (en combinación con el uso de gradientes del campo magnético) nos permite planear secuencias de pulsos que provoquen contrastes, resolución, y otras características específicas. Así, el usuario espera que al prescribir un pulso de RF de ciertas características (180\degrees, por ejemplo), el pulso se ejecute de manera homogénea a lo largo de toda la muestra. Esto último no siempre es así, debido a características de diseño de la antena emisora de RF. En muchas ocasiones, en un afán de adaptar la antena a la anatomía del paciente, la arquitectura resultante impide que el pulso de RF se transmita homogéneamente. En estas circunstancias, algunos tejidos experimentarán la modulación deseada (180\degrees en nuestro ejemplo), mientras que en otros tejidos será mayor o menor. Un pulso de 180\degrees, que podríamos usar para producir un eco, provocará el refasamiento del sistema de spins en mayor o menor medida, con cierta dependencia espacial, resultando en inhomogeneidades de intensidad espacialmente variables. Una manera de minimizar este artefacto es el uso de dos antenas de forma secuencial: una antena (habitualmente circular, muy homogénea, y embebida en el resonador) se utiliza para emitir RF, mientras que una segunda antena (adaptada a la anatomía y colocada muy cerca del paciente) recibe la señal.
+
+\subsection{Inhomogeneidades geométricas}
+La codificación espacial depende de una correcta interpretación de las frecuencias existentes en la señal recibida, con base en una ecuación lineal muy sencilla (página \pageref{eq_LarmorGradientes}). Se espera, entonces, que los gradientes del campo magnético que perturban los ejes $x$, $y$, y $z$, lo hagan de una manera perfectamente predecible y, sobre todo, lineal. Desviaciones de esta expectativa harán que ensambles de spins tengan frecuencias de precesión distintas a lo que deberían tener dada su localización espacial; posterior a la descomposición espectral mediante la transformada de Fourier, las frecuencias anómalas serán interpretadas como una localización espacial errónea. Las no-linearidades de los gradientes son casi inevitables en sus extremos, por lo que los fabricantes informan los FOVs máximos posibles en cada dimensión. Una falla de linearidad en las partes más centrales del gradiente es indicadora de una falla de manufactura.
+
+
+
+\section{Artefactos asociados a la transformada de Fourier}
+\subsection{Anillos de Gibbs}
+\subsection{Enrollamiento de la imagen (\textit{alias})}
+
+
+\section{Artefactos derivados por parámetros de adquisición}
+\subsection{Contaminación cruzada de rebanadas}
+\subsection{Excitación cruzada}
+
+\section{Artefactos producidos por movimiento}
+\subsection{Movimiento del paciente}
+\subsection{Movimiento por flujo sanguíneo}
+
+\section{Artefactos por modulación local del campo magnético}
+\subsection{Susceptibilidad magnética}
+\subsection{Cuerpos extraños}
+\subsection{Corrimiento químico}
+\subsection{Bordes negros}
+\subsection{Efecto dieléctrico}
+
+
