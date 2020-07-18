@@ -92,86 +92,85 @@
 \contentsline {subsection}{Inhomogeneidades de intensidad relacionados a la antena receptora}{95}{section*.100}%
 \contentsline {subsection}{Inhomogeneidades de $B_1$\xspace }{95}{section*.101}%
 \contentsline {subsection}{Inhomogeneidades geométricas}{96}{section*.102}%
-\contentsline {section}{\numberline {10.2}Artefactos asociados a la transformada de Fourier}{97}{section.10.2}%
-\contentsline {subsection}{Anillos de Gibbs}{97}{section*.103}%
+\contentsline {section}{\numberline {10.2}Artefactos asociados a la transformada de Fourier}{96}{section.10.2}%
+\contentsline {subsection}{Anillos de Gibbs}{96}{section*.103}%
 \contentsline {subsection}{Enrollamiento de la imagen (\textit {alias})}{97}{section*.104}%
-\contentsline {section}{\numberline {10.3}Artefactos derivados por parámetros de adquisición}{97}{section.10.3}%
-\contentsline {subsection}{Contaminación cruzada de rebanadas}{97}{section*.105}%
-\contentsline {subsection}{Excitación cruzada}{97}{section*.106}%
-\contentsline {section}{\numberline {10.4}Artefactos producidos por movimiento}{97}{section.10.4}%
-\contentsline {subsection}{Movimiento del paciente}{97}{section*.107}%
-\contentsline {subsection}{Movimiento por flujo sanguíneo}{97}{section*.108}%
-\contentsline {section}{\numberline {10.5}Artefactos por modulación local del campo magnético}{97}{section.10.5}%
-\contentsline {subsection}{Susceptibilidad magnética}{97}{section*.109}%
-\contentsline {subsection}{Cuerpos extraños}{97}{section*.110}%
-\contentsline {subsection}{Corrimiento químico}{97}{section*.111}%
-\contentsline {subsection}{Bordes negros}{97}{section*.112}%
-\contentsline {subsection}{Efecto dieléctrico}{97}{section*.113}%
-\contentsline {part}{\partnumberline {II}Protocolos de Imagen, aplicaciones y diseño experimental}{99}{part.2}%
-\contentsline {chapter}{\chapternumberline {11}Resonancia magnética funcional: Origen de la señal BOLD}{101}{chapter.11}%
+\contentsline {section}{\numberline {10.3}Artefactos derivados por parámetros de adquisición}{98}{section.10.3}%
+\contentsline {subsection}{Contaminación cruzada de rebanadas}{98}{section*.105}%
+\contentsline {section}{\numberline {10.4}Artefactos producidos por movimiento}{99}{section.10.4}%
+\contentsline {subsection}{Movimiento del paciente}{99}{section*.106}%
+\contentsline {subsection}{Movimiento por flujo sanguíneo}{100}{section*.107}%
+\contentsline {section}{\numberline {10.5}Artefactos por modulación local del campo magnético}{101}{section.10.5}%
+\contentsline {subsection}{Susceptibilidad magnética}{101}{section*.108}%
+\contentsline {subsection}{Corrimiento químico}{102}{section*.109}%
+\contentsline {subsubsection}{Artefacto por corrimiento químico Tipo 1}{102}{section*.110}%
+\contentsline {subsubsection}{Artefacto por corrimiento químico Tipo 2}{103}{section*.111}%
+\contentsline {subsection}{Efecto dieléctrico}{103}{section*.112}%
+\contentsline {part}{\partnumberline {II}Protocolos de Imagen, aplicaciones y diseño experimental}{105}{part.2}%
+\contentsline {chapter}{\chapternumberline {11}Resonancia magnética funcional: Origen de la señal BOLD}{107}{chapter.11}%
 \precistoctext {\noindent Juan Carlos Méndez, Ramón Bartolo\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {section}{\numberline {11.1}La señal BOLD}{102}{section.11.1}%
-\contentsline {section}{\numberline {11.2}La respuesta hemodinámica y su acople con la actividad metabólica cerebral}{103}{section.11.2}%
-\contentsline {subsection}{Señalización por óxido nítrico (NO)}{104}{section*.115}%
-\contentsline {subsection}{Señalización por potasio}{104}{section*.116}%
-\contentsline {subsection}{Incremento de la actividad astrocítica por la captura de glutamato}{105}{section*.117}%
-\contentsline {subsection}{Señalización por glutamato}{105}{section*.118}%
-\contentsline {section}{\numberline {11.3}Procesos neuronales y la señal BOLD}{106}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Conclusiones}{108}{section.11.4}%
-\contentsline {chapter}{\chapternumberline {12}Resonancia magnética funcional: Modelo lineal general}{109}{chapter.12}%
+\contentsline {section}{\numberline {11.1}La señal BOLD}{108}{section.11.1}%
+\contentsline {section}{\numberline {11.2}La respuesta hemodinámica y su acople con la actividad metabólica cerebral}{109}{section.11.2}%
+\contentsline {subsection}{Señalización por óxido nítrico (NO)}{110}{section*.114}%
+\contentsline {subsection}{Señalización por potasio}{110}{section*.115}%
+\contentsline {subsection}{Incremento de la actividad astrocítica por la captura de glutamato}{111}{section*.116}%
+\contentsline {subsection}{Señalización por glutamato}{111}{section*.117}%
+\contentsline {section}{\numberline {11.3}Procesos neuronales y la señal BOLD}{112}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Conclusiones}{114}{section.11.4}%
+\contentsline {chapter}{\chapternumberline {12}Resonancia magnética funcional: Modelo lineal general}{115}{chapter.12}%
 \precistoctext {\noindent Zeus Gracia Tabuenca\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {section}{\numberline {12.1}Introducción}{109}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Modelaje de la señal de Resonancia Magnética funcional}{111}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Aplicación del Modelo Lineal General en un estudio de fMRI}{113}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Conclusión}{115}{section.12.4}%
-\contentsline {chapter}{\chapternumberline {13}Imágenes sensibles a difusión}{117}{chapter.13}%
+\contentsline {section}{\numberline {12.1}Introducción}{115}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Modelaje de la señal de Resonancia Magnética funcional}{117}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Aplicación del Modelo Lineal General en un estudio de fMRI}{119}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Conclusión}{121}{section.12.4}%
+\contentsline {chapter}{\chapternumberline {13}Imágenes sensibles a difusión}{123}{chapter.13}%
 \precistoctext {\noindent Luis Concha\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {section}{\numberline {13.1}Difusión de moléculas de agua}{117}{section.13.1}%
-\contentsline {subsection}{Medición de la difusión con resonancia}{119}{section*.126}%
-\contentsline {subsection}{Difusión de agua en el cerebro}{124}{section*.130}%
-\contentsline {section}{\numberline {13.2}El tensor de difusión}{126}{section.13.2}%
-\contentsline {section}{\numberline {13.3}Tractografía}{134}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Métodos para el análisis cuantitativo del tensor de difusión}{137}{section.13.4}%
-\contentsline {section}{\numberline {13.5}Deficiencias de DTI}{139}{section.13.5}%
-\contentsline {subsection}{El modelo}{139}{section*.141}%
-\contentsline {subsection}{Artefactos de imagen}{141}{section*.143}%
-\contentsline {section}{\numberline {13.6}Cuando el modelo del tensor no es suficiente}{145}{section.13.6}%
-\contentsline {chapter}{\chapternumberline {14}Angio-resonancia}{147}{chapter.14}%
+\contentsline {section}{\numberline {13.1}Difusión de moléculas de agua}{123}{section.13.1}%
+\contentsline {subsection}{Medición de la difusión con resonancia}{125}{section*.125}%
+\contentsline {subsection}{Difusión de agua en el cerebro}{130}{section*.129}%
+\contentsline {section}{\numberline {13.2}El tensor de difusión}{132}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Tractografía}{140}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Métodos para el análisis cuantitativo del tensor de difusión}{143}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Deficiencias de DTI}{145}{section.13.5}%
+\contentsline {subsection}{El modelo}{145}{section*.140}%
+\contentsline {subsection}{Artefactos de imagen}{147}{section*.142}%
+\contentsline {section}{\numberline {13.6}Cuando el modelo del tensor no es suficiente}{151}{section.13.6}%
+\contentsline {chapter}{\chapternumberline {14}Angio-resonancia}{153}{chapter.14}%
 \precistoctext {\noindent Gabriel Ramírez García \\UNAM}
-\contentsline {section}{\numberline {14.1}ARM con técnicas de contraste en sangre negra}{148}{section.14.1}%
-\contentsline {section}{\numberline {14.2}ARM con Técnicas de sangre blanca}{151}{section.14.2}%
-\contentsline {subsection}{Técnica de ARM ``Time-Of-Flight'' (TOF) }{152}{section*.149}%
-\contentsline {subsection}{ARM con técnicas TOF-2D}{154}{section*.153}%
-\contentsline {subsection}{ARM con efecto TOF-3D}{157}{section*.156}%
-\contentsline {section}{\numberline {14.3}ARM con técnicas de Contraste de Fase (PC)}{161}{section.14.3}%
-\contentsline {subsection}{ARM con CF 2D}{165}{section*.164}%
-\contentsline {subsection}{ARM con CF 3D }{166}{section*.166}%
-\contentsline {section}{\numberline {14.4}Angiografía con incremento de contraste por agentes exógenos}{166}{section.14.4}%
-\contentsline {section}{\numberline {14.5}Conclusión }{169}{section.14.5}%
-\contentsline {chapter}{\chapternumberline {15}Imágenes sensibles a perfusión sanguínea}{171}{chapter.15}%
+\contentsline {section}{\numberline {14.1}ARM con técnicas de contraste en sangre negra}{154}{section.14.1}%
+\contentsline {section}{\numberline {14.2}ARM con Técnicas de sangre blanca}{157}{section.14.2}%
+\contentsline {subsection}{Técnica de ARM ``Time-Of-Flight'' (TOF) }{158}{section*.148}%
+\contentsline {subsection}{ARM con técnicas TOF-2D}{160}{section*.152}%
+\contentsline {subsection}{ARM con efecto TOF-3D}{163}{section*.155}%
+\contentsline {section}{\numberline {14.3}ARM con técnicas de Contraste de Fase (PC)}{167}{section.14.3}%
+\contentsline {subsection}{ARM con CF 2D}{171}{section*.163}%
+\contentsline {subsection}{ARM con CF 3D }{172}{section*.165}%
+\contentsline {section}{\numberline {14.4}Angiografía con incremento de contraste por agentes exógenos}{172}{section.14.4}%
+\contentsline {section}{\numberline {14.5}Conclusión }{175}{section.14.5}%
+\contentsline {chapter}{\chapternumberline {15}Imágenes sensibles a perfusión sanguínea}{177}{chapter.15}%
 \precistoctext {\noindent SIN AUTOR}
-\contentsline {subsection}{Protocolos}{171}{section*.171}%
-\contentsline {section}{\numberline {15.1}Diseños experimentales}{171}{section.15.1}%
-\contentsline {chapter}{\chapternumberline {16}T2 cuantitativo}{173}{chapter.16}%
+\contentsline {subsection}{Protocolos}{177}{section*.170}%
+\contentsline {section}{\numberline {15.1}Diseños experimentales}{177}{section.15.1}%
+\contentsline {chapter}{\chapternumberline {16}T2 cuantitativo}{179}{chapter.16}%
 \precistoctext {\noindent SIN AUTOR}
-\contentsline {part}{\partnumberline {III}Métodos de análisis de imágenes}{175}{part.3}%
-\contentsline {chapter}{\chapternumberline {17}Regiones de interés}{177}{chapter.17}%
+\contentsline {part}{\partnumberline {III}Métodos de análisis de imágenes}{181}{part.3}%
+\contentsline {chapter}{\chapternumberline {17}Regiones de interés}{183}{chapter.17}%
 \precistoctext {\noindent Beatriz Moreno\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {chapter}{\chapternumberline {18}Morfometría por voxel}{179}{chapter.18}%
+\contentsline {chapter}{\chapternumberline {18}Morfometría por voxel}{185}{chapter.18}%
 \precistoctext {\noindent SIN AUTOR}
-\contentsline {chapter}{\chapternumberline {19}Conectividad cerebral}{181}{chapter.19}%
+\contentsline {chapter}{\chapternumberline {19}Conectividad cerebral}{187}{chapter.19}%
 \precistoctext {\noindent Clemens Bauer\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {chapter}{\chapternumberline {20}Estadísticas espaciales basadas en tractos}{183}{chapter.20}%
+\contentsline {chapter}{\chapternumberline {20}Estadísticas espaciales basadas en tractos}{189}{chapter.20}%
 \precistoctext {\noindent Sarael Alcauter\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {chapter}{\chapternumberline {21}Análisis del grosor cortical}{185}{chapter.21}%
+\contentsline {chapter}{\chapternumberline {21}Análisis del grosor cortical}{191}{chapter.21}%
 \precistoctext {\noindent Arafat Angulo Perkins, Erik López Carrera\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {section}{\numberline {21.1}La corteza cerebral}{185}{section.21.1}%
-\contentsline {section}{\numberline {21.2}Grosor cortical}{188}{section.21.2}%
-\contentsline {section}{\numberline {21.3}Consideraciones en la estimación del grosor cortical}{190}{section.21.3}%
-\contentsline {section}{\numberline {21.4}Análisis del grosor cortical}{191}{section.21.4}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{197}{chapter*.183}%
-\contentsline {part}{\partnumberline {IV}Apéndices}{211}{part.4}%
-\contentsline {chapter}{Ejemplo de adquisición de imágenes}{213}{chapter*.185}%
+\contentsline {section}{\numberline {21.1}La corteza cerebral}{191}{section.21.1}%
+\contentsline {section}{\numberline {21.2}Grosor cortical}{194}{section.21.2}%
+\contentsline {section}{\numberline {21.3}Consideraciones en la estimación del grosor cortical}{196}{section.21.3}%
+\contentsline {section}{\numberline {21.4}Análisis del grosor cortical}{197}{section.21.4}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{203}{chapter*.182}%
+\contentsline {part}{\partnumberline {IV}Apéndices}{217}{part.4}%
+\contentsline {chapter}{Ejemplo de adquisición de imágenes}{219}{chapter*.184}%
 \precistoctext {\noindent Erik Pasaye\\Instituto de Neurobiología\\UNAM, Campus Juriquilla}
-\contentsline {appendix}{Lecturas sugeridas}{215}{chapter*.186}%
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{217}{section*.187}%
+\contentsline {appendix}{Lecturas sugeridas}{221}{chapter*.185}%
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{223}{section*.186}%

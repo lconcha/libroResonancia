@@ -319,12 +319,12 @@ TextFolding=[]
 ViMarks=.,368,0,[,368,0,],368,1
 
 [view-settings,view=0,item:cap_artefactos.tex]
-CursorColumn=15
-CursorLine=0
-Dynamic Word Wrap=false
+CursorColumn=958
+CursorLine=32
+Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
-ViMarks=.,0,14,[,0,0,],0,14
+ViMarks=.,32,928,[,32,928,],32,928
 
 [view-settings,view=0,item:cap_codificacionEspacial.tex]
 CursorColumn=531
