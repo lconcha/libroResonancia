@@ -11,8 +11,19 @@ Estos problemas se derivan de problemas técnicos, de manufactura, o de uso de l
 Sucede cuando la antena receptora de la señal de RM recibe además una RF externa, no relacionada al tejido de interés. Habitualmente, el cuarto donde se alberga un resonador magnético dispone de una jaula de Faraday (todo el cuarto está envuelto en una malla de cobre) que impide que RF externas se propaguen dentro del cuarto. La jaula de Faraday limita las RF que habitualmente existen en el ambiente, que por sus frecuencias resultan relevante la radio FM y televisión (VHF). Defectos en la jaula de Faraday, o la presencia de un emisor de RF dentro del cuarto del resonador, serán fácilmente captados por la antena receptora, pues su amplitud es considerablemente mayor a la RF de resonancia. Al entrometerse en la recepción del eco, se traducen en líneas de ruido en la dirección de codificación de frecuencia.
 
 
+
 \subsection{Bandas de zebra}
-Este artefacto tiene un origen similar al anterior, pero con una frecuencia constante, habitualmente causada por fallas de equipo eléctrico dentro del cuarto del resonador. Una vez que la RF espuria es captada por la antena, será mal interpretada como provenientes de la anatomía en estudio, e incluida dentro del \espaciok de acuerdo a su frecuencia y fase.  Dado que cada celda de \espaciok representa la contribución de una orientación y frecuencia espacial, el artefacto se expresará como bandas que se repiten con cierta orientación y frecuencia, dependiendo de cuál celda de \espaciok resultó sobrevaluada. Este artefacto nos permite ver la relación entre imagen y \espaciok, y se minimiza mediante la eliminación de la RF externa. 
+Este artefacto tiene un origen similar al anterior, pero con una frecuencia constante, habitualmente causada por fallas de equipo eléctrico dentro del cuarto del resonador. Una vez que la RF espuria es captada por la antena, será mal interpretada como provenientes de la anatomía en estudio, e incluida dentro del \espaciok de acuerdo a su frecuencia y fase (Figura \ref{fig:artefacto_rfspike}).  Dado que cada celda de \espaciok representa la contribución de una orientación y frecuencia espacial, el artefacto se expresará como bandas que se repiten con cierta orientación y frecuencia, dependiendo de cuál celda de \espaciok resultó sobrevaluada. Este artefacto nos permite ver la relación entre imagen y \espaciok, y se minimiza mediante la eliminación de la RF externa.
+
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_rfspike}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_rfspike}
+ \end{figg}
+\end{figure}
+ 
+
 
 
 \subsection{Efecto de Moiré}
@@ -55,11 +66,32 @@ La excitación selectiva de una rebanada de tejido se logra mediante la combinac
 Existen varias estrategias para minimizar este artefacto. La primera es el uso juicioso del ancho de banda requerido para la excitación selectiva. Así, la aproximación más cercana a un pulso cuadrado de RF (rebanada bien delimitada) es un pulso de RF modulado mediante una función $\mathrm{sinc}(x)=\frac{\sin(x)}{x}$. Aún así, el pulso tendrá artefactos de Gibbs, por lo que la solución es incompleta. La segunda estrategia es dejar un espacio o brecha entre rebanadas (\textit{inter-slice gap}, en inglés), de manera que la excitación de una rebanada no logre contaminar a la siguiente. Lógicamente, esto puede acarrear problemas diagnósticos si una pequeña lesión se encuentra precisamente en una de estas brechas. La tercera estrategia es cambiar el orden de excitación de las rebanadas, dejando de ser una excitación secuencial de rebanadas contiguas, a una excitación donde, por ejemplo, se exciten primero todas las rebanadas con número impar, y luego todas las rebanadas pares, considerando que para cuando hayamos excitado la última rebanada del primer conjunto, ya se habrá relajado el tejido que se excitó artificiosamente en la primera rebanada a adquirir del segundo conjunto. A una adquisición de rebanadas así se le conoce como intercalada (\textit{interleaved}, en inglés).
 
 
+\subsection{Efecto de volumen parcial}
+Los voxeles, unidades mínimas de la imagen, son cuboides cuyas dimensiones están determinadas por el grosor de la rebanada y la relación entre FOV y el tamaño de la matriz del \espaciok. Cada voxel solo puede adquirir un solo valor de intensidad.  Por su forma y dimensiones, es habitual que más de un tipo de tejido exista dentro de un voxel determinado, potencialmente con características magnéticas muy distintas entre ellos. Cuando esta mezcla de tejidos intra-voxel sucede, el valor de intensidad del mismo será el promedio de las señales que produce cada tejido, pesado a la concentración correspondiente de cada uno de ellos (\ref{fig:artefacto_volumenparcial}). Como es de esperarse, el efecto de volumen parcial es mayor cuando se utilizan voxeles de gran tamaño, y se minimiza (pero nunca se puede eliminar por completo) cuando se usan imágenes con alta resolución. Es importante recordar que el efecto de volumen parcial puede suceder por la mezcla de tejidos en el espesor de la rebanada (es común, en adquisiciones de dos dimensiones, que el grosor de la rebanada sea considerablemente mayor a la resolución en el plano de la imagen).
+
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_volumenparcial}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_volumenparcial}
+ \end{figg}
+\end{figure}
+
 \section{Artefactos producidos por movimiento}
 \subsection{Movimiento del paciente}
-Quizás el artefacto más sencillo de entender, sucede cuando la anatomía se mueve entre la adquisición de distintas líneas de \espaciok (entre TRs). Este artefacto hace notoria la ausencia de relación 1:1 entre la imagen y el \espaciok correspondiente, pues al realizarse la transformada de Fourier se verán ``fantasmas'' de la anatomía original en una localización espacial distintas.
+Quizás el artefacto más sencillo de entender, sucede cuando la anatomía se mueve entre la adquisición de distintas líneas de \espaciok (entre TRs). Este artefacto hace notoria la ausencia de relación 1:1 entre la imagen y el \espaciok correspondiente (página \pageref{sec:espaciok}), así como el hecho de que la transformada de Fourier de una sola línea del \espaciok contiene suficiente información para dibujar algo que parece el objeto original (Figura \ref{fig:proyeccionFrecuencia}). Así, al realizarse la transformada de Fourier se verán ``fantasmas'' de la anatomía original en una localización espacial distintas.
 
 Eliminar este artefacto puede ser tan fácil como difícil, dependiendo de la fuente de movimiento. Por ejemplo, en la obtención de imágenes de cráneo, se debe pedir al voluntario que no se mueva, y pueden colocarse almohadillas alrededor de la cabeza para limitar el movimiento involuntario. Sin embargo, es más difícil lograr la ausencia de movimiento cuando uno realiza, por ejemplo, imágenes de tórax. Puede solicitarse un periodo de apnea (abstenerse de respirar) mientras se obtienen unas líneas de \espaciok, e ir obteniéndolas todas a lo largo de varios periodos de apnea. Las y los lectores imaginarán que aquéllos pacientes a quienes se solicita una resonancia de tórax con fines diagnóstico difícilmente podrán abstenerse de respirar por mucho tiempo. Otras fuentes de movimiento son totalmente involuntarias, como el latido del corazón o, peor aún, el movimiento peristáltico de las asas intestinales. Sin embargo, existen astutas estrategias que utilizan señales periféricas para sincronizar el movimiento de la anatomía con la adquisición progresiva de líneas de \espaciok. Por ejemplo, es posible utilizar un sensor para monitorizar el ciclo  cardiaco, identificando una característica del registro (periodo QRS en el electrocardiograma, por ejemplo) para iniciar la adquisición de tantas líneas de \espaciok sean posibles durante la diástole cardiaca. Lo anterior aplica de manera similar a la monitorización del ciclo respiratorio. Con estas estrategias, el tiempo de adquisición de la imagen se ve influido por la frecuencia del ciclo fisiológico en cuestión. Llevando esta idea un paso más adelante, es posible adquirir constantemente datos, durante cualquier momento del ciclo fisiológico (cardiaco, por ejemplo), y grabar de manera paralela la señal de resonancia, y la del electrocardiograma. \textit{A posteriori}, se reúnen todas las líneas de \espaciok recabadas en cada momento del ciclo cardiaco de acuerdo a la señal del monitor cardiaco, armando distintas imágenes correspondientes a cada uno de los periodos del ciclo. De esta forma, pueden generarse imágenes pseudo-dinámicas, donde se puede observar un ciclo cardiaco completo a manera de película. Nótese que nunca se obtuvo ``una imagen'' de cada parte del ciclo cardiaco, sino que cada parte se armó mediante fragmentos de distintos latidos a lo largo del tiempo.
+
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_movimiento.eps}
+   \caption{El voluntario se ha movido entre distintos TRs a lo largo del llenado del \espaciok (izquierda). La imagen resultante muestra varias copias movidas de la anatomía original (derecha).}
+ \label{fig:artefacto_movimiento}
+ \end{figg}
+\end{figure}
+ 
+
 
 \subsection{Movimiento por flujo sanguíneo}
 El movimiento de la sangre a través de una rebanada de IRM tiene consecuencias interesantes que dependen del tipo de imagen que se está realizando, y la manera en que el vaso sanguíneo incide en el plano de la imagen. 
@@ -70,42 +102,113 @@ En imágenes con TRs muy cortos, el tejido en toda la rebanada se encuentra parc
 
 Mediante secuencias multi-rebanada mediante eco de gradiente, es posible que la sangre sufra excitación en una rebanada, y exprese su señal en otras rebanadas, ya que la aplicación del gradiente generador del eco (y su respectiva inversión) no es selectivo de rebanada. 
 
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_trigger}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_trigger}
+ \end{figg}
+\end{figure}
+ 
+
+
 
 \section{Artefactos por modulación local del campo magnético}
 \subsection{Susceptibilidad magnética}
 La susceptibilidad magnética ($\chi$) es la capacidad de un material de ser magnetizado por un campo magnético. Los materiales paramagnéticos ($\chi>0$) se alinean a favor del campo magnético, incrementando el campo magnético a su alrededor, mientras que los materiales diamagnéticos ($\chi<0$) se alinean en contra del campo magnético, disminuyendo su intensidad localmente. Los materiales ferromagnéticos tienen por sí mismos la capacidad de producir un campo magnético.
 
-La frecuencia de precesión es el pilar de toda codificación espacial y de generación de contraste. Por lo tanto, la presencia de materiales paramagnéticos y diamagnéticos en o alrededor del tejido tendrán la capacidad de modular la señal generada y su codificación. Por ejemplo, cuerpos extraños con materiales que puedan modular el campo magnético local lograrán alterar la codificación espacial del propio objeto, y de los tejidos que le circundan. Esto es notorio alrededor de prótesis metálicas que, aunque están fabricadas actualmente mediante materiales seguros para el paciente, presentan suficiente cantidad de materiales que afectan el campo magnético de manera local. También se observa pérdida de señal y mala localización espacial de los elementos orales en pacientes con trabajo dental (brackets). 
+La frecuencia de precesión es el pilar de toda codificación espacial y de generación de contraste. Por lo tanto, la presencia de materiales paramagnéticos y diamagnéticos en o alrededor del tejido tendrán la capacidad de modular la señal generada y su codificación. Por ejemplo, cuerpos extraños con materiales que puedan modular el campo magnético local lograrán alterar la codificación espacial del propio objeto, y de los tejidos que le circundan (Figura \ref{fig:artefacto_brackets}). Esto es notorio alrededor de prótesis metálicas que, aunque están fabricadas actualmente mediante materiales seguros para el paciente, presentan suficiente cantidad de materiales que afectan el campo magnético de manera local. También se observa pérdida de señal y mala localización espacial de los elementos orales en pacientes con trabajo dental (brackets). 
 
 La magnitud de los artefactos producidos por susceptibilidad magnética son directamente proporcionales a \Bzero, y son más acentuados en secuencias con TE largos (los spins tendrán más tiempo para desfasarse entre ellos). El uso de ancho de banda amplio minimiza el artefacto (aunque incrementa por sí mismo la cantidad de ruido en la imagen).
 
+
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_brackets}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_brackets}
+ \end{figg}
+\end{figure}
+
+
 Algunos artefactos por susceptibilidad magnética se producen incluso en ausencia de cuerpos extraños. Por ejemplo, los productos de descomposición de la hemoglobina exponen más al Fe presente en el grupo heme, lo que produce una mayor inhomogeneidad de \Bzero a su alrededor. Esto permite la etapificación de un evento hemorrágico y la visualización de algunas malformaciones arteriovenosas. 
 
-La proximidad de materiales con distinta $\chi$ provoca alteraciones severas de \Bzero a nivel local que, en conjunción con imágenes con TE largo, pueden provocar molestos artefactos de imagen. Esto es común en imágenes ecoplanares (EPI) utilizadas para resonancia magnética funcional e imágenes sensibles a difusión, en las que la proximidad aire/tejido alrededor de los senos paranasales provoca áreas con pérdida de señal (Sección \ref{sec:ArtefactosDWI}). La mayoría de los tejidos son débilmente diamagnéticos, mientras que el aire (por la presencia del Oxígeno) es ligeramente paramagnético. Estos artefactos se minimizan mediante el uso de adquisiciones ecoplanares segmentadas (más de 1 TR por imagen), y métodos alternativos de llenado del \espaciok que disminuyen el TE efectivo. 
+La proximidad de materiales con distinta $\chi$ provoca alteraciones severas de \Bzero a nivel local que, en conjunción con imágenes con TE largo, pueden provocar molestos artefactos de imagen. Esto es común en imágenes ecoplanares (EPI) utilizadas para resonancia magnética funcional e imágenes sensibles a difusión, en las que la proximidad aire/tejido alrededor de los senos paranasales provoca áreas con pérdida de señal (Figura \ref{fig:artefacto_susceptibility_EPI}; Sección \ref{sec:ArtefactosDWI}). La mayoría de los tejidos son débilmente diamagnéticos, mientras que el aire (por la presencia del Oxígeno) es ligeramente paramagnético. Estos artefactos se minimizan mediante el uso de adquisiciones ecoplanares segmentadas (más de 1 TR por imagen), y métodos alternativos de llenado del \espaciok que disminuyen el TE efectivo. 
+
+
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_susceptibility_EPI}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_susceptibility_EPI}
+ \end{figg}
+\end{figure}
+
 
 
 \subsection{Corrimiento químico}
-La frecuencia de precesión depende del campo magnético \Bzero y la constante giromagnética $\gamma$ del elemento en cuestión, en este caso \ce{H}. El agua contiene dos átomos de \ce{H} y uno de \ce{O}, pero la enorme mayoría de las moléculas poseen muchos átomos de H. En todas las moléculas, la constante giromagnética de \ce{H} es la misma. Sin embargo, la estructura tridimensional de cada molécula puede modificar a \Bzero de manera local, con lo que las frecuencias de precesión de \ce{H} en distintas moléculas puede variar. Esto es el fundamento de la espectroscopía por resonancia magnética (Capítulo \ref{chapter_espectro}), pero las concentraciones de distintas moléculas son tan pequeñas en comparacion con la cantidad de \ce{H} en forma \ce{H2O} que resultan inconsecuentes. Sin embargo y por su abundancia, las moléculas de grasa presentan un reto especial, pues son suficientes para expresarse en IRM. 
+La frecuencia de precesión depende del campo magnético \Bzero y la constante giromagnética $\gamma$ del elemento en cuestión, en este caso \ce{H}. El agua contiene dos átomos de \ce{H} y uno de \ce{O}, pero la enorme mayoría de las moléculas poseen muchos átomos de H. En todas las moléculas, la constante giromagnética de \ce{H} es la misma. Sin embargo, la estructura tridimensional de cada molécula puede modificar a \Bzero de manera local, con lo que las frecuencias de precesión de \ce{H} en distintas moléculas puede variar \cite{hood1999chemical}. Esto es el fundamento de la espectroscopía por resonancia magnética (Capítulo \ref{chapter_espectro}), pero las concentraciones de distintas moléculas son tan pequeñas en comparacion con la cantidad de \ce{H} en forma \ce{H2O} que resultan inconsecuentes. Sin embargo y por su abundancia, las moléculas de grasa presentan un reto especial, pues son suficientes para expresarse en IRM. 
 
 La frecuencia de precesión de los \ce{H} en lípidos precesan con una diferencia de 3.5 ppm (partes por millón) más rápido con respecto a la frecuencia de \ce{H2O}. Esto se traduce a 440 Hz de diferencia cuando \Bzero es de 3 teslas. Esta diferencia de frecuencias provoca dos tipos de artefactos en la imagen, denominados simplemente Tipo 1 y Tipo 2.
 
 \subsubsection{Artefacto por corrimiento químico Tipo 1}
-Al asumir que todas las radiofrecuencias que recibimos en un eco provienen exclusivamente del agua, las diferencias de frecuencia de precesión son interpretadas como distintas localizaciones espaciales en la dirección codificada por frecuencia. El artefacto es similar a una imagen de grasa que está ligeramente desplazada a uno de los lados (en la dirección codificada por frecuencia) sobre la imagen de agua. Esto provoca bandas blancas y negras en los bordes de órganos y otras regiones anatómicas. 
+Al asumir que todas las radiofrecuencias que recibimos en un eco provienen exclusivamente del agua, las diferencias de frecuencia de precesión de los átomos de \ce{H} asociadas a la grasa son interpretadas como distintas localizaciones espaciales en la dirección codificada por frecuencia. El artefacto es similar a una imagen de grasa que está ligeramente desplazada a uno de los lados sobre la imagen de agua. Esto provoca bandas blancas y negras en los bordes de órganos y otras regiones anatómicas que están recubiertas por grasa. La dirección del desplazamiento de la imagen de grasa sucede en la dirección codificada por frecuencia en imágenes adquiridas sin aceleración de llenado de \espaciok; en imágenes ecoplanares, la diferencia de frecuencias repercute también en la fase entre líneas sucesivas de \espaciok, con lo que el desplazamiento es aún más acentuado en la dirección codificada por fase (Figura \ref{fig:artefacto_chemicalshift1}). 
 
 Es relativamente fácil calcular cuánto desplazamiento tendrá la imagen proveniente de la grasa con respecto a la imagen del agua mediante la siguiente fórmula:
 
 \begin{equation}
  \Delta x = (\Delta f * FOV)/ BW
 \end{equation}
-donde $\Delta x$ indica el corrimiento (en mm) de la imagen grasa sobre la de agua, $\Delta f$ representa la diferencia (en Hz) entre las frecuencias de precesión de agua y grasa, y $BW$ indica el ancho de banda de recepción del eco. Por ejemplo, con un FOV de 250 mm, un ancho de banda de 16 kHz, en un resonador de 3 teslas (con un $\Delta f$ de 440 Hz), el corrimiento químico será de (440 *250) / 16000 = 6.875 mm.
+donde $\Delta x$ indica el desplazamiento (en mm) de la imagen grasa sobre la de agua, $\Delta f$ representa la diferencia (en Hz) entre las frecuencias de precesión de agua y grasa, y $BW$ indica el ancho de banda de recepción del eco. Por ejemplo, con un FOV de 250 mm, un ancho de banda de 16 kHz, en un resonador de 3 teslas (con un $\Delta f$ de 440 Hz), el corrimiento químico será de (440 *250) / 16000 = 6.875 mm.
 
 Además de poder utilizar anchos de banda amplios para minimizar este artefacto, existen técnicas para eliminar selectivamente la señal proveniente de la grasa, ya sea mediante pulsos excitadores selectivos con base en $\Delta f$ (Fat-Sat), o mediante pulsos inversores con tiempos de inversión (TI) diseñados con base en el \Tone de la grasa (STIR, Sección \ref{lab:IR}).
 
 
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_chemicalshift1}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_chemicalshift1}
+ \end{figg}
+\end{figure}
+
+
+
 \subsubsection{Artefacto por corrimiento químico Tipo 2}
+La diferencia entre las precesiones de los protones asociados a \ce{H2O} y grasa es constante (3.5 ppm). Justo después de un pulso de RF excitador, los spins del agua y la grasa estarán precesando en fase, pero conforme pase el tiempo, se comenzarán a desfasar. La diferencia constante entre sus precesiones hará que en ciertos momentos predecibles las fases de los \ce{H} del agua y la grasa estén alineadas, y en otros momentos (también predecibles) estén perfectamente separadas por 180\degrees. Usando la analogía de los corredores en una pista de atletismo, donde uno es ligeramente más veloz que el otro, podemos imaginar que, en una carrera larga, habrá momentos en que ambos corredores estén alineados (al iniciar la carrera y cada vez que el corredor veloz logre avanzar por una vuelta completa a su lento adversario), mientras que habrá momentos en que el corredor veloz tenga r exactamente media vuelta de por medio entre él y su rival. En términos de la señal de resonancia que se produce, los momentos en que las fases de grasa y agua estén en fase provocarán interferencia constructiva, aumentando la amplitud de la señal recibida; cuando estén con fases distintas (a 180\degrees entre sí), la interferencia será desctructiva, y la cancelación entre las dos frecuencias harán que se pierda señal. Este artefacto no sucede en imágenes por eco de spin, ya que el pulso RF de 180\degrees vuelve a alinear las fases entre agua y grasa. 
+
+
+Es fácil predecir en qué momento tendremos spins en fase o no, basándonos en $\Delta f$. Dado que $periodo = 1/f$, podemos predecir que habrá coincidencia de fases cada $1/\Delta f$. En un resonador de 1.5 teslas, esto es cada 1/224 Hz =  4.4 ms. Por consiguiente, las fases estarán en fase justo después del pulso RF excitador y cada 4.4 ms ([0 4.4 8.8 \ldots]), y a 180\degrees entre ellas a los 2.2 ms, y cada 4.4 ms después ([2.2 6.6 11.0 \ldots]). De esta forma, seleccionando un TE determinado, el usuario puede obtener una imagen dentro o fuera de fase. Cuando están fuera de fase, por ejemplo, las estructuras con recubrimiento graso tendrán una apariencia hipointensa que remarca sus bordes en la imagen.
+
+Este artefacto puede utilizarse a favor para lograr imágenes que contienen de manera selectiva la señal del agua o de la grasa, con base en álgebra muy sencilla. Dado que las imágenes ($I$) dentro/fuera de fase tienen la siguiente relación:
+
+\begin{equation*}
+ \begin{aligned}
+I_{dentro} = I_{agua} + I_{grasa} \\
+I_{fuera} = I_{agua} - I_{grasa}
+  \end{aligned}
+\end{equation*}
+se obtiene que
+\begin{equation*}
+ \begin{aligned}
+I_{dentro} + I_{fuera} = 2 \times I_{agua} \\
+I_{dentro} - I_{fuera} = 2 \times I_{grasa}
+ \end{aligned}
+\end{equation*}
+
+Esta estrategia se conoce como el método de Dixon \cite{dixon1984} y es útil en la clínica y la investigación. \footnote{Visita \url{http://xrayphysics.com/chem_sh.html} para un simulador del método de Dixon.}
 
 
 
 \subsection{Efecto dieléctrico}
+Las ondas de RF interactúan con el medio. Las ondas de la red inalámbrica de internet en casa, por ejemplo, rebota en los muros y ocasiona sitios donde su amplitud es baja. El tejido también es capaz de reflejar y provocar refracción de ondas de RF emitidas por la antena transmisora del resonador, a la vez que las mismas ondas RF interactúan eléctricamente con el tejido. En el artefacto por efectos dieléctricos se aglomeran todos aquellos que son causados por interacciones entre la RF y el tejido. Estos efectos son prácticamente imperceptibles en resonadores de bajo campo magnético (menores a 1.5 T), pero son más evidentes conforme \Bzero aumenta. Esto se debe a que la longitud de onda de la RF es inversamente proporcional a su frecuencia (y, por lo tanto, a \Bzero). En un resonador de 3 teslas, por ejemplo, la longitud de onda de RF ($\lambda$) es de 26 cm, que es aproximadamente la dimensión del FOV habitual en humanos. El valle y la cresta de una onda de RF con esta longitud de onda estarían representadas a lo largo de la imagen, con lo que pueden producirse, por ejemplo, inhomogeneidades severas de excitación (Figura \ref{fig:artefacto_dielectrico}). En la medida en que aumenta la disponibilidad de resonadores de muy alto campo magnético (7 teslas o más; $\lambda$ = 11 cm) este artefacto cobrará mayor relevancia. 
 
+
+\begin{figure}[htb]
+ \begin{figg}
+   \includegraphics[width=0.7\textwidth]{artefacto_dielectrico}
+   \caption{\figurapendiente}
+ \label{fig:artefacto_dielectrico}
+ \end{figg}
+\end{figure}
 
