@@ -222,6 +222,34 @@
 \newblock 13(2):288–293.
 \newblock PMID: 11169836.
 
+\bibitem{ogbole2017brain}
+\textsc{Ogbole G}, \textsc{Odo J}, \textsc{Efidi R}, \textsc{Olatunji R},
+  \textsc{Ogunseyinde A} \textsc{et~al.}
+\newblock Brain and spine imaging artefacts on low-field magnetic resonance
+  imaging: Spectrum of findings in a Nigerian Tertiary Hospital.
+\newblock \emph{Nigerian Postgraduate Medical Journal}, 2017.
+\newblock 24(2):97.
+
+\bibitem{vovk_pernus_likar_2007}
+\textsc{Vovk U}, \textsc{Pernus F} and \textsc{Likar B}.
+\newblock A Review of Methods for Correction of Intensity Inhomogeneity in MRI.
+\newblock \emph{IEEE Transactions on Medical Imaging}, 2007.
+\newblock 26(3):405–421.
+
+\bibitem{wu2014mitigating}
+\textsc{Wu X}, \textsc{Schmitter S}, \textsc{Auerbach EJ},
+  \textsc{U{\u{g}}urbil K} and \textsc{Van~de Moortele PF}.
+\newblock Mitigating transmit B1 inhomogeneity in the liver at 7T using
+  multi-spoke parallel transmit RF pulse design.
+\newblock \emph{Quantitative imaging in medicine and surgery}, 2014.
+\newblock 4(1):4.
+
+\bibitem{gallagher2008fourier}
+\textsc{Gallagher TA}, \textsc{Nemeth AJ} and \textsc{Hacein-Bey L}.
+\newblock An introduction to the Fourier transform: relationship to MRI.
+\newblock \emph{American journal of roentgenology}, 2008.
+\newblock 190(5):1396--1405.
+
 \bibitem{hood1999chemical}
 \textsc{Hood MN}, \textsc{Ho VB}, \textsc{Smirniotopoulos JG} and
   \textsc{Szumowski J}.

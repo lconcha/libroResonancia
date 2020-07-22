@@ -20,45 +20,45 @@ Warning--missing publisher in Budinger_1983
 Warning--can't use both author and editor fields in Runge2009
 Warning--can't use both author and editor fields in PM2001
 Warning--can't use both author and editor fields in A2001
-You've used 167 entries,
+You've used 171 entries,
             2268 wiz_defined-function locations,
-            1590 strings with 38170 characters,
-and the built_in function-call counts, 149114 in all, are:
-= -- 12901
-> -- 2075
+            1613 strings with 39188 characters,
+and the built_in function-call counts, 153587 in all, are:
+= -- 13302
+> -- 2130
 < -- 4
-+ -- 803
-- -- 636
-* -- 13632
-:= -- 17181
-add.period$ -- 662
-call.type$ -- 167
++ -- 824
+- -- 653
+* -- 14070
+:= -- 17696
+add.period$ -- 678
+call.type$ -- 171
 change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 175
-duplicate$ -- 15529
-empty$ -- 16219
-format.name$ -- 762
-if$ -- 32501
+cite$ -- 179
+duplicate$ -- 16009
+empty$ -- 16708
+format.name$ -- 783
+if$ -- 33468
 int.to.chr$ -- 0
-int.to.str$ -- 167
-missing$ -- 1778
-newline$ -- 991
-num.names$ -- 167
-pop$ -- 2149
+int.to.str$ -- 171
+missing$ -- 1823
+newline$ -- 1015
+num.names$ -- 171
+pop$ -- 2197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1103
+skip$ -- 1119
 stack$ -- 0
-substring$ -- 21079
-swap$ -- 5127
+substring$ -- 21770
+swap$ -- 5258
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 1096
-width$ -- 170
-write$ -- 1995
+while$ -- 1126
+width$ -- 174
+write$ -- 2043
 (There was 1 error message)
