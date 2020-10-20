@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  22 JUL 2020 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.4.29)  19 OCT 2020 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -681,7 +681,135 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen277
 \l_MT_above_shortintertext_sep=\dimen278
 \l_MT_below_shortintertext_sep=\dimen279
-) (./newfloat.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen280
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count331
+\pdfmajorversion=\count332
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing ON on input line 4565.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2020/01/14 v1.40 Bibliographical back referencing
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+\c@Hy@tempcnt=\count333
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen281
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count334
+\Field@Width=\dimen282
+\Fld@charsize=\dimen283
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing ON on input line 6443.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count338
+\c@Hpagenote=\count339
+)
+Package hyperref Info: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2020/01/14 v7.00d Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2020/01/14 v7.00d Hyperref definitions for pdfmark specials
+\pdf@docset=\toks39
+\pdf@box=\box101
+\pdf@toks=\toks40
+\pdf@defaulttoks=\toks41
+\HyField@AnnotCount=\count340
+\Fld@listcount=\count341
+\c@bookmark@seq@number=\count342
+\Hy@SectionHShift=\skip274
+)) (./newfloat.sty
 Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
 )
 
@@ -696,141 +824,119 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen280
-\captionmargin@=\dimen281
-\captionwidth=\dimen282
-\caption@tempdima=\dimen283
-\caption@indent=\dimen284
-\caption@parindent=\dimen285
-\caption@hangindent=\dimen286
+\captionmargin=\dimen284
+\captionmargin@=\dimen285
+\captionwidth=\dimen286
+\caption@tempdima=\dimen287
+\caption@indent=\dimen288
+\caption@parindent=\dimen289
+\caption@hangindent=\dimen290
 Package caption Info: memoir document class detected.
 )
-\c@caption@flags=\count329
-\c@continuedfloat=\count330
+\c@caption@flags=\count343
+\c@continuedfloat=\count344
+Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 Package newfloat Info: New float `myfloat' with options `fileext=frm,placement=
-{!ht},name=Frame' on input line 59.
-\c@myfloat=\count331
-Package newfloat Info: float type `myfloat'=4 on input line 59.
-\c@frmdepth=\count332
+{!ht},name=Frame' on input line 61.
+\c@myfloat=\count345
+Package newfloat Info: float type `myfloat'=4 on input line 61.
+\c@frmdepth=\count346
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-14 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
-\l__pdf_internal_box=\box101
-\g__pdf_backend_object_int=\count333
-\l__pdf_backend_content_box=\box102
-\l__pdf_backend_model_box=\box103
-\g__pdf_backend_annotation_int=\count334
-\g__pdf_backend_link_int=\count335
-\g__pdf_backend_link_sf_int=\count336
+\l__pdf_internal_box=\box102
+\g__pdf_backend_object_int=\count347
+\l__pdf_backend_content_box=\box103
+\l__pdf_backend_model_box=\box104
+\g__pdf_backend_annotation_int=\count348
+\g__pdf_backend_link_int=\count349
+\g__pdf_backend_link_sf_int=\count350
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count337
-\g__xparse_grabber_int=\count338
-\l__xparse_m_args_int=\count339
-\l__xparse_v_nesting_int=\count340
+\l__xparse_current_arg_int=\count351
+\g__xparse_grabber_int=\count352
+\l__xparse_m_args_int=\count353
+\l__xparse_v_nesting_int=\count354
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count341
+\etb@tempcnta=\count355
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
 Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
 Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count342
+\c@abspage=\count356
 Package zref Info: New property: abspage on input line 66.
 )
-\mdf@templength=\skip274
-\c@mdf@globalstyle@cnt=\count343
-\mdf@skipabove@length=\skip275
-\mdf@skipbelow@length=\skip276
-\mdf@leftmargin@length=\skip277
-\mdf@rightmargin@length=\skip278
-\mdf@innerleftmargin@length=\skip279
-\mdf@innerrightmargin@length=\skip280
-\mdf@innertopmargin@length=\skip281
-\mdf@innerbottommargin@length=\skip282
-\mdf@splittopskip@length=\skip283
-\mdf@splitbottomskip@length=\skip284
-\mdf@outermargin@length=\skip285
-\mdf@innermargin@length=\skip286
-\mdf@linewidth@length=\skip287
-\mdf@innerlinewidth@length=\skip288
-\mdf@middlelinewidth@length=\skip289
-\mdf@outerlinewidth@length=\skip290
-\mdf@roundcorner@length=\skip291
-\mdf@footenotedistance@length=\skip292
-\mdf@userdefinedwidth@length=\skip293
-\mdf@needspace@length=\skip294
-\mdf@frametitleaboveskip@length=\skip295
-\mdf@frametitlebelowskip@length=\skip296
-\mdf@frametitlerulewidth@length=\skip297
-\mdf@frametitleleftmargin@length=\skip298
-\mdf@frametitlerightmargin@length=\skip299
-\mdf@shadowsize@length=\skip300
-\mdf@extratopheight@length=\skip301
-\mdf@subtitleabovelinewidth@length=\skip302
-\mdf@subtitlebelowlinewidth@length=\skip303
-\mdf@subtitleaboveskip@length=\skip304
-\mdf@subtitlebelowskip@length=\skip305
-\mdf@subtitleinneraboveskip@length=\skip306
-\mdf@subtitleinnerbelowskip@length=\skip307
-\mdf@subsubtitleabovelinewidth@length=\skip308
-\mdf@subsubtitlebelowlinewidth@length=\skip309
-\mdf@subsubtitleaboveskip@length=\skip310
-\mdf@subsubtitlebelowskip@length=\skip311
-\mdf@subsubtitleinneraboveskip@length=\skip312
-\mdf@subsubtitleinnerbelowskip@length=\skip313
+\mdf@templength=\skip275
+\c@mdf@globalstyle@cnt=\count357
+\mdf@skipabove@length=\skip276
+\mdf@skipbelow@length=\skip277
+\mdf@leftmargin@length=\skip278
+\mdf@rightmargin@length=\skip279
+\mdf@innerleftmargin@length=\skip280
+\mdf@innerrightmargin@length=\skip281
+\mdf@innertopmargin@length=\skip282
+\mdf@innerbottommargin@length=\skip283
+\mdf@splittopskip@length=\skip284
+\mdf@splitbottomskip@length=\skip285
+\mdf@outermargin@length=\skip286
+\mdf@innermargin@length=\skip287
+\mdf@linewidth@length=\skip288
+\mdf@innerlinewidth@length=\skip289
+\mdf@middlelinewidth@length=\skip290
+\mdf@outerlinewidth@length=\skip291
+\mdf@roundcorner@length=\skip292
+\mdf@footenotedistance@length=\skip293
+\mdf@userdefinedwidth@length=\skip294
+\mdf@needspace@length=\skip295
+\mdf@frametitleaboveskip@length=\skip296
+\mdf@frametitlebelowskip@length=\skip297
+\mdf@frametitlerulewidth@length=\skip298
+\mdf@frametitleleftmargin@length=\skip299
+\mdf@frametitlerightmargin@length=\skip300
+\mdf@shadowsize@length=\skip301
+\mdf@extratopheight@length=\skip302
+\mdf@subtitleabovelinewidth@length=\skip303
+\mdf@subtitlebelowlinewidth@length=\skip304
+\mdf@subtitleaboveskip@length=\skip305
+\mdf@subtitlebelowskip@length=\skip306
+\mdf@subtitleinneraboveskip@length=\skip307
+\mdf@subtitleinnerbelowskip@length=\skip308
+\mdf@subsubtitleabovelinewidth@length=\skip309
+\mdf@subsubtitlebelowlinewidth@length=\skip310
+\mdf@subsubtitleaboveskip@length=\skip311
+\mdf@subsubtitlebelowskip@length=\skip312
+\mdf@subsubtitleinneraboveskip@length=\skip313
+\mdf@subsubtitleinnerbelowskip@length=\skip314
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks39
-\pgfutil@tempdima=\dimen287
-\pgfutil@tempdimb=\dimen288
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen291
+\pgfutil@tempdimb=\dimen292
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box104
+\pgfutil@abb=\box105
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -846,33 +952,33 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks40
-\pgfkeys@temptoks=\toks41
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks42
+\pgfkeys@tmptoks=\toks45
 ))
-\pgf@x=\dimen289
-\pgf@y=\dimen290
-\pgf@xa=\dimen291
-\pgf@ya=\dimen292
-\pgf@xb=\dimen293
-\pgf@yb=\dimen294
-\pgf@xc=\dimen295
-\pgf@yc=\dimen296
-\pgf@xd=\dimen297
-\pgf@yd=\dimen298
+\pgf@x=\dimen293
+\pgf@y=\dimen294
+\pgf@xa=\dimen295
+\pgf@ya=\dimen296
+\pgf@xb=\dimen297
+\pgf@yb=\dimen298
+\pgf@xc=\dimen299
+\pgf@yc=\dimen300
+\pgf@xd=\dimen301
+\pgf@yd=\dimen302
 \w@pgf@writea=\write4
 \r@pgf@reada=\read5
-\c@pgf@counta=\count344
-\c@pgf@countb=\count345
-\c@pgf@countc=\count346
-\c@pgf@countd=\count347
-\t@pgf@toka=\toks43
-\t@pgf@tokb=\toks44
-\t@pgf@tokc=\toks45
-\pgf@sys@id@count=\count348
+\c@pgf@counta=\count358
+\c@pgf@countb=\count359
+\c@pgf@countc=\count360
+\c@pgf@countd=\count361
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count362
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -884,13 +990,13 @@ File: pgfsys-dvips.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
 ript.def
 File: pgfsys-common-postscript.def 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@objectcount=\count349
+\pgf@objectcount=\count363
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count350
-\pgfsyssoftpath@bigbuffer@items=\count351
+\pgfsyssoftpath@smallbuffer@items=\count364
+\pgfsyssoftpath@bigbuffer@items=\count365
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -903,12 +1009,12 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen299
-\pgfmath@count=\count352
-\pgfmath@box=\box105
-\pgfmath@toks=\toks46
-\pgfmath@stack@operand=\toks47
-\pgfmath@stack@operation=\toks48
+\pgfmath@dimen=\dimen303
+\pgfmath@count=\count366
+\pgfmath@box=\box106
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -928,58 +1034,58 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count353
+\c@pgfmathroundto@lastzeros=\count367
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen300
-\pgf@picmaxx=\dimen301
-\pgf@picminy=\dimen302
-\pgf@picmaxy=\dimen303
-\pgf@pathminx=\dimen304
-\pgf@pathmaxx=\dimen305
-\pgf@pathminy=\dimen306
-\pgf@pathmaxy=\dimen307
-\pgf@xx=\dimen308
-\pgf@xy=\dimen309
-\pgf@yx=\dimen310
-\pgf@yy=\dimen311
-\pgf@zx=\dimen312
-\pgf@zy=\dimen313
+\pgf@picminx=\dimen304
+\pgf@picmaxx=\dimen305
+\pgf@picminy=\dimen306
+\pgf@picmaxy=\dimen307
+\pgf@pathminx=\dimen308
+\pgf@pathmaxx=\dimen309
+\pgf@pathminy=\dimen310
+\pgf@pathmaxy=\dimen311
+\pgf@xx=\dimen312
+\pgf@xy=\dimen313
+\pgf@yx=\dimen314
+\pgf@yy=\dimen315
+\pgf@zx=\dimen316
+\pgf@zy=\dimen317
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen314
-\pgf@path@lasty=\dimen315
+\pgf@path@lastx=\dimen318
+\pgf@path@lasty=\dimen319
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen316
-\pgf@shorten@start@additional=\dimen317
+\pgf@shorten@end@additional=\dimen320
+\pgf@shorten@start@additional=\dimen321
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box106
-\pgf@hbox=\box107
-\pgf@layerbox@main=\box108
-\pgf@picture@serial@count=\count354
+\pgfpic=\box107
+\pgf@hbox=\box108
+\pgf@layerbox@main=\box109
+\pgf@picture@serial@count=\count368
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen318
+\pgflinewidth=\dimen322
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen319
-\pgf@pt@y=\dimen320
-\pgf@pt@temp=\dimen321
+\pgf@pt@x=\dimen323
+\pgf@pt@y=\dimen324
+\pgf@pt@temp=\dimen325
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -995,13 +1101,13 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen322
+\pgfarrowsep=\dimen326
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen323
-\pgf@sys@shading@range@num=\count355
-\pgf@shadingcount=\count356
+\pgf@max=\dimen327
+\pgf@sys@shading@range@num=\count369
+\pgf@shadingcount=\count370
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1009,7 +1115,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box109
+\pgfexternal@startupbox=\box110
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1028,15 +1134,15 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box110
+\pgfnodeparttextbox=\box111
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen324
-\pgf@nodesepend=\dimen325
+\pgf@nodesepstart=\dimen328
+\pgf@nodesepend=\dimen329
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1050,10 +1156,10 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen326
-\pgffor@skip=\dimen327
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@iter=\dimen330
+\pgffor@skip=\dimen331
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -1061,33 +1167,33 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count357
-\pgfplotmarksize=\dimen328
+\pgf@plot@mark@count=\count371
+\pgfplotmarksize=\dimen332
 )
-\tikz@lastx=\dimen329
-\tikz@lasty=\dimen330
-\tikz@lastxsaved=\dimen331
-\tikz@lastysaved=\dimen332
-\tikz@lastmovetox=\dimen333
-\tikz@lastmovetoy=\dimen334
-\tikzleveldistance=\dimen335
-\tikzsiblingdistance=\dimen336
-\tikz@figbox=\box111
-\tikz@figbox@bg=\box112
-\tikz@tempbox=\box113
-\tikz@tempbox@bg=\box114
-\tikztreelevel=\count358
-\tikznumberofchildren=\count359
-\tikznumberofcurrentchild=\count360
-\tikz@fig@count=\count361
+\tikz@lastx=\dimen333
+\tikz@lasty=\dimen334
+\tikz@lastxsaved=\dimen335
+\tikz@lastysaved=\dimen336
+\tikz@lastmovetox=\dimen337
+\tikz@lastmovetoy=\dimen338
+\tikzleveldistance=\dimen339
+\tikzsiblingdistance=\dimen340
+\tikz@figbox=\box112
+\tikz@figbox@bg=\box113
+\tikz@tempbox=\box114
+\tikz@tempbox@bg=\box115
+\tikztreelevel=\count372
+\tikznumberofchildren=\count373
+\tikznumberofcurrentchild=\count374
+\tikz@fig@count=\count375
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count362
-\pgfmatrixcurrentcolumn=\count363
-\pgf@matrix@numberofcolumns=\count364
+\pgfmatrixcurrentrow=\count376
+\pgfmatrixcurrentcolumn=\count377
+\pgf@matrix@numberofcolumns=\count378
 )
-\tikz@expandcount=\count365
+\tikz@expandcount=\count379
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1096,48 +1202,48 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box115
-\mdf@footnotebox=\box116
-\mdf@splitbox@one=\box117
-\mdf@splitbox@two=\box118
-\mdf@splitbox@save=\box119
-\mdfsplitboxwidth=\skip314
-\mdfsplitboxtotalwidth=\skip315
-\mdfsplitboxheight=\skip316
-\mdfsplitboxdepth=\skip317
-\mdfsplitboxtotalheight=\skip318
-\mdfframetitleboxwidth=\skip319
-\mdfframetitleboxtotalwidth=\skip320
-\mdfframetitleboxheight=\skip321
-\mdfframetitleboxdepth=\skip322
-\mdfframetitleboxtotalheight=\skip323
-\mdffootnoteboxwidth=\skip324
-\mdffootnoteboxtotalwidth=\skip325
-\mdffootnoteboxheight=\skip326
-\mdffootnoteboxdepth=\skip327
-\mdffootnoteboxtotalheight=\skip328
-\mdftotallinewidth=\skip329
-\mdfboundingboxwidth=\skip330
-\mdfboundingboxtotalwidth=\skip331
-\mdfboundingboxheight=\skip332
-\mdfboundingboxdepth=\skip333
-\mdfboundingboxtotalheight=\skip334
-\mdf@freevspace@length=\skip335
-\mdf@horizontalwidthofbox@length=\skip336
-\mdf@verticalmarginwhole@length=\skip337
-\mdf@horizontalspaceofbox=\skip338
-\mdfsubtitleheight=\skip339
-\mdfsubsubtitleheight=\skip340
-\c@mdfcountframes=\count366
+\mdf@frametitlebox=\box116
+\mdf@footnotebox=\box117
+\mdf@splitbox@one=\box118
+\mdf@splitbox@two=\box119
+\mdf@splitbox@save=\box120
+\mdfsplitboxwidth=\skip315
+\mdfsplitboxtotalwidth=\skip316
+\mdfsplitboxheight=\skip317
+\mdfsplitboxdepth=\skip318
+\mdfsplitboxtotalheight=\skip319
+\mdfframetitleboxwidth=\skip320
+\mdfframetitleboxtotalwidth=\skip321
+\mdfframetitleboxheight=\skip322
+\mdfframetitleboxdepth=\skip323
+\mdfframetitleboxtotalheight=\skip324
+\mdffootnoteboxwidth=\skip325
+\mdffootnoteboxtotalwidth=\skip326
+\mdffootnoteboxheight=\skip327
+\mdffootnoteboxdepth=\skip328
+\mdffootnoteboxtotalheight=\skip329
+\mdftotallinewidth=\skip330
+\mdfboundingboxwidth=\skip331
+\mdfboundingboxtotalwidth=\skip332
+\mdfboundingboxheight=\skip333
+\mdfboundingboxdepth=\skip334
+\mdfboundingboxtotalheight=\skip335
+\mdf@freevspace@length=\skip336
+\mdf@horizontalwidthofbox@length=\skip337
+\mdf@verticalmarginwhole@length=\skip338
+\mdf@horizontalspaceofbox=\skip339
+\mdfsubtitleheight=\skip340
+\mdfsubsubtitleheight=\skip341
+\c@mdfcountframes=\count380
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count367
-\c@mdf@env@i=\count368
-\c@mdf@env@ii=\count369
-\c@mdf@zref@counter=\count370
+\mdf@envdepth=\count381
+\c@mdf@env@i=\count382
+\c@mdf@env@ii=\count383
+\c@mdf@zref@counter=\count384
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (./libroresonancia_glosario.tex
@@ -1149,16 +1255,16 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks51
-\XKV@tempa@toks=\toks52
+\XKV@toks=\toks54
+\XKV@tempa@toks=\toks55
 )
-\XKV@depth=\count371
+\XKV@depth=\count385
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks53
-\@glsmrest=\toks54
+\@glsmfirst=\toks56
+\@glsmrest=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -1168,7 +1274,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count372
+\c@su@anzahl=\count386
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -1179,19 +1285,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count373
+\actioncount=\count387
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count374
-\FP@xia=\count375
-\FP@xib=\count376
-\FP@xfa=\count377
-\FP@xfb=\count378
-\FP@rega=\count379
-\FP@regb=\count380
-\FP@regs=\count381
-\FP@times=\count382
+\FP@xs=\count388
+\FP@xia=\count389
+\FP@xib=\count390
+\FP@xfa=\count391
+\FP@xfb=\count392
+\FP@rega=\count393
+\FP@regb=\count394
+\FP@regs=\count395
+\FP@times=\count396
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1210,7 +1316,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count383
+\FPseed=\count397
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1221,15 +1327,15 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks55
-\@dtl@tmpcount=\count384
-\dtl@tmplength=\skip341
-\dtl@sortresult=\count385
-\@dtl@numgrpsepcount=\count386
-\@dtl@datatype=\count387
-\dtl@codeA=\count388
-\dtl@codeB=\count389
-\@dtl@foreach@level=\count390
+\@dtl@toks=\toks58
+\@dtl@tmpcount=\count398
+\dtl@tmplength=\skip342
+\dtl@sortresult=\count399
+\@dtl@numgrpsepcount=\count400
+\@dtl@datatype=\count401
+\dtl@codeA=\count402
+\dtl@codeB=\count403
+\@dtl@foreach@level=\count404
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
 307.sty
@@ -1247,9 +1353,9 @@ File: glossaries-spanish.ldf 2014/11/23 v1.0
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-
 utf8.ldf))
-\gls@level=\count391
-\@gls@tmpb=\toks56
-\gls@tmplen=\skip342
+\gls@level=\count405
+\@gls@tmpb=\toks59
+\gls@tmplen=\skip343
 
 
 Package glossaries Warning: Overriding \printglossary on input line 5937.
@@ -1258,65 +1364,65 @@ Package glossaries Warning: Overriding \printglossary on input line 5937.
 Package glossaries Warning: Overriding `theglossary' environment on input line 
 6527.
 
-\glskeylisttok=\toks57
-\glslabeltok=\toks58
-\glsshorttok=\toks59
-\glslongtok=\toks60
+\glskeylisttok=\toks60
+\glslabeltok=\toks61
+\glsshorttok=\toks62
+\glslongtok=\toks63
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
 Package: glossary-hypernav 2020/02/13 v4.45 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2020/02/13 v4.45 (NLCT)
-\glslistdottedwidth=\skip343
+\glslistdottedwidth=\skip344
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2020/02/13 v4.45 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip344
-\LTright=\skip345
-\LTpre=\skip346
-\LTpost=\skip347
-\LTchunksize=\count392
-\LTcapwidth=\dimen337
-\LT@head=\box120
-\LT@firsthead=\box121
-\LT@foot=\box122
-\LT@lastfoot=\box123
-\LT@cols=\count393
-\LT@rows=\count394
-\c@LT@tables=\count395
-\c@LT@chunks=\count396
-\LT@p@ftn=\toks61
+\LTleft=\skip345
+\LTright=\skip346
+\LTpre=\skip347
+\LTpost=\skip348
+\LTchunksize=\count406
+\LTcapwidth=\dimen341
+\LT@head=\box121
+\LT@firsthead=\box122
+\LT@foot=\box123
+\LT@lastfoot=\box124
+\LT@cols=\count407
+\LT@rows=\count408
+\c@LT@tables=\count409
+\c@LT@chunks=\count410
+\LT@p@ftn=\toks64
 )
-\glsdescwidth=\skip348
-\glspagelistwidth=\skip349
+\glsdescwidth=\skip349
+\glspagelistwidth=\skip350
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2020/02/13 v4.45 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count397
-\ST@wd=\dimen338
-\ST@rightskip=\skip350
-\ST@leftskip=\skip351
-\ST@parfillskip=\skip352
-\ST@pageleft=\dimen339
-\ST@headht=\dimen340
-\ST@tailht=\dimen341
-\ST@pagesofar=\dimen342
-\ST@pboxht=\dimen343
-\ST@lineht=\dimen344
-\ST@prevht=\dimen345
-\ST@toadd=\dimen346
-\ST@dimen=\dimen347
-\ST@pbox=\box124
+\c@tracingst=\count411
+\ST@wd=\dimen342
+\ST@rightskip=\skip351
+\ST@leftskip=\skip352
+\ST@parfillskip=\skip353
+\ST@pageleft=\dimen343
+\ST@headht=\dimen344
+\ST@tailht=\dimen345
+\ST@pagesofar=\dimen346
+\ST@pboxht=\dimen347
+\ST@lineht=\dimen348
+\ST@prevht=\dimen349
+\ST@toadd=\dimen350
+\ST@dimen=\dimen351
+\ST@pbox=\box125
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2020/02/13 v4.45 (NLCT)
-\glstreeindent=\skip353
+\glstreeindent=\skip354
 ))
 \libroResonancia@idxfile=\write5
 \openout5 = `libroResonancia.idx'.
@@ -1340,169 +1446,65 @@ Package: mhchem 2011/06/03 v3.11 for typesetting chemical formulae
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/twoopt.sty
 Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
 )
-\tok@mhchem@ce@iii=\toks62
-\mhchem@arrowminlength=\skip354
-\mhchem@arrows@box=\box125
-\mhchem@arrowlength@pgf=\skip355
-\mhchem@arrowminlength@pgf=\skip356
-\mhchem@bondwidth=\skip357
-\mhchem@bondheight=\skip358
-\mhchem@smallbondwidth@tmpA=\skip359
-\mhchem@smallbondwidth@tmpB=\skip360
-\mhchem@smallbondwidth=\skip361
-\mhchem@cf@result=\toks63
-\mhchem@cf@element=\toks64
-\mhchem@cf@amount=\toks65
-\mhchem@cf@sup=\toks66
-\mhchem@cf@presub=\toks67
-\mhchem@cf@presup=\toks68
-\mhchem@cf@replaceMath@result=\toks69
-\mhchem@cf@replaceMathMinusDot@result=\toks70
-\mhchem@prepostscript@tmp@i=\skip362
-\mhchem@prepostscript@tmp@ii=\skip363
-\mhchem@mathbox@tmp@i=\skip364
-\mhchem@mathbox@tmp@ii=\skip365
-\mhchem@minispace@tmp=\skip366
-\mhchem@option@minussidebearingleft=\skip367
-\mhchem@option@minussidebearingright=\skip368
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-\@linkdim=\dimen348
-\Hy@linkcounter=\count398
-\Hy@pagecounter=\count399
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-\Hy@SavedSpaceFactor=\count400
-\pdfmajorversion=\count401
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing ON on input line 4565.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2020/01/14 v1.40 Bibliographical back referencing
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-))
-\c@Hy@tempcnt=\count402
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen349
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-)
-\Fld@menulength=\count403
-\Field@Width=\dimen350
-\Fld@charsize=\dimen351
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing ON on input line 6443.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count404
-\c@Item=\count405
-\c@Hfootnote=\count406
-)
-(/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
-Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir cl
-ass
-\c@memhycontfloat=\count407
-\c@Hpagenote=\count408
-)
-Package hyperref Info: Driver: hypertex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hypertex.def
-File: hypertex.def 2020/01/14 v7.00d Hyperref driver for HyperTeX specials
-\Hy@SectionHShift=\skip369
+\tok@mhchem@ce@iii=\toks65
+\mhchem@arrowminlength=\skip355
+\mhchem@arrows@box=\box126
+\mhchem@arrowlength@pgf=\skip356
+\mhchem@arrowminlength@pgf=\skip357
+\mhchem@bondwidth=\skip358
+\mhchem@bondheight=\skip359
+\mhchem@smallbondwidth@tmpA=\skip360
+\mhchem@smallbondwidth@tmpB=\skip361
+\mhchem@smallbondwidth=\skip362
+\mhchem@cf@result=\toks66
+\mhchem@cf@element=\toks67
+\mhchem@cf@amount=\toks68
+\mhchem@cf@sup=\toks69
+\mhchem@cf@presub=\toks70
+\mhchem@cf@presup=\toks71
+\mhchem@cf@replaceMath@result=\toks72
+\mhchem@cf@replaceMathMinusDot@result=\toks73
+\mhchem@prepostscript@tmp@i=\skip363
+\mhchem@prepostscript@tmp@ii=\skip364
+\mhchem@mathbox@tmp@i=\skip365
+\mhchem@mathbox@tmp@ii=\skip366
+\mhchem@minispace@tmp=\skip367
+\mhchem@option@minussidebearingleft=\skip368
+\mhchem@option@minussidebearingright=\skip369
 ))
 (./libroResonancia.aux
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
 )
 \openout1 = `libroResonancia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
-40.
+42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-LaTeX Info: Redefining \. on input line 140.
-LaTeX Info: Redefining \% on input line 140.
-\AtBeginShipoutBox=\box126
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
-)
-Package caption Info: supertabular package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
-ABD: EveryShipout initializing macros
-Package backref Info: ** backref set up for natbib ** on input line 140.
-Package hyperref Info: Link coloring OFF on input line 140.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
+\AtBeginShipoutBox=\box127
+Package backref Info: ** backref set up for natbib ** on input line 142.
+Package hyperref Info: Link coloring OFF on input line 142.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1513,15 +1515,28 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count409
+\c@section@level=\count412
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 140.
-LaTeX Info: Redefining \ref on input line 140.
-LaTeX Info: Redefining \pageref on input line 140.
-LaTeX Info: Redefining \nameref on input line 140.
-[1
+LaTeX Info: Redefining \nameref on input line 142.
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
+(./libroResonancia.out) (./libroResonancia.out)
+\@outlinefile=\write9
+\openout9 = `libroResonancia.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros [1
 
 \openout6 = `libroResonancia.ist'.
 
@@ -1570,7 +1585,12 @@ Package spanish Warning: Replacing `T1/pplj/b/sc' by
 
 [1] [2] [3] [4]) [5] [6
 
-] [1
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 170.
+
+[1
 
 ] [2] (./cap_intro.tex [3
 
@@ -1601,8 +1621,8 @@ Underfull \vbox (badness 1281) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
  [7])
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
 
 [8] (./cap_historia.tex [9
 
@@ -1622,8 +1642,8 @@ Underfull \vbox (badness 4660) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
  [12])
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
 
 [13] [14
 
@@ -1671,8 +1691,8 @@ LaTeX Info: Redefining \% on input line 43.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [19])
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
  [20]
 (./cap_relajacionContraste.tex
 LaTeX Info: Redefining \bond on input line 13.
@@ -1684,9 +1704,20 @@ LaTeX Info: Redefining \tbond on input line 13.
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
  [22]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 41.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 41.
+
 File: /home/lconcha/Documents/libroResonancia/figs/contraste_T1.eps Graphic fil
 e (type eps)
-
 </home/lconcha/Documents/libroResonancia/figs/contraste_T1.eps>
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
@@ -1697,9 +1728,20 @@ LaTeX Warning: Reference `contraste_T1' on page 24 undefined on input line 65.
 File: /home/lconcha/Documents/libroResonancia/figs/contraste_T1_tejidos.eps Gra
 phic file (type eps)
 </home/lconcha/Documents/libroResonancia/figs/contraste_T1_tejidos.eps>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 78.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 78.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 78.
+
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
-
 [24]
 Underfull \vbox (badness 6741) has occurred while \output is active []
 
@@ -1713,45 +1755,51 @@ e (type eps)
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
  [26]
-LaTeX Info: Redefining \. on input line 121.
-LaTeX Info: Redefining \% on input line 121.
- [27]
-LaTeX Info: Redefining \. on input line 126.
-LaTeX Info: Redefining \% on input line 126.
+File: /home/lconcha/Documents/libroResonancia/figs/contraste_T2_tejidos.eps Gra
+phic file (type eps)
 
-[28]
-LaTeX Info: Redefining \bond on input line 128.
-LaTeX Info: Redefining \dbond on input line 128.
-LaTeX Info: Redefining \tbond on input line 128.
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
+</home/lconcha/Documents/libroResonancia/figs/contraste_T2_tejidos.eps>
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+
+[27]
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+ [28]
+LaTeX Info: Redefining \bond on input line 138.
+LaTeX Info: Redefining \dbond on input line 138.
+LaTeX Info: Redefining \tbond on input line 138.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
  [29]
-LaTeX Info: Redefining \. on input line 147.
-LaTeX Info: Redefining \% on input line 147.
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
  [30]
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
  [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+ [32]
 File: /home/lconcha/Documents/libroResonancia/figs/whack.eps Graphic file (type
  eps)
- </home/lconcha/Documents/libroResonancia/figs/whack.eps>
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
 
-[32]
-LaTeX Info: Redefining \. on input line 183.
-LaTeX Info: Redefining \% on input line 183.
+</home/lconcha/Documents/libroResonancia/figs/whack.eps>
+LaTeX Info: Redefining \. on input line 188.
+LaTeX Info: Redefining \% on input line 188.
  [33]
 File: /home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps Gr
 aphic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/diferentes_contrastes.eps>)
-LaTeX Info: Redefining \. on input line 199.
-LaTeX Info: Redefining \% on input line 199.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
 
 [34]
-LaTeX Info: Redefining \. on input line 199.
-LaTeX Info: Redefining \% on input line 199.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
  [35] [36
 
 ] (./cap_codificacionEspacial.tex [37]
@@ -1812,26 +1860,24 @@ LaTeX Info: Redefining \% on input line 107.
 File: /home/lconcha/Documents/libroResonancia/figs/sine_anim.eps Graphic file (
 type eps)
  </home/lconcha/Documents/libroResonancia/figs/sine_anim.eps>
-Underfull \hbox (badness 1033) in paragraph at lines 114--114
-\T1/pplj/m/n/8 gu-lar. Al ro-tar la lí-nea ra-dial en el círcu-lo, su pro-yec-c
-ión so-bre
+Underfull \hbox (badness 1168) in paragraph at lines 114--114
+[]\T1/pplj/m/sc/8 Figura 5.8: |\T1/pplj/m/n/8 Re-pre-sen-ta-ción grá-fi-ca de l
+a fa-se de un mo-vi-mien-to
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 114--114
-\T1/pplj/m/n/8 el eje de las $\OML/zplm/m/it/8 x$ \T1/pplj/m/n/8 re-pre-sen-ta 
-el seno del án-gu-lo crea-do. Es-te pue-
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 114--114
-\T1/pplj/m/n/8 de ser gra-fi-ca-do li-neal-men-te (a la de-re-cha). En ca-so de
- co-men-
+Overfull \hbox (92.91595pt too wide) in paragraph at lines 114--114
+[][][][]\T1/pplj/m/n/8 .| 
  []
 
 File: /home/lconcha/Documents/libroResonancia/figs/fases.eps Graphic file (type
  eps)
 </home/lconcha/Documents/libroResonancia/figs/fases.eps>
+Overfull \hbox (39.13179pt too wide) in paragraph at lines 122--122
+[]\T1/pplj/m/sc/8 Figura 5.9: |\T1/pplj/m/n/8 To-ma-do de [][][][]| 
+ []
+
+
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 128.
@@ -1844,13 +1890,20 @@ LaTeX Info: Redefining \% on input line 130.
 LaTeX Info: Redefining \. on input line 154.
 LaTeX Info: Redefining \% on input line 154.
  [46]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 163.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 163.
+
 LaTeX Info: Redefining \. on input line 169.
 LaTeX Info: Redefining \% on input line 169.
- [47]
+[47]
 File: /home/lconcha/Documents/libroResonancia/figs/kspace_stencils.eps Graphic 
 file (type eps)
-
-</home/lconcha/Documents/libroResonancia/figs/kspace_stencils.eps>
+ </home/lconcha/Documents/libroResonancia/figs/kspace_stencils.eps>
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
 181.
 
@@ -1871,8 +1924,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/casos_espaciok.eps Graphic f
 ile (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/casos_espaciok.eps>)
-LaTeX Info: Redefining \. on input line 205.
-LaTeX Info: Redefining \% on input line 205.
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
  [50]
 (./cap_secuencias.tex [51
 
@@ -1979,8 +2032,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/vite_17.eps Graphic file (ty
 pe eps)
 
 </home/lconcha/Documents/libroResonancia/figs/vite_17.eps>)
-LaTeX Info: Redefining \. on input line 211.
-LaTeX Info: Redefining \% on input line 211.
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
  [60] [61
 
 ] [62
@@ -2063,8 +2116,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/seguridad_prohibidos.eps Gra
 phic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/seguridad_prohibidos.eps>)
-LaTeX Info: Redefining \. on input line 222.
-LaTeX Info: Redefining \% on input line 222.
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
 
 [78] (./cap_espectro.tex [79
 
@@ -2291,8 +2344,8 @@ Overfull \hbox (46.54pt too wide) in paragraph at lines 313--327
  []
 
 )
-LaTeX Info: Redefining \. on input line 227.
-LaTeX Info: Redefining \% on input line 227.
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
  [92] (./cap_artefactos.tex [93
 
 ]
@@ -2311,6 +2364,12 @@ File: /home/lconcha/Documents/libroResonancia/figs/artefacto_moire.eps Graphic
 file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/artefacto_moire.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]\T1/pplj/m/sc/8 Figura 10.3: |[]\T1/pplj/b/n/8 Fi-gu-ra pen-dien-te[]\T1/pplj
+/m/n/8 . To-ma-do de
+ []
+
+
 Underfull \vbox (badness 4001) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 52.
@@ -2320,9 +2379,13 @@ File: /home/lconcha/Documents/libroResonancia/figs/artefacto_rfoverflow.eps Gra
 phic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/artefacto_rfoverflow.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]\T1/pplj/m/sc/8 Figura 10.4: |[]\T1/pplj/b/n/8 Fi-gu-ra pen-dien-te[]\T1/pplj
+/m/n/8 . To-ma-do de
+ []
+
 File: /home/lconcha/Documents/libroResonancia/figs/artefacto_inu.eps Graphic fi
 le (type eps)
-
 </home/lconcha/Documents/libroResonancia/figs/artefacto_inu.eps>
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
@@ -2345,20 +2408,24 @@ File: /home/lconcha/Documents/libroResonancia/figs/artefacto_gibbs.eps Graphic
 file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/artefacto_gibbs.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]\T1/pplj/m/sc/8 Figura 10.8: |[]\T1/pplj/b/n/8 Fi-gu-ra pen-dien-te[]\T1/pplj
+/m/n/8 . To-ma-do de$[]$ y
+ []
+
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
- [99]
+[99]
 File: /home/lconcha/Documents/libroResonancia/figs/artefacto_alias.eps Graphic 
 file (type eps)
-
-</home/lconcha/Documents/libroResonancia/figs/artefacto_alias.eps>
+ </home/lconcha/Documents/libroResonancia/figs/artefacto_alias.eps>
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
- [100]
+
+[100]
 LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
-
-[101]
+ [101]
 File: /home/lconcha/Documents/libroResonancia/figs/artefacto_slice.eps Graphic 
 file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/artefacto_slice.eps>
@@ -2452,27 +2519,27 @@ LaTeX Info: Redefining \tbond on input line 274.
 LaTeX Info: Redefining \bond on input line 274.
 LaTeX Info: Redefining \dbond on input line 274.
 LaTeX Info: Redefining \tbond on input line 274.
-
-
-LaTeX Warning: Reference `fig:artefacto_chemicalshift2' on page 109 undefined o
-n input line 274.
-
 LaTeX Info: Redefining \. on input line 275.
 LaTeX Info: Redefining \% on input line 275.
+
 [109]
 File: /home/lconcha/Documents/libroResonancia/figs/artefacto_chemicalshift2.eps
  Graphic file (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/artefacto_chemicalshift2.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+[]\T1/pplj/m/sc/8 Figura 10.18: |[]\T1/pplj/b/n/8 Fi-gu-ra pen-dien-te[]\T1/ppl
+j/m/n/8 Tomado de
+ []
+
 LaTeX Info: Redefining \. on input line 308.
 LaTeX Info: Redefining \% on input line 308.
-
 [110]
 File: /home/lconcha/Documents/libroResonancia/figs/artefacto_dielectrico.eps Gr
 aphic file (type eps)
  </home/lconcha/Documents/libroResonancia/figs/artefacto_dielectrico.eps>)
-LaTeX Info: Redefining \. on input line 236.
-LaTeX Info: Redefining \% on input line 236.
+LaTeX Info: Redefining \. on input line 238.
+LaTeX Info: Redefining \% on input line 238.
 [111] [112
 
 ] [113] [114] (./cap_origenBOLD.tex [115
@@ -2499,8 +2566,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
  [121])
-LaTeX Info: Redefining \. on input line 247.
-LaTeX Info: Redefining \% on input line 247.
+LaTeX Info: Redefining \. on input line 249.
+LaTeX Info: Redefining \% on input line 249.
 
 [122] (./cap_glm.tex [123
 
@@ -2542,8 +2609,8 @@ File: /home/lconcha/Documents/libroResonancia/figs/glm_figura05.eps Graphic fil
 e (type eps)
 
 </home/lconcha/Documents/libroResonancia/figs/glm_figura05.eps>)
-LaTeX Info: Redefining \. on input line 252.
-LaTeX Info: Redefining \% on input line 252.
+LaTeX Info: Redefining \. on input line 254.
+LaTeX Info: Redefining \% on input line 254.
  [129] [130
 
 ]
@@ -2798,8 +2865,8 @@ LaTeX Info: Redefining \. on input line 409.
 LaTeX Info: Redefining \% on input line 409.
 
 [159])
-LaTeX Info: Redefining \. on input line 257.
-LaTeX Info: Redefining \% on input line 257.
+LaTeX Info: Redefining \. on input line 259.
+LaTeX Info: Redefining \% on input line 259.
  [160] (./cap_angio.tex [161
 
 ]
@@ -2960,11 +3027,11 @@ Overfull \hbox (78.09306pt too wide) in paragraph at lines 7--16
  []
 
 ))
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
  [183]
-LaTeX Info: Redefining \. on input line 264.
-LaTeX Info: Redefining \% on input line 264.
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
  [184] [185
 
 ] [186
@@ -3082,12 +3149,12 @@ on input line 267.
 File: /home/lconcha/Documents/libroResonancia/figs/grosor_flat.eps Graphic file
  (type eps)
 </home/lconcha/Documents/libroResonancia/figs/grosor_flat.eps>)
-LaTeX Info: Redefining \. on input line 340.
-LaTeX Info: Redefining \% on input line 340.
+LaTeX Info: Redefining \. on input line 342.
+LaTeX Info: Redefining \% on input line 342.
  [209]
 (./libroResonancia.bbl (./libroResonancia.brf)
-\tf@brf=\write9
-\openout9 = `libroResonancia.brf'.
+\tf@brf=\write10
+\openout10 = `libroResonancia.brf'.
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -3153,8 +3220,8 @@ LaTeX Info: Redefining \% on input line 1114.
 LaTeX Info: Redefining \. on input line 1213.
 LaTeX Info: Redefining \% on input line 1213.
  [223])
-LaTeX Info: Redefining \. on input line 347.
-LaTeX Info: Redefining \% on input line 347.
+LaTeX Info: Redefining \. on input line 349.
+LaTeX Info: Redefining \% on input line 349.
  [224] [225
 
 ] [226] [227
@@ -3175,46 +3242,37 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
+\tf@toc=\write11
+\openout11 = `libroResonancia.toc'.
 
-Package totalcount Warning: Total counter(s) have changed.
-(totalcount)                Rerun to get them right.
-
-\tf@toc=\write10
-\openout10 = `libroResonancia.toc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
 (./libroResonancia.aux
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 375.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
+Package rerunfilecheck Info: File `libroResonancia.out' has not changed.
+(rerunfilecheck)             Checksum: F4CB040C1501240AC6B208ACA14B9F41;6809.
+Package rerunfilecheck Info: File `libroResonancia.brf' has not changed.
+(rerunfilecheck)             Checksum: 4EDA771E51552BC59A8A71230C5CB2AA;12625.
 
-
-Package rerunfilecheck Warning: File `libroResonancia.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `libroResonancia.brf':
-(rerunfilecheck)             Before: 66A54C34EABD3DBBFD1CD24CC2CF91A1;12619
-(rerunfilecheck)             After:  399FC507E6E2257D06D45370DC6EA474;12625.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
- 33939 strings out of 483008
- 633231 string characters out of 5961783
- 1023102 words of memory out of 5000000
- 48301 multiletter control sequences out of 15000+600000
+ 34200 strings out of 483008
+ 636987 string characters out of 5961783
+ 1046760 words of memory out of 5000000
+ 48554 multiletter control sequences out of 15000+600000
  610701 words of font info for 123 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 73i,16n,84p,3458b,1267s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,81p,3458b,1267s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on libroResonancia.dvi (239 pages, 758404 bytes).
+Output written on libroResonancia.dvi (239 pages, 1021664 bytes).

@@ -112,7 +112,17 @@ Existen dos tipos de desfasamientos producidos por inhomogeneidades de \Bzero: l
 donde $1/T2'= \Delta B_i$, es decir, las inhomogeneidades de \Bzero a lo largo de un voxel \footnote{http://mriquestions.com/t2-vs-t2.html}. Por lo tanto, \Ttwostar es \textit{siempre} más corto que \Ttwo.
 
 
-Dada la variedad de composiciones tisulares, cada tejido tiene un \Ttwo (y \Ttwostar) particular, por lo que las curvas asociadas a cada uno de ellos son distintas (\figurapendiente). Tejidos altamente heterogéneos, o en cuyo interior existan elementos que provocan inhomogeneidades microscópicas de \Bzero, tendrán \Ttwo corto.
+Dada la variedad de composiciones tisulares, cada tejido tiene un \Ttwo (y \Ttwostar) particular, por lo que las curvas asociadas a cada uno de ellos son distintas (Figura \ref{fig:contraste_T2_tejidos}). Tejidos altamente heterogéneos, o en cuyo interior existan elementos que provocan inhomogeneidades microscópicas de \Bzero, tendrán \Ttwo corto.
+
+\begin{figure}[htb]
+\begin{figg}
+   \includegraphics[width=0.7\textwidth]{contraste_T2_tejidos}
+   \caption{Diferentes tejidos tienen diferentes tasas de relajación transversal \Ttwo. DP indica densidad de protones de cada tejido.}
+ \label{fig:contraste_T2_tejidos}
+ \end{figg}
+\end{figure}
+
+
 
 \section{Ecos}
 \index{eco|textbf}
@@ -174,7 +184,7 @@ Sabiendo modular la contribución del contraste \Tone y \Ttwo, y admitiendo que 
 \subsubsection{Imagen pesada a \Tone}
 Para hacer una imagen con este contraste, debemos maximizar la contribución de la relajación longitudinal, a la vez que minimizamos la contribución de la relajación transversal. Debemos, entonces, utilizar un TR tal que no sature la señal (no demasiado corto, recordemos a los topillos), ni tan largo que permita la relajación total de todos los tejidos. Le llamaremos un TR corto, entendiendo largo en el contexto del \Tone propio del tejido. Por ejemplo, para tejidos con valores \Tone en el rango de [400 1500] s, un TR largo sería alrededor de esos mismos valores, o incluso menor.
 
-Para minimizar la contribución de \Ttwo, usaremos un TE corto. De esta forma, estaremos adquiriendo nuestra señal antes de que se exprese un desfasamiento diferencial entre tejidos (los valores de los diferentes tejidos son muy similares entre ellos en la parte más izquierda de la \figurapendiente. Uno puede pensar que también son muy similares entre ellos en la parte más a la derecha de la misma figura, y tendría razón en cuanto a las mínimas diferencias entre ellos, pero tendríamos muy poca o nula señal, con lo que nuestra imagen sería inútil.
+Para minimizar la contribución de \Ttwo, usaremos un TE corto. De esta forma, estaremos adquiriendo nuestra señal antes de que se exprese un desfasamiento diferencial entre tejidos (los valores de los diferentes tejidos son muy similares entre ellos en la parte más izquierda de la Figura \ref{fig:contraste_T2_tejidos}. Uno puede pensar que también son muy similares entre ellos en la parte más a la derecha de la misma figura, y tendría razón en cuanto a las mínimas diferencias entre ellos, pero tendríamos muy poca o nula señal, con lo que nuestra imagen sería inútil.
 
 Maximizando entonces la contribución de \Tone mediante un TR corto, y minimizando la contribución de \Ttwo con un TE corto, obtendremos una imagen pesada a \Tone. La substancia blanca, teniendo el \Tone más corto, logra brindar mucha señal y es brillante, mientras que el líquido-cefalo-raquídeo presenta el patrón inverso, con la substancia gris con intensidad intermedia.
 

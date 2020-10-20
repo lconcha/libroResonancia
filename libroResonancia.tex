@@ -34,7 +34,9 @@
 %\usepackage{siunitx}
 \usepackage[figure,table]{totalcount}
 \usepackage{mathtools}
-
+%\usepackage[dvipdfmx,pagebackref=true,colorlinks=true, linkcolor=black, pdfborderstyle={/S/U/W 0}]{hyperref}
+%\usepackage[hypertex,pagebackref=true]{hyperref}
+\usepackage[pagebackref=true,colorlinks=true,hidelinks,linktocpage=true]{hyperref} % this works well, convert to pdf with dvipdf 
 
 %\addto\extrasspanish{\sisetup{locale = EN}}
 %\sisetup{output-decimal-marker = {.}}.
@@ -59,7 +61,7 @@
 \DeclareFloatingEnvironment[fileext=frm,placement={!ht},name=Frame]{myfloat}
  \usepackage[framemethod=TikZ]{mdframed}
  \usepackage{multicol}
-%  \usepackage[colorlinks=true]{hyperref}
+%\usepackage[colorlinks=true]{hyperref}
  
  \newenvironment{frameenv}[1]
      {\begin{myfloat}[tb]
